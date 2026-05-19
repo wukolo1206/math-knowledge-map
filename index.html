@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>國小數學知識地圖</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; height: 100vh; overflow: hidden; font-size: 14px; }
+
+/* ── 左側 vis 面板 ── */
+#vis-panel { flex: 1; position: relative; overflow: hidden; }
+#vis-container { width: 100%; height: 100%; }
+
+/* ── 工具列覆蓋層 ── */
+#toolbar {
+  position: absolute; top: 10px; left: 10px; z-index: 10;
+  background: rgba(255,255,255,0.93); border: 1px solid #e2e8f0;
+  border-radius: 10px; padding: 8px 12px;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.tb-sep { width: 1px; height: 20px; background: #e2e8f0; margin: 0 2px; }
+.tb-label { font-size: 10px; font-weight: 700; color: #94a3b8; letter-spacing: .06em; cursor: pointer; user-select: none; }
+.tb-label:hover { color: #64748b; }
+.mode-btn { padding: 3px 10px; border-radius: 16px; border: 1.5px solid #cbd5e1; background: white; color: #64748b; font-size: 11px; cursor: pointer; transition: all .15s; }
+.mode-btn.active { background: #1e293b; color: white; border-color: #1e293b; }
+#search-box { padding: 3px 10px; border-radius: 16px; border: 1.5px solid #cbd5e1; font-size: 11px; outline: none; width: 120px; }
+#search-box:focus { border-color: #94a3b8; }
+
+/* ── 主線圖例（工具列下方展開） ── */
+#strand-legend {
+  display: none; position: absolute; top: 100%; left: 0; margin-top: 4px;
+  background: rgba(255,255,255,0.97); border: 1px solid #e2e8f0;
+  border-radius: 8px; padding: 8px 12px;
+  flex-wrap: wrap; gap: 4px 10px; max-width: 420px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08); z-index: 11;
+}
+#strand-legend.open { display: flex; }
+.legend-item { display: flex; align-items: center; gap: 4px; font-size: 10px; color: #64748b; white-space: nowrap; }
+.legend-item i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+
+/* ── 右側卡片面板 ── */
+#card-panel { width: 340px; min-width: 340px; background: white; border-left: 1px solid #e2e8f0; overflow-y: auto; }
+#card-panel.hidden { display: none; }
+
+.card-empty { display: flex; align-items: center; justify-content: center; height: 100%; color: #94a3b8; text-align: center; padding: 32px; }
+.card-content { padding: 20px; }
+.card-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; margin-bottom: 8px; }
+.card-title { font-size: 20px; font-weight: 700; color: #1e293b; margin-bottom: 16px; }
+.section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #94a3b8; margin: 14px 0 6px; }
+.traj-item { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: 8px; font-size: 12px; margin-bottom: 3px; cursor: pointer; }
+.traj-item:hover { opacity: .8; }
+.traj-item.prev { background: #f1f5f9; border-left: 3px solid #94a3b8; }
+.traj-item.curr { background: #fef3c7; border-left: 3px solid #f59e0b; font-weight: 700; cursor: default; }
+.traj-item.next { background: #f0fdf4; border-left: 3px solid #22c55e; }
+.traj-grade { font-size: 10px; color: #64748b; min-width: 28px; }
+.indicator-item { background: #f8fafc; border-radius: 6px; padding: 8px 10px; font-size: 12px; line-height: 1.5; color: #374151; margin-bottom: 4px; }
+.indicator-code { font-size: 10px; font-weight: 700; color: #6366f1; margin-bottom: 2px; }
+.activity-item { display: flex; align-items: center; gap: 8px; padding: 7px 10px; background: #f8fafc; border-radius: 6px; font-size: 12px; margin-bottom: 3px; }
+.activity-num { width: 20px; height: 20px; background: #3b82f6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; }
+.tool-link { display: inline-block; padding: 4px 12px; background: #eff6ff; color: #1d4ed8; border-radius: 6px; font-size: 12px; text-decoration: none; margin: 2px; }
+.tool-link:hover { background: #dbeafe; }
+.notes-box { background: #fefce8; border-left: 3px solid #fbbf24; padding: 8px 10px; font-size: 12px; border-radius: 0 6px 6px 0; color: #713f12; line-height: 1.5; }
+.empty-hint { color: #94a3b8; font-size: 12px; font-style: italic; }
+
+/* ── 浮窗卡片 ── */
+#float-card {
+  display: none; position: fixed; z-index: 20;
+  bottom: 20px; right: 20px;
+  width: 340px; max-height: 80vh;
+  background: white; border: 1px solid #e2e8f0;
+  border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.15);
+  overflow: hidden; flex-direction: column;
+}
+#float-card.visible { display: flex; }
+#float-card-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; border-bottom: 1px solid #f1f5f9;
+  background: #f8fafc; cursor: grab; user-select: none; flex-shrink: 0;
+}
+#float-card-header:active { cursor: grabbing; }
+#float-card-title { font-size: 12px; font-weight: 700; color: #64748b; }
+#float-card-close { background: none; border: none; cursor: pointer; font-size: 16px; color: #94a3b8; padding: 0 4px; line-height: 1; }
+#float-card-close:hover { color: #475569; }
+#float-card-body { overflow-y: auto; flex: 1; }
+
+/* ── 前置/後續分層列表 ── */
+.layer-block { margin-bottom: 8px; }
+.layer-header { font-size: 10px; font-weight: 700; color: #94a3b8; letter-spacing: .06em; padding: 4px 0 3px; }
+.layer-item { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; font-size: 12px; margin-bottom: 3px; cursor: pointer; }
+.layer-item:hover { opacity: .8; }
+.prereq-item { background: #fff7ed; border-left: 3px solid #f97316; }
+.succ-item   { background: #f0fdf4; border-left: 3px solid #22c55e; }
+.layer-grade { font-size: 10px; color: #64748b; min-width: 30px; flex-shrink: 0; }
+.layer-title { color: #1e293b; }
+</style>
+</head>
+<body>
+
+<div id="vis-panel">
+  <div id="vis-container"></div>
+  <div id="toolbar"><!-- rendered by renderToolbar() --></div>
+  <div id="strand-legend"></div>
+</div>
+
+<div id="card-panel">
+  <div class="card-empty">
+    <div><div style="font-size:48px;margin-bottom:12px">🗺️</div><div>點選單元<br>查看知識脈絡</div></div>
+  </div>
+</div>
+
+<div id="float-card">
+  <div id="float-card-header">
+    <span id="float-card-title">知識脈絡</span>
+    <button id="float-card-close">✕</button>
+  </div>
+  <div id="float-card-body"></div>
+</div>
+
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<script src="map.js"></script>
+</body>
+</html>

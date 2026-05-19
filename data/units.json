@@ -1,0 +1,2824 @@
+[
+  {
+    "id": "1u-u1-10-以內的數",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "10 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識10 以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "1u-u3-排順序-比多少",
+      "1u-u4-分與合",
+      "1u-u6-30-以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u2-比長短",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "比長短",
+    "domain": "量測",
+    "objectives": [
+      "長度的直接比較",
+      "認識直線、曲線"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "1d-u5-有多長"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u3-排順序-比多少",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "排順序、比多少",
+    "domain": "數",
+    "objectives": [
+      "10 以內的數詞序列及比較多少"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u1-10-以內的數"
+    ],
+    "successors": [
+      "1u-u6-30-以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u4-分與合",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "分與合",
+    "domain": "計算",
+    "objectives": [
+      "10 以內的合成、分解"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u1-10-以內的數"
+    ],
+    "successors": [
+      "1u-u7-10-以內的加法",
+      "1u-u8-10-以內的減法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u5-方盒-圓罐-球",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "方盒、圓罐、球",
+    "domain": "空間",
+    "objectives": [
+      "辨認、描述與分類立體形體與平面圖形",
+      "認識簡單平面圖形名稱"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "1d-u3-圖形與分類",
+      "3d-u6-圓",
+      "2u-u4-加減關係與應用",
+      "2d-u3-平面圖形",
+      "2d-u8-分類與立體形體"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u6-30-以內的數",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "30 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識30 以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u3-排順序-比多少",
+      "1u-u1-10-以內的數"
+    ],
+    "successors": [
+      "1d-u1-50-以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u7-10-以內的加法",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "10 以內的加法",
+    "domain": "計算",
+    "objectives": [
+      "認識加法算式並解決10 以內的加法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u4-分與合"
+    ],
+    "successors": [
+      "1u-u8-10-以內的減法",
+      "1d-u2-18-以內的加法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u8-10-以內的減法",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "10 以內的減法",
+    "domain": "計算",
+    "objectives": [
+      "認識減法算式並解決10 以內的減法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u7-10-以內的加法",
+      "1u-u4-分與合"
+    ],
+    "successors": [
+      "1d-u2-18-以內的加法",
+      "1d-u4-18-以內的減法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1u-u9-幾點鐘",
+    "grade": 1,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "幾點鐘",
+    "domain": "量測",
+    "objectives": [
+      "報讀整點、半點時刻"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "2u-u8-幾時幾分"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u1-50-以內的數",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "50 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識50 以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u6-30-以內的數"
+    ],
+    "successors": [
+      "1d-u6-100-以內的數",
+      "2u-u1-200-以內的數",
+      "1d-u7-認識錢幣"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u2-18-以內的加法",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "18 以內的加法",
+    "domain": "計算",
+    "objectives": [
+      "熟練18 以內的加法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u8-10-以內的減法",
+      "1u-u7-10-以內的加法"
+    ],
+    "successors": [
+      "1d-u4-18-以內的減法",
+      "1d-u8-二位數的加減",
+      "1d-u7-認識錢幣"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u3-圖形與分類",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "圖形與分類",
+    "domain": "空間",
+    "objectives": [
+      "簡單圖形的平面鋪設"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u5-方盒-圓罐-球"
+    ],
+    "successors": [
+      "2d-u3-平面圖形",
+      "2u-u4-加減關係與應用",
+      "2d-u8-分類與立體形體"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u4-18-以內的減法",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "18 以內的減法",
+    "domain": "計算",
+    "objectives": [
+      "熟練18 以內的減法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u2-18-以內的加法",
+      "1u-u8-10-以內的減法"
+    ],
+    "successors": [
+      "1d-u8-二位數的加減",
+      "1d-u7-認識錢幣"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u5-有多長",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "有多長",
+    "domain": "量測",
+    "objectives": [
+      "長度的間接比較",
+      "利用個別單位做長度的合成分解"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u2-比長短"
+    ],
+    "successors": [
+      "2u-u3-量長度"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u6-100-以內的數",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "100 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識100 以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u1-50-以內的數"
+    ],
+    "successors": [
+      "1d-u8-二位數的加減",
+      "2u-u1-200-以內的數",
+      "1d-u7-認識錢幣"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u7-認識錢幣",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 7,
+    "title": "認識錢幣",
+    "domain": "數",
+    "objectives": [
+      "認識100 元以內的錢幣及使用"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u1-50-以內的數",
+      "1d-u2-18-以內的加法",
+      "1d-u4-18-以內的減法",
+      "1d-u6-100-以內的數"
+    ],
+    "successors": [
+      "1d-u8-二位數的加減",
+      "2u-u1-200-以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u8-二位數的加減",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 8,
+    "title": "二位數的加減",
+    "domain": "計算",
+    "objectives": [
+      "解決100 以內的加減問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u4-18-以內的減法",
+      "1d-u6-100-以內的數",
+      "1d-u2-18-以內的加法",
+      "1d-u7-認識錢幣"
+    ],
+    "successors": [
+      "2u-u2-二位數的直式加減"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "1d-u9-幾月幾日星期幾",
+    "grade": 1,
+    "semester": 2,
+    "unit_number": 9,
+    "title": "幾月幾日星期幾",
+    "domain": "量測",
+    "objectives": [
+      "能查閱日曆、月曆並知道日期先後"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "2d-u4-年-月-日"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u1-200-以內的數",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "200 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識200 以內的數",
+      "使用錢幣"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u6-100-以內的數",
+      "1d-u1-50-以內的數",
+      "1d-u7-認識錢幣"
+    ],
+    "successors": [
+      "2d-u1-1000-以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u2-二位數的直式加減",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "二位數的直式加減",
+    "domain": "計算",
+    "objectives": [
+      "用直式解決二位數的加減問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u8-二位數的加減"
+    ],
+    "successors": [
+      "2u-u6-兩步驟的加減",
+      "2d-u2-三位數的加減",
+      "2u-u4-加減關係與應用"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u3-量長度",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "量長度",
+    "domain": "量測",
+    "objectives": [
+      "認識公分並進行實測、估測和計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u5-有多長"
+    ],
+    "successors": [
+      "2d-u7-公尺和公分",
+      "4d-u2-四邊形"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u4-加減關係與應用",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "加減關係與應用",
+    "domain": "關係",
+    "objectives": [
+      "認識加減關係和驗算",
+      "解決加(減)數未知問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u2-二位數的直式加減",
+      "1d-u3-圖形與分類",
+      "1u-u5-方盒-圓罐-球"
+    ],
+    "successors": [
+      "3d-u3-尋找規律",
+      "2d-u2-三位數的加減",
+      "2u-u6-兩步驟的加減"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u5-面積的大小比較",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "面積的大小比較",
+    "domain": "量測",
+    "objectives": [
+      "認識面積，並做直接、間接和個別單位比較"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "3u-u6-面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u6-兩步驟的加減",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "兩步驟的加減",
+    "domain": "計算",
+    "objectives": [
+      "解決兩步驟加減問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u2-二位數的直式加減",
+      "2u-u4-加減關係與應用"
+    ],
+    "successors": [
+      "2d-u2-三位數的加減",
+      "2d-u6-兩步驟應用問題",
+      "2u-u9-3-6-9-7-的乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u7-2-5-4-8-的乘法",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "2、5、4、8 的乘法",
+    "domain": "計算",
+    "objectives": [
+      "認識倍及使用倍的語言",
+      "2、5、4、8 的乘法"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "2u-u9-3-6-9-7-的乘法",
+      "2d-u5-乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u8-幾時幾分",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "幾時幾分",
+    "domain": "量測",
+    "objectives": [
+      "報讀鐘面並認識數字鐘"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1u-u9-幾點鐘"
+    ],
+    "successors": [
+      "3d-u8-時間",
+      "4d-u9-時間的計算"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u9-3-6-9-7-的乘法",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "3、6、9、7 的乘法",
+    "domain": "計算",
+    "objectives": [
+      "3、6、9、7 的乘法"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u7-2-5-4-8-的乘法",
+      "2u-u6-兩步驟的加減"
+    ],
+    "successors": [
+      "2d-u5-乘法",
+      "2d-u9-分分看"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2u-u10-容量與重量",
+    "grade": 2,
+    "semester": 1,
+    "unit_number": 10,
+    "title": "容量與重量",
+    "domain": "量測",
+    "objectives": [
+      "認識容量和重量，並做直接和間接比較"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "2d-u7-公尺和公分",
+      "3d-u4-公斤和公克",
+      "3u-u8-公升和毫升"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u1-1000-以內的數",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "1000 以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識1000 以內的數",
+      "認識500 元、1000 元錢幣及使用"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u1-200-以內的數"
+    ],
+    "successors": [
+      "2d-u2-三位數的加減",
+      "3u-u1-10000以內的數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u2-三位數的加減",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "三位數的加減",
+    "domain": "計算",
+    "objectives": [
+      "三位數的加減計算",
+      "加減估算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u1-1000-以內的數",
+      "2u-u6-兩步驟的加減",
+      "2u-u2-二位數的直式加減",
+      "2u-u4-加減關係與應用"
+    ],
+    "successors": [
+      "3u-u2-四位數的加減",
+      "4d-u3-概數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u3-平面圖形",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "平面圖形",
+    "domain": "空間",
+    "objectives": [
+      "認識簡單封閉圖形的內部、外部、周界",
+      "認識周長並做周長的實測與計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u3-圖形與分類",
+      "1u-u5-方盒-圓罐-球"
+    ],
+    "successors": [
+      "3d-u6-圓",
+      "3u-u5-角",
+      "4u-u6-三角形",
+      "4d-u2-四邊形",
+      "4d-u6-周長與面積",
+      "5u-u5-多邊形與扇形",
+      "5u-u10-柱體-錐體和球"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u4-年-月-日",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "年、月、日",
+    "domain": "量測",
+    "objectives": [
+      "認識年、月、日，並進行日期點數與化聚"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u9-幾月幾日星期幾"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u5-乘法",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "乘法",
+    "domain": "計算",
+    "objectives": [
+      "認識10、1、0 的乘法和十十乘法表"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u9-3-6-9-7-的乘法",
+      "2u-u7-2-5-4-8-的乘法"
+    ],
+    "successors": [
+      "2d-u6-兩步驟應用問題",
+      "2d-u9-分分看",
+      "3u-u4-乘法",
+      "4u-u2-整數的乘法",
+      "5u-u2-因數與公因數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u6-兩步驟應用問題",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "兩步驟應用問題",
+    "domain": "計算",
+    "objectives": [
+      "解決加、減與乘的兩步驟問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u5-乘法",
+      "2u-u6-兩步驟的加減"
+    ],
+    "successors": [
+      "2d-u9-分分看",
+      "4u-u8-整數四則計算",
+      "4d-u5-小數乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u7-公尺和公分",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 7,
+    "title": "公尺和公分",
+    "domain": "量測",
+    "objectives": [
+      "認識公尺，並做化聚與計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u10-容量與重量",
+      "2u-u3-量長度"
+    ],
+    "successors": [
+      "3u-u3-毫米",
+      "4u-u5-公里"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u8-分類與立體形體",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 8,
+    "title": "分類與立體形體",
+    "domain": "空間",
+    "objectives": [
+      "認識立體形體的頂點、邊和面，並進行點數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "1d-u3-圖形與分類",
+      "1u-u5-方盒-圓罐-球"
+    ],
+    "successors": [
+      "3d-u9-統計表",
+      "4u-u10-統計圖",
+      "4d-u10-立方公分"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u9-分分看",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 9,
+    "title": "分分看",
+    "domain": "計算",
+    "objectives": [
+      "運用乘法策略解決除法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u6-兩步驟應用問題",
+      "2u-u9-3-6-9-7-的乘法",
+      "2d-u5-乘法"
+    ],
+    "successors": [
+      "3u-u4-乘法",
+      "3u-u7-除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "2d-u10-分數",
+    "grade": 2,
+    "semester": 2,
+    "unit_number": 10,
+    "title": "分數",
+    "domain": "數",
+    "objectives": [
+      "認識單位分數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [],
+    "successors": [
+      "3u-u9-分數",
+      "4u-u9-分數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u1-10000以內的數",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "10000以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識10000以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u1-1000-以內的數"
+    ],
+    "successors": [
+      "3u-u2-四位數的加減",
+      "4u-u1-一億以內的數",
+      "4d-u5-小數乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u2-四位數的加減",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "四位數的加減",
+    "domain": "計算",
+    "objectives": [
+      "三、四位數的加減問題",
+      "加減估算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u2-三位數的加減",
+      "3u-u1-10000以內的數"
+    ],
+    "successors": [
+      "3u-u6-面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u3-毫米",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "毫米",
+    "domain": "量測",
+    "objectives": [
+      "認識毫米，並做實測與計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u7-公尺和公分"
+    ],
+    "successors": [
+      "3u-u8-公升和毫升",
+      "3d-u5-小數",
+      "4u-u5-公里"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u4-乘法",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "乘法",
+    "domain": "計算",
+    "objectives": [
+      "二、三位數乘以一位數的問題",
+      "連乘的兩步驟問題",
+      "乘法估算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u9-分分看",
+      "2d-u5-乘法"
+    ],
+    "successors": [
+      "3u-u7-除法",
+      "4u-u2-整數的乘法",
+      "4u-u8-整數四則計算"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u5-角",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "角",
+    "domain": "空間",
+    "objectives": [
+      "認識圖形角、張開角及其構成要素",
+      "認識及辨別直角、銳角、鈍角"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u3-平面圖形"
+    ],
+    "successors": [
+      "4u-u3-角度",
+      "4d-u2-四邊形"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u6-面積",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "面積",
+    "domain": "量測",
+    "objectives": [
+      "認識1平方公分"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2u-u5-面積的大小比較",
+      "3u-u2-四位數的加減"
+    ],
+    "successors": [
+      "4d-u6-周長與面積",
+      "5d-u7-表面積",
+      "6u-u7-圓面積與扇形面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u7-除法",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "除法",
+    "domain": "計算",
+    "objectives": [
+      "認識除法算式及除法直式計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u9-分分看",
+      "3u-u4-乘法"
+    ],
+    "successors": [
+      "3d-u2-除法",
+      "4u-u4-整數的除法",
+      "4d-u3-概數",
+      "4d-u4-數量規律"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u8-公升和毫升",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "公升和毫升",
+    "domain": "量測",
+    "objectives": [
+      "認識公升、毫升，並做實測與計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3u-u3-毫米",
+      "2u-u10-容量與重量"
+    ],
+    "successors": [
+      "5d-u3-容積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3u-u9-分數",
+    "grade": 3,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "分數",
+    "domain": "數",
+    "objectives": [
+      "認識連續量與離散量的情境下的真分數及"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u10-分數"
+    ],
+    "successors": [
+      "3d-u1-分數的加減",
+      "3d-u5-小數",
+      "4u-u9-分數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3d-u1-分數的加減",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "分數的加減",
+    "domain": "計算",
+    "objectives": [
+      "能解決同分母分數的加減問題"
+    ],
+    "indicators": [
+      {
+        "code": "n-II-9",
+        "text": "理解單位分數的意義，能比較同分母分數的大小"
+      },
+      {
+        "code": "n-II-10",
+        "text": "能做簡單同分母分數的加減，並解決生活情境問題"
+      }
+    ],
+    "activities": [
+      "和1一樣大的分數",
+      "分數的加法",
+      "分數的減法"
+    ],
+    "prerequisites": [
+      "3u-u9-分數"
+    ],
+    "successors": [
+      "4u-u9-分數",
+      "4d-u7-等值分數",
+      "6u-u2-分數除法"
+    ],
+    "tools": [
+      {
+        "name": "快樂分分看",
+        "url": "../happy-division/index.html"
+      },
+      {
+        "name": "等值分數動畫",
+        "url": "../equivalent-fractions/index.html"
+      },
+      {
+        "name": "異分母分數加減",
+        "url": "../fraction-add-subtract/index.html"
+      }
+    ],
+    "notes": "關鍵概念：n/n=1；從單位分數累加建立加法意義；同分母、不進位"
+  },
+  {
+    "id": "3d-u2-除法",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "除法",
+    "domain": "計算",
+    "objectives": [
+      "二、三位數除以一位數的問題",
+      "加法、減法與除法的兩步驟問題"
+    ],
+    "indicators": [
+      {
+        "code": "n-II-6",
+        "text": "能做二、三位數除以一位數的直式計算，並解決生活情境問題"
+      }
+    ],
+    "activities": [
+      "二位數除以一位數",
+      "三位數除以一位數",
+      "加與除的兩步驟問題",
+      "減與除的兩步驟問題"
+    ],
+    "prerequisites": [
+      "3u-u7-除法"
+    ],
+    "successors": [
+      "4u-u2-整數的乘法",
+      "3d-u7-乘法與除法",
+      "4u-u4-整數的除法",
+      "4u-u8-整數四則計算",
+      "5u-u2-因數與公因數"
+    ],
+    "tools": [
+      {
+        "name": "快樂分分看",
+        "url": "../happy-division/index.html"
+      },
+      {
+        "name": "倍機器",
+        "url": "../unit7-game/machine.html"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "3d-u3-尋找規律",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "尋找規律",
+    "domain": "關係",
+    "objectives": [
+      "找出圖形或數列的規律"
+    ],
+    "indicators": [
+      {
+        "code": "a-II-1",
+        "text": "能找出圖形或數列中的規律，並說明理由"
+      }
+    ],
+    "activities": [
+      "圖形的規律",
+      "數字的規律",
+      "數形規律的應用"
+    ],
+    "prerequisites": [
+      "2u-u4-加減關係與應用"
+    ],
+    "successors": [
+      "4d-u4-數量規律"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3d-u4-公斤和公克",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "公斤和公克",
+    "domain": "量測",
+    "objectives": [
+      "認識公克、公斤，並做實測與計算"
+    ],
+    "indicators": [
+      {
+        "code": "m-II-3",
+        "text": "能認識公斤與公克，並做換算與加減計算"
+      }
+    ],
+    "activities": [
+      "認識1公斤秤",
+      "認識3公斤秤",
+      "重量的量感與估測",
+      "公斤和公克的換算",
+      "重量的加減計算"
+    ],
+    "prerequisites": [
+      "2u-u10-容量與重量"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "3d-u5-小數",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "小數",
+    "domain": "數",
+    "objectives": [
+      "認識一位小數"
+    ],
+    "indicators": [
+      {
+        "code": "n-II-11",
+        "text": "能認識一位小數，並做加減計算"
+      },
+      {
+        "code": "m-II-2",
+        "text": "能認識毫米並與公分換算"
+      }
+    ],
+    "activities": [
+      "認識一位小數",
+      "認識十分位",
+      "小數的大小比較",
+      "小數的加減",
+      "1毫米＝0.1公分"
+    ],
+    "prerequisites": [
+      "3u-u3-毫米",
+      "3u-u9-分數"
+    ],
+    "successors": [
+      "4u-u7-小數",
+      "4d-u5-小數乘法",
+      "5u-u1-多位小數與加減",
+      "5d-u4-小數的乘法"
+    ],
+    "tools": [],
+    "notes": "1毫米＝0.1公分 是小數意義的重要情境連結"
+  },
+  {
+    "id": "3d-u6-圓",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "圓",
+    "domain": "空間",
+    "objectives": [
+      "能認識圓的構成要素，並使用圓規畫圓"
+    ],
+    "indicators": [
+      {
+        "code": "s-II-4",
+        "text": "認識圓的圓心、半徑、直徑，理解直徑＝半徑×2"
+      },
+      {
+        "code": "s-II-5",
+        "text": "能使用圓規畫指定半徑的圓"
+      }
+    ],
+    "activities": [
+      "認識圓",
+      "使用圓規"
+    ],
+    "prerequisites": [
+      "1u-u5-方盒-圓罐-球",
+      "2d-u3-平面圖形"
+    ],
+    "successors": [
+      "5u-u5-多邊形與扇形",
+      "5u-u10-柱體-錐體和球",
+      "6u-u6-圓周長與扇形周長"
+    ],
+    "tools": [
+      {
+        "name": "圓的秘密",
+        "url": "../circle-game/index.html"
+      },
+      {
+        "name": "圓規練習",
+        "url": "../circle-game/draw.html"
+      },
+      {
+        "name": "量圓練習",
+        "url": "../circle-game/measure.html"
+      }
+    ],
+    "notes": "半徑等長是圓的定義；圓規開口＝半徑"
+  },
+  {
+    "id": "3d-u7-乘法與除法",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 7,
+    "title": "乘法與除法",
+    "domain": "關係",
+    "objectives": [
+      "認識乘除互逆，並運用於驗算，及解決"
+    ],
+    "indicators": [
+      {
+        "code": "a-II-2",
+        "text": "理解乘除互逆關係，能運用於驗算及解決未知數問題"
+      }
+    ],
+    "activities": [
+      "乘與除的關係",
+      "被乘數或乘數未知的問題",
+      "被除數或除數未知的問題"
+    ],
+    "prerequisites": [
+      "3d-u2-除法"
+    ],
+    "successors": [
+      "4d-u4-數量規律",
+      "5u-u2-因數與公因數",
+      "6u-u3-數量關係"
+    ],
+    "tools": [
+      {
+        "name": "倍機器",
+        "url": "../unit7-game/machine.html"
+      },
+      {
+        "name": "乘除互逆",
+        "url": "../unit7-game/inverse.html"
+      },
+      {
+        "name": "找出□的數",
+        "url": "../unit7-game/unknown.html"
+      }
+    ],
+    "notes": "□×3＝12 與 12÷3＝□ 的連結是本單元核心"
+  },
+  {
+    "id": "3d-u8-時間",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 8,
+    "title": "時間",
+    "domain": "量測",
+    "objectives": [
+      "理解24時制，並做同單位時間量的加減"
+    ],
+    "indicators": [
+      {
+        "code": "m-II-4",
+        "text": "理解24時制，能換算上午/下午時刻"
+      },
+      {
+        "code": "m-II-5",
+        "text": "能做同單位時間量的加減計算"
+      }
+    ],
+    "activities": [
+      "一日24小時",
+      "時、分和秒",
+      "時分的加減計算"
+    ],
+    "prerequisites": [
+      "2u-u8-幾時幾分"
+    ],
+    "successors": [
+      "4d-u9-時間的計算",
+      "5d-u9-時間的乘除"
+    ],
+    "tools": [
+      {
+        "name": "一日24小時",
+        "url": "../time-game/day24.html"
+      },
+      {
+        "name": "時分秒換算",
+        "url": "../time-game/units.html"
+      },
+      {
+        "name": "時分加減",
+        "url": "../time-game/calc.html"
+      }
+    ],
+    "notes": "24時制與12時制換算：下午N點＝N+12時"
+  },
+  {
+    "id": "3d-u9-統計表",
+    "grade": 3,
+    "semester": 2,
+    "unit_number": 9,
+    "title": "統計表",
+    "domain": "統計",
+    "objectives": [
+      "報讀生活中常見的一、二維表格"
+    ],
+    "indicators": [
+      {
+        "code": "d-II-1",
+        "text": "能讀取並製作一維、二維統計表，並解決問題"
+      }
+    ],
+    "activities": [
+      "報讀一維表格",
+      "報讀二維表格",
+      "製作統計表及應用"
+    ],
+    "prerequisites": [
+      "2d-u8-分類與立體形體"
+    ],
+    "successors": [
+      "4u-u10-統計圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u1-一億以內的數",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "一億以內的數",
+    "domain": "數",
+    "objectives": [
+      "認識一億以內的數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3u-u1-10000以內的數"
+    ],
+    "successors": [
+      "4d-u3-概數",
+      "5d-u5-大數與折線圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u2-整數的乘法",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "整數的乘法",
+    "domain": "計算",
+    "objectives": [
+      "四位數×一位數的問題",
+      "一到四位數×二位數的問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u2-除法",
+      "2d-u5-乘法",
+      "3u-u4-乘法"
+    ],
+    "successors": [
+      "4u-u4-整數的除法",
+      "4d-u1-多位數的乘與除",
+      "5u-u3-倍數與公倍數",
+      "6u-u1-最大公因數與最小公倍數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u3-角度",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "角度",
+    "domain": "空間",
+    "objectives": [
+      "認識量角器和角度單位「角」，並做角度的實測",
+      "角的合成與分解"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3u-u5-角"
+    ],
+    "successors": [
+      "4u-u6-三角形",
+      "5u-u5-多邊形與扇形"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u4-整數的除法",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "整數的除法",
+    "domain": "計算",
+    "objectives": [
+      "四位數÷一位數的問題",
+      "二到四位數÷二位數的問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u2-整數的乘法",
+      "3u-u7-除法",
+      "3d-u2-除法"
+    ],
+    "successors": [
+      "4u-u8-整數四則計算",
+      "4d-u1-多位數的乘與除",
+      "5u-u2-因數與公因數",
+      "5d-u6-整數-小數除以整數",
+      "6u-u1-最大公因數與最小公倍數",
+      "6u-u4-小數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u5-公里",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "公里",
+    "domain": "量測",
+    "objectives": [
+      "認識公里，公里、公尺和公分的關係與化聚",
+      "公里和公尺二階單位的加減問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "2d-u7-公尺和公分",
+      "3u-u3-毫米"
+    ],
+    "successors": [
+      "5d-u10-生活中的大單位",
+      "6u-u9-放大圖-縮圖與比例尺"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u6-三角形",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "三角形",
+    "domain": "空間",
+    "objectives": [
+      "認識基本三角形及平面圖形全等的意義"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u3-角度",
+      "2d-u3-平面圖形"
+    ],
+    "successors": [
+      "4d-u2-四邊形",
+      "5u-u5-多邊形與扇形",
+      "5u-u7-線對稱圖形",
+      "6d-u1-小數與分數的計算"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u7-小數",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "小數",
+    "domain": "數",
+    "objectives": [
+      "認識二位小數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u5-小數"
+    ],
+    "successors": [
+      "4d-u5-小數乘法",
+      "5u-u1-多位小數與加減",
+      "5d-u4-小數的乘法",
+      "5d-u6-整數-小數除以整數",
+      "6u-u8-認識速率"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u8-整數四則計算",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "整數四則計算",
+    "domain": "計算",
+    "objectives": [
+      "乘與除、連除的兩步驟問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u4-整數的除法",
+      "2d-u6-兩步驟應用問題",
+      "3u-u4-乘法",
+      "3d-u2-除法"
+    ],
+    "successors": [
+      "4d-u8-簡化計算",
+      "5u-u8-整數四則運算",
+      "6u-u2-分數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u9-分數",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "分數",
+    "domain": "數",
+    "objectives": [
+      "認識真分數、假分數和帶分數",
+      "比較同分母分數的大小(＞1)"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u1-分數的加減",
+      "3u-u9-分數",
+      "2d-u10-分數"
+    ],
+    "successors": [
+      "4d-u7-等值分數",
+      "5u-u4-擴分-約分與通分",
+      "5u-u6-異分母分數的加減",
+      "5d-u2-分數的計算",
+      "5d-u6-整數-小數除以整數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4u-u10-統計圖",
+    "grade": 4,
+    "semester": 1,
+    "unit_number": 10,
+    "title": "統計圖",
+    "domain": "統計",
+    "objectives": [
+      "認識並報讀長條圖和折線圖",
+      "繪製長條圖",
+      "報讀各種複雜的長條圖和折線圖"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u9-統計表",
+      "2d-u8-分類與立體形體"
+    ],
+    "successors": [
+      "5d-u5-大數與折線圖",
+      "6d-u6-圓形圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u1-多位數的乘與除",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "多位數的乘與除",
+    "domain": "計算",
+    "objectives": [
+      "三、四位數×三位數的問題",
+      "三、四位數÷三位數的問題",
+      "末幾位為0的乘除法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u2-整數的乘法",
+      "4u-u4-整數的除法"
+    ],
+    "successors": [
+      "4d-u8-簡化計算",
+      "5u-u2-因數與公因數",
+      "6u-u3-數量關係"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u2-四邊形",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "四邊形",
+    "domain": "空間",
+    "objectives": [
+      "認識垂直與平行，並畫出垂直線與平行線",
+      "認識四邊形的構成要素和特性",
+      "分割四邊形及畫四邊形"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u6-三角形",
+      "2d-u3-平面圖形",
+      "2u-u3-量長度",
+      "3u-u5-角"
+    ],
+    "successors": [
+      "5u-u5-多邊形與扇形",
+      "4d-u6-周長與面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u3-概數",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "概數",
+    "domain": "數",
+    "objectives": [
+      "認識無條件進入法、無條件捨去法"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u1-一億以內的數",
+      "3u-u7-除法",
+      "2d-u2-三位數的加減"
+    ],
+    "successors": [
+      "5u-u1-多位小數與加減"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u4-數量規律",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "數量規律",
+    "domain": "關係",
+    "objectives": [
+      "找出二維圖形或數字的規律",
+      "找出奇偶數的規律"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u7-乘法與除法",
+      "3u-u7-除法",
+      "3d-u3-尋找規律"
+    ],
+    "successors": [
+      "6u-u3-數量關係",
+      "6u-u6-圓周長與扇形周長",
+      "6u-u7-圓面積與扇形面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u5-小數乘法",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "小數乘法",
+    "domain": "計算",
+    "objectives": [
+      "認識小數數線"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u7-小數",
+      "3d-u5-小數",
+      "2d-u6-兩步驟應用問題",
+      "3u-u1-10000以內的數"
+    ],
+    "successors": [
+      "5u-u1-多位小數與加減",
+      "4d-u7-等值分數",
+      "5d-u4-小數的乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u6-周長與面積",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "周長與面積",
+    "domain": "量測",
+    "objectives": [
+      "認識1平方公尺",
+      "知道平方公尺和平方公分的關係"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3u-u6-面積",
+      "4d-u2-四邊形",
+      "2d-u3-平面圖形"
+    ],
+    "successors": [
+      "4d-u10-立方公分",
+      "5u-u9-面積",
+      "5d-u7-表面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u7-等值分數",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 7,
+    "title": "等值分數",
+    "domain": "數",
+    "objectives": [
+      "認識等值分數，並做簡單異分母分數的比較",
+      "認識分數數線"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u9-分數",
+      "4d-u5-小數乘法",
+      "3d-u1-分數的加減"
+    ],
+    "successors": [
+      "5u-u4-擴分-約分與通分",
+      "5u-u6-異分母分數的加減",
+      "5d-u6-整數-小數除以整數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u8-簡化計算",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 8,
+    "title": "簡化計算",
+    "domain": "計算",
+    "objectives": [
+      "解決兩步驟的四則混合問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u1-多位數的乘與除",
+      "4u-u8-整數四則計算"
+    ],
+    "successors": [
+      "5u-u8-整數四則運算"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u9-時間的計算",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 9,
+    "title": "時間的計算",
+    "domain": "量測",
+    "objectives": [
+      "時間量的加減問題",
+      "兩時刻間的時間量問題(含跨午、跨日)",
+      "時刻與時間量的加減問題(含跨日)"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "3d-u8-時間",
+      "2u-u8-幾時幾分"
+    ],
+    "successors": [
+      "5d-u9-時間的乘除",
+      "6u-u8-認識速率"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "4d-u10-立方公分",
+    "grade": 4,
+    "semester": 2,
+    "unit_number": 10,
+    "title": "立方公分",
+    "domain": "量測",
+    "objectives": [
+      "認識體積及透過堆疊堆出指定的形體",
+      "認識1立方公分，並進行體積的實測"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u6-周長與面積",
+      "2d-u8-分類與立體形體"
+    ],
+    "successors": [
+      "5u-u9-面積",
+      "5d-u1-體積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u1-多位小數與加減",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "多位小數與加減",
+    "domain": "數",
+    "objectives": [
+      "認識多位小數的位值、化聚與大小比較",
+      "對小數取概數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u5-小數乘法",
+      "4u-u7-小數",
+      "3d-u5-小數",
+      "4d-u3-概數"
+    ],
+    "successors": [
+      "5d-u4-小數的乘法",
+      "5d-u6-整數-小數除以整數",
+      "6u-u4-小數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u2-因數與公因數",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "因數與公因數",
+    "domain": "數",
+    "objectives": [
+      "認識因數和公因數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u1-多位數的乘與除",
+      "2d-u5-乘法",
+      "4u-u4-整數的除法",
+      "3d-u7-乘法與除法",
+      "3d-u2-除法"
+    ],
+    "successors": [
+      "5u-u3-倍數與公倍數",
+      "6u-u1-最大公因數與最小公倍數",
+      "6u-u2-分數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u3-倍數與公倍數",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "倍數與公倍數",
+    "domain": "數",
+    "objectives": [
+      "認識倍數和公倍數",
+      "判別2、5、10的倍數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u2-因數與公因數",
+      "4u-u2-整數的乘法"
+    ],
+    "successors": [
+      "6u-u1-最大公因數與最小公倍數"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u4-擴分-約分與通分",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "擴分、約分與通分",
+    "domain": "計算",
+    "objectives": [
+      "分數的擴分、約分、通分和大小比較"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u7-等值分數",
+      "4u-u9-分數"
+    ],
+    "successors": [
+      "5u-u6-異分母分數的加減",
+      "5d-u2-分數的計算",
+      "6u-u2-分數除法",
+      "5d-u6-整數-小數除以整數",
+      "5d-u8-比率與百分率",
+      "6u-u5-比與比值"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u5-多邊形與扇形",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "多邊形與扇形",
+    "domain": "空間",
+    "objectives": [
+      "認識多邊形、三角形的三邊關係、扇形和圓心角",
+      "三角形內角和180度，四邊形內角和360度"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u2-四邊形",
+      "4u-u3-角度",
+      "4u-u6-三角形",
+      "2d-u3-平面圖形",
+      "3d-u6-圓"
+    ],
+    "successors": [
+      "5u-u7-線對稱圖形",
+      "6u-u6-圓周長與扇形周長",
+      "6u-u7-圓面積與扇形面積",
+      "5u-u10-柱體-錐體和球",
+      "6d-u6-圓形圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u6-異分母分數的加減",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "異分母分數的加減",
+    "domain": "計算",
+    "objectives": [
+      "異分母分數的加減應用"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u4-擴分-約分與通分",
+      "4d-u7-等值分數",
+      "4u-u9-分數"
+    ],
+    "successors": [
+      "5d-u2-分數的計算",
+      "5d-u8-比率與百分率",
+      "6u-u2-分數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u7-線對稱圖形",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "線對稱圖形",
+    "domain": "空間",
+    "objectives": [
+      "認識並繪製線對稱圖形"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u5-多邊形與扇形",
+      "4u-u6-三角形"
+    ],
+    "successors": [
+      "5u-u10-柱體-錐體和球",
+      "6u-u9-放大圖-縮圖與比例尺"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u8-整數四則運算",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "整數四則運算",
+    "domain": "計算",
+    "objectives": [
+      "三步驟的四則混合計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u8-簡化計算",
+      "4u-u8-整數四則計算"
+    ],
+    "successors": [
+      "6d-u1-小數與分數的計算",
+      "6u-u8-認識速率"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u9-面積",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "面積",
+    "domain": "量測",
+    "objectives": [
+      "平行四邊形、三角形、梯形、複合圖形的面積"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u10-立方公分",
+      "4d-u6-周長與面積"
+    ],
+    "successors": [
+      "5d-u1-體積",
+      "5d-u7-表面積",
+      "6d-u3-柱體體積與表面積",
+      "6u-u7-圓面積與扇形面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5u-u10-柱體-錐體和球",
+    "grade": 5,
+    "semester": 1,
+    "unit_number": 10,
+    "title": "柱體、錐體和球",
+    "domain": "空間",
+    "objectives": [
+      "認識形體的展開圖",
+      "認識角柱、角錐、圓柱、圓錐和球"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u7-線對稱圖形",
+      "5u-u5-多邊形與扇形",
+      "2d-u3-平面圖形",
+      "3d-u6-圓"
+    ],
+    "successors": [
+      "6u-u6-圓周長與扇形周長",
+      "6d-u3-柱體體積與表面積",
+      "5d-u3-容積",
+      "5d-u7-表面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u1-體積",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "體積",
+    "domain": "量測",
+    "objectives": [
+      "認識1立方公尺"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u9-面積",
+      "4d-u10-立方公分"
+    ],
+    "successors": [
+      "5d-u3-容積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u2-分數的計算",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "分數的計算",
+    "domain": "計算",
+    "objectives": [
+      "整數×分數、分數×分數的問題",
+      "分數÷整數的問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u6-異分母分數的加減",
+      "5u-u4-擴分-約分與通分",
+      "4u-u9-分數"
+    ],
+    "successors": [
+      "6u-u2-分數除法",
+      "5d-u4-小數的乘法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u3-容積",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "容積",
+    "domain": "量測",
+    "objectives": [
+      "容量、容積與體積的關係    ‧認識容量單位"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u1-體積",
+      "3u-u8-公升和毫升",
+      "5u-u10-柱體-錐體和球"
+    ],
+    "successors": [
+      "5d-u7-表面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u4-小數的乘法",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "小數的乘法",
+    "domain": "計算",
+    "objectives": [
+      "三位小數×整數的問題",
+      "整數×小數、小數×小數的問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u1-多位小數與加減",
+      "4u-u7-小數",
+      "3d-u5-小數",
+      "5d-u2-分數的計算",
+      "4d-u5-小數乘法"
+    ],
+    "successors": [
+      "5d-u6-整數-小數除以整數",
+      "6u-u4-小數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u5-大數與折線圖",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "大數與折線圖",
+    "domain": "數",
+    "objectives": [
+      "認識億以上的數",
+      "認識整數和小數的十進位結構"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u10-統計圖",
+      "4u-u1-一億以內的數"
+    ],
+    "successors": [
+      "6d-u6-圓形圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u6-整數-小數除以整數",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "整數、小數除以整數",
+    "domain": "計算",
+    "objectives": [
+      "整數÷整數、小數÷整數(商為小數)的問題",
+      "小數÷整數，除不盡時，對商取概數",
+      "分數與小數的互換"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u4-小數的乘法",
+      "5u-u1-多位小數與加減",
+      "4u-u7-小數",
+      "4u-u9-分數",
+      "4d-u7-等值分數",
+      "5u-u4-擴分-約分與通分",
+      "4u-u4-整數的除法"
+    ],
+    "successors": [
+      "5d-u8-比率與百分率",
+      "6u-u4-小數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u7-表面積",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 7,
+    "title": "表面積",
+    "domain": "量測",
+    "objectives": [
+      "計算正方體、長方體的表面積",
+      "表面積的應用"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u3-容積",
+      "5u-u9-面積",
+      "4d-u6-周長與面積",
+      "5u-u10-柱體-錐體和球",
+      "3u-u6-面積"
+    ],
+    "successors": [
+      "6u-u7-圓面積與扇形面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u8-比率與百分率",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 8,
+    "title": "比率與百分率",
+    "domain": "數",
+    "objectives": [
+      "認識比率和百分率",
+      "理解小數、分數與百分率的關係與換算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u6-整數-小數除以整數",
+      "5u-u6-異分母分數的加減",
+      "5u-u4-擴分-約分與通分"
+    ],
+    "successors": [
+      "6u-u5-比與比值",
+      "6d-u6-圓形圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u9-時間的乘除",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 9,
+    "title": "時間的乘除",
+    "domain": "量測",
+    "objectives": [
+      "時間的單位換算  ‧時間的乘除問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u9-時間的計算",
+      "3d-u8-時間"
+    ],
+    "successors": [
+      "6u-u8-認識速率"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "5d-u10-生活中的大單位",
+    "grade": 5,
+    "semester": 2,
+    "unit_number": 10,
+    "title": "生活中的大單位",
+    "domain": "量測",
+    "objectives": [
+      "做公里和公尺的小數化聚",
+      "認識公噸、公畝、公頃和平方公里，並計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4u-u5-公里"
+    ],
+    "successors": [
+      "6u-u9-放大圖-縮圖與比例尺",
+      "6d-u6-圓形圖"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u1-最大公因數與最小公倍數",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 1,
+    "title": "最大公因數與最小公倍數",
+    "domain": "數",
+    "objectives": [
+      "認識質數和合數",
+      "用質因數分解法和短除法，求兩數的最大公因數",
+      "用質因數分解法和短除法，求兩數的最小公倍數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u3-倍數與公倍數",
+      "5u-u2-因數與公因數",
+      "4u-u4-整數的除法",
+      "4u-u2-整數的乘法"
+    ],
+    "successors": [
+      "6u-u2-分數除法"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u2-分數除法",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 2,
+    "title": "分數除法",
+    "domain": "計算",
+    "objectives": [
+      "認識最簡分數",
+      "同分母分數的除法問題",
+      "異分母分數的除法問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u2-分數的計算",
+      "5u-u2-因數與公因數",
+      "5u-u4-擴分-約分與通分",
+      "5u-u6-異分母分數的加減",
+      "6u-u1-最大公因數與最小公倍數",
+      "3d-u1-分數的加減",
+      "4u-u8-整數四則計算"
+    ],
+    "successors": [
+      "6d-u1-小數與分數的計算",
+      "6u-u4-小數除法",
+      "6u-u5-比與比值"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u3-數量關係",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 3,
+    "title": "數量關係",
+    "domain": "關係",
+    "objectives": [
+      "觀察生活情境中數量關係的變化"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "4d-u4-數量規律",
+      "3d-u7-乘法與除法",
+      "4d-u1-多位數的乘與除"
+    ],
+    "successors": [
+      "6d-u5-怎樣解題"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u4-小數除法",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 4,
+    "title": "小數除法",
+    "domain": "計算",
+    "objectives": [
+      "整數÷小數",
+      "小數÷小數"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u6-整數-小數除以整數",
+      "5u-u1-多位小數與加減",
+      "6u-u2-分數除法",
+      "4u-u4-整數的除法",
+      "5d-u4-小數的乘法"
+    ],
+    "successors": [
+      "6d-u1-小數與分數的計算",
+      "6u-u8-認識速率"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u5-比與比值",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 5,
+    "title": "比與比值",
+    "domain": "數",
+    "objectives": [
+      "認識比、比值的意義和表示法",
+      "認識相等的比、最簡整數比"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u8-比率與百分率",
+      "6u-u2-分數除法",
+      "5u-u4-擴分-約分與通分"
+    ],
+    "successors": [
+      "6u-u8-認識速率",
+      "6u-u9-放大圖-縮圖與比例尺"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u6-圓周長與扇形周長",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 6,
+    "title": "圓周長與扇形周長",
+    "domain": "量測",
+    "objectives": [
+      "認識圓周率，並了解圓周率的意義與求法",
+      "理解圓周長公式，計算圓周長、直徑或半徑",
+      "應用圓周長公式，計算扇形、複合圖形的周長"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5u-u10-柱體-錐體和球",
+      "5u-u5-多邊形與扇形",
+      "4d-u4-數量規律",
+      "3d-u6-圓"
+    ],
+    "successors": [
+      "6u-u9-放大圖-縮圖與比例尺",
+      "6u-u7-圓面積與扇形面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u7-圓面積與扇形面積",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 7,
+    "title": "圓面積與扇形面積",
+    "domain": "量測",
+    "objectives": [
+      "理解圓面積公式，計算圓面積",
+      "應用圓面積公式，計算扇形、複合圖形的面積"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u7-表面積",
+      "5u-u5-多邊形與扇形",
+      "5u-u9-面積",
+      "6u-u6-圓周長與扇形周長",
+      "4d-u4-數量規律",
+      "3u-u6-面積"
+    ],
+    "successors": [
+      "6d-u3-柱體體積與表面積"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u8-認識速率",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 8,
+    "title": "認識速率",
+    "domain": "量測",
+    "objectives": [
+      "認識速率的意義及其單位",
+      "做時速、分速或秒速之間的單位換算及比較"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u5-比與比值",
+      "6u-u4-小數除法",
+      "4u-u7-小數",
+      "5d-u9-時間的乘除",
+      "5u-u8-整數四則運算",
+      "4d-u9-時間的計算"
+    ],
+    "successors": [
+      "6d-u2-速率的應用"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6u-u9-放大圖-縮圖與比例尺",
+    "grade": 6,
+    "semester": 1,
+    "unit_number": 9,
+    "title": "放大圖、縮圖與比例尺",
+    "domain": "空間",
+    "objectives": [
+      "了解放大圖和縮圖的意義",
+      "了解比例尺的意義、表示方法與應用"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u6-圓周長與扇形周長",
+      "5u-u7-線對稱圖形",
+      "6u-u5-比與比值",
+      "4u-u5-公里",
+      "5d-u10-生活中的大單位"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u1-小數與分數的計算",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 1,
+    "title": "小數與分數的計算",
+    "domain": "計算",
+    "objectives": [
+      "小數與分數混合的四則計算",
+      "小數與分數的簡化計算"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u2-分數除法",
+      "5u-u8-整數四則運算",
+      "6u-u4-小數除法",
+      "4u-u6-三角形"
+    ],
+    "successors": [
+      "6d-u4-基準量與比較量"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u2-速率的應用",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 2,
+    "title": "速率的應用",
+    "domain": "量測",
+    "objectives": [
+      "解決全程的平均速率問題、相離和相遇問題",
+      "解決追趕問題、流水問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u8-認識速率"
+    ],
+    "successors": [
+      "6d-u4-基準量與比較量"
+    ],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u3-柱體體積與表面積",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 3,
+    "title": "柱體體積與表面積",
+    "domain": "量測",
+    "objectives": [
+      "計算柱體和複合形體的體積",
+      "計算簡單柱體的表面積"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u7-圓面積與扇形面積",
+      "5u-u9-面積",
+      "5u-u10-柱體-錐體和球"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u4-基準量與比較量",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 4,
+    "title": "基準量與比較量",
+    "domain": "數",
+    "objectives": [
+      "認識基準量與比較量",
+      "運用基準量、比較量與比值，求兩量之和",
+      "運用基準量、比較量與比值，求兩量之差"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6d-u2-速率的應用",
+      "6d-u1-小數與分數的計算"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u5-怎樣解題",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 5,
+    "title": "怎樣解題",
+    "domain": "關係",
+    "objectives": [
+      "解決和差問題、年齡問題",
+      "解決雞兔問題、組合問題"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "6u-u3-數量關係"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  },
+  {
+    "id": "6d-u6-圓形圖",
+    "grade": 6,
+    "semester": 2,
+    "unit_number": 6,
+    "title": "圓形圖",
+    "domain": "統計",
+    "objectives": [
+      "繪製圓形百分圖、圓形圖並報讀",
+      "經驗事件發生的可能性"
+    ],
+    "indicators": [],
+    "activities": [],
+    "prerequisites": [
+      "5d-u5-大數與折線圖",
+      "4u-u10-統計圖",
+      "5u-u5-多邊形與扇形",
+      "5d-u8-比率與百分率",
+      "5d-u10-生活中的大單位"
+    ],
+    "successors": [],
+    "tools": [],
+    "notes": ""
+  }
+]
