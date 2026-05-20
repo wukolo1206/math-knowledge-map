@@ -22,7 +22,7 @@ const STRANDS = {
   '加減':    ['G1A-U4','G1A-U7','G1A-U8','G1B-U2','G1B-U4','G1B-U8','G2A-U2','G2A-U6','G2B-U2','G3A-U2'],
   '乘除':    ['G2A-U7','G2A-U9','G2B-U5','G2B-U6','G2B-U9','G3A-U4','G3A-U7','G3B-U2','G4A-U2','G4A-U4','G4A-U8','G4B-U1','G4B-U8','G5A-U8'],
   '分數':    ['G2B-U10','G3A-U9','G3B-U1','G4A-U9','G4B-U7','G5A-U4','G5A-U6','G5B-U2','G6A-U2','G6B-U1'],
-  '小數':    ['G3B-U5','G4A-U7','G4B-U5','G5A-U1','G5B-U4','G5B-U6','G6A-U4'],
+  '小數':    ['G3B-U5','G4A-U7','G4B-U5','G4B-U7','G5A-U1','G5B-U4','G5B-U6','G5B-U8','G6A-U4','G6B-U1'],
   '因倍數':  ['G5A-U2','G5A-U3','G6A-U1'],
   '幾何':    ['G1A-U5','G1B-U3','G2B-U3','G2B-U8','G3A-U5','G3B-U6','G4A-U3','G4A-U6','G4B-U2','G5A-U5','G5A-U7','G5A-U10','G6A-U6','G6A-U9'],
   '量測':    ['G1A-U2','G1B-U5','G1B-U7','G2A-U3','G2A-U10','G2B-U7','G3A-U3','G3A-U8','G3B-U4','G4A-U5','G5B-U10'],
@@ -500,11 +500,42 @@ function renderCard(unit, selectedId) {
         unit.objectives.map(function(o) { return '<li>'+o+'</li>'; }).join('') + '</ul>'
     : '<div class="empty-hint">待填入</div>';
 
+  var conceptHTML = (unit.concepts && unit.concepts.length)
+    ? unit.concepts.map(function(c) {
+        return '<div class="indicator-item">' +
+          '<div style="font-weight:700;color:#1e293b;margin-bottom:2px">' + c.name + '</div>' +
+          '<div>' + c.description + '</div>' +
+          (c.source_note ? '<div style="font-size:10px;color:#94a3b8;margin-top:3px">' + c.source_note + '</div>' : '') +
+        '</div>';
+      }).join('')
+    : '';
+
+  var misconceptionHTML = (unit.misconceptions && unit.misconceptions.length)
+    ? unit.misconceptions.map(function(m) {
+        return '<div class="notes-box" style="margin-bottom:6px">' +
+          '<div style="font-weight:700;margin-bottom:2px">' + m.name + '</div>' +
+          '<div>' + m.description + '</div>' +
+          (m.source_note ? '<div style="font-size:10px;color:#a16207;margin-top:3px">' + m.source_note + '</div>' : '') +
+        '</div>';
+      }).join('')
+    : '';
+
+  var relationHTML = (unit.concept_relations && unit.concept_relations.length)
+    ? '<ul style="padding-left:16px;font-size:12px;line-height:1.7;color:#374151">' +
+        unit.concept_relations.map(function(r) {
+          return '<li><strong>' + r.type + '</strong>：' + r.from + ' → ' + r.to +
+            (r.note ? '<br><span style="color:#64748b">' + r.note + '</span>' : '') + '</li>';
+        }).join('') + '</ul>'
+    : '';
+
   panel.innerHTML =
     '<div class="card-content">' +
       '<span class="card-badge" style="background:'+dc.bg+';color:'+dc.text+'">' +
         gradeLabel(unit.grade,unit.semester)+'・'+unit.domain+'</span>' +
       '<div class="card-title">'+unit.title+'</div>' +
+      (conceptHTML ? '<div class="section-label">核心概念</div>' + conceptHTML : '') +
+      (misconceptionHTML ? '<div class="section-label">容易卡住的點</div>' + misconceptionHTML : '') +
+      (relationHTML ? '<div class="section-label">概念銜接</div>' + relationHTML : '') +
       '<div class="section-label">課綱指標</div>' + indHTML +
       '<div class="section-label">學習目標</div>' + objHTML +
       '<div class="section-label">直接先備（' + directPrereq.length + '個）</div>' + prereqHTML +
