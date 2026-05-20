@@ -3,6 +3,57 @@
 const CURRENT_GRADE = 3;
 const CURRENT_SEMESTER = 2;
 
+// 考古題資料（init() 載入後填入）
+var examIndex = {};   // indicatorCode → [{year,grade,q_no,stem,answer,has_image,image_path}]
+
+function buildExamIndex(questions) {
+  examIndex = {};
+  questions.forEach(function(q) {
+    (q.indicators || []).forEach(function(code) {
+      if (!examIndex[code]) examIndex[code] = [];
+      examIndex[code].push(q);
+    });
+  });
+}
+
+function renderExamQuestions(unit) {
+  var codes = (unit.indicators || []).map(function(i) { return i.code || i; });
+  var seen = {};
+  var qs = [];
+  codes.forEach(function(code) {
+    (examIndex[code] || []).forEach(function(q) {
+      var key = q.year + '_' + q.grade + '_' + q.q_no;
+      if (!seen[key]) { seen[key] = true; qs.push(q); }
+    });
+  });
+  if (!qs.length) return '';
+
+  var gradeMap = {3:'三',4:'四',5:'五',6:'六'};
+  var items = qs.map(function(q) {
+    var label = q.year + '年 ' + (gradeMap[q.grade]||q.grade) + '年級 第' + q.q_no + '題';
+    var stem = q.stem ? q.stem.slice(0, 80) + (q.stem.length > 80 ? '…' : '') : '（含圖題）';
+    var imgHtml = q.has_image && q.image_path
+      ? '<img src="' + q.image_path + '" class="exam-q-img" loading="lazy" onclick="this.classList.toggle(\'exam-q-img-full\')">'
+      : '';
+    return '<div class="exam-q-item">' +
+      '<div class="exam-q-label">' + label + '</div>' +
+      '<div class="exam-q-stem">' + stem + '</div>' +
+      imgHtml +
+    '</div>';
+  }).join('');
+
+  return '<div class="section-label exam-section-toggle" onclick="toggleExamSection(this)">'+
+    '歷年考題（' + qs.length + '題）▾</div>' +
+    '<div class="exam-section-body">' + items + '</div>';
+}
+
+function toggleExamSection(label) {
+  var body = label.nextElementSibling;
+  var open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  label.textContent = label.textContent.replace(open ? '▾' : '▸', open ? '▸' : '▾');
+}
+
 const DOMAIN_COLORS = {
   '數':  { bg: '#dbeafe', text: '#1d4ed8' },
   '計算':{ bg: '#d1fae5', text: '#065f46' },
@@ -542,6 +593,7 @@ function renderCard(unit, selectedId) {
       '<div class="section-label">直接後續（' + directSucc.length + '個）</div>' + succHTML +
       '<div class="section-label">課本活動</div>' + actHTML +
       toolsHTML + notesHTML +
+      renderExamQuestions(unit) +
     '</div>';
 }
 
@@ -756,6 +808,11 @@ async function init() {
   try {
     var resp = await fetch('data/units.json');
     units = await resp.json();
+
+    fetch('data/exam_questions.json')
+      .then(function(r) { return r.json(); })
+      .then(function(qs) { buildExamIndex(qs); });
+
     buildStrandColorMap();
     nodePositions = buildNodePositions();
 
