@@ -455,30 +455,22 @@ function renderCard(unit, selectedId) {
   var dc = DOMAIN_COLORS[unit.domain] || { bg:'#e2e8f0', text:'#475569' };
 
   var lists = buildLayeredLists(selectedId);
-  var totalPrereq = lists.prereqLayers.reduce(function(s, l) { return s + l.length; }, 0);
-  var totalSucc   = lists.succLayers.reduce(function(s, l) { return s + l.length; }, 0);
+  var directPrereq = lists.prereqLayers[0] || [];
+  var directSucc   = lists.succLayers[0]   || [];
 
-  function layerHTML(layers, cls, labelFn) {
-    if (!layers.length) return '<div class="empty-hint">無</div>';
-    return layers.map(function(layer, li) {
-      var header = '<div class="layer-header">' + labelFn(li) + '</div>';
-      var items = layer.map(function(nid) {
-        var u = unitById(nid); if (!u) return '';
-        var sl = u.semester === 1 ? '上' : '下';
-        return '<div class="layer-item ' + cls + '" onclick="selectUnit(\'' + nid + '\')">' +
-          '<span class="layer-grade">' + u.grade + '年' + sl + '</span>' +
-          '<span class="layer-title">' + u.title + '</span></div>';
-      }).join('');
-      return '<div class="layer-block">' + header + items + '</div>';
+  function directLayerHTML(ids, cls) {
+    if (!ids.length) return '<div class="empty-hint">無</div>';
+    return ids.map(function(nid) {
+      var u = unitById(nid); if (!u) return '';
+      var sl = u.semester === 1 ? '上' : '下';
+      return '<div class="layer-item ' + cls + '" onclick="selectUnit(\'' + nid + '\')">' +
+        '<span class="layer-grade">' + u.grade + '年' + sl + '</span>' +
+        '<span class="layer-title">' + u.title + '</span></div>';
     }).join('');
   }
 
-  var prereqHTML = layerHTML(lists.prereqLayers, 'prereq-item', function(i) {
-    return i === 0 ? '直接先備' : '第' + (i + 1) + '層先備';
-  });
-  var succHTML = layerHTML(lists.succLayers, 'succ-item', function(i) {
-    return i === 0 ? '直接後續' : '第' + (i + 1) + '層後續';
-  });
+  var prereqHTML = directLayerHTML(directPrereq, 'prereq-item');
+  var succHTML   = directLayerHTML(directSucc,   'succ-item');
 
   var indHTML = unit.indicators.length
     ? unit.indicators.map(function(i) {
@@ -513,10 +505,10 @@ function renderCard(unit, selectedId) {
       '<span class="card-badge" style="background:'+dc.bg+';color:'+dc.text+'">' +
         gradeLabel(unit.grade,unit.semester)+'・'+unit.domain+'</span>' +
       '<div class="card-title">'+unit.title+'</div>' +
-      '<div class="section-label">前置回溯（' + totalPrereq + '個）</div>' + prereqHTML +
-      '<div class="section-label">後續發展（' + totalSucc + '個）</div>' + succHTML +
-      '<div class="section-label">學習目標</div>' + objHTML +
       '<div class="section-label">課綱指標</div>' + indHTML +
+      '<div class="section-label">學習目標</div>' + objHTML +
+      '<div class="section-label">直接先備（' + directPrereq.length + '個）</div>' + prereqHTML +
+      '<div class="section-label">直接後續（' + directSucc.length + '個）</div>' + succHTML +
       '<div class="section-label">課本活動</div>' + actHTML +
       toolsHTML + notesHTML +
     '</div>';
