@@ -47,6 +47,7 @@ let viewMode   = 'all';    // 'all' | 'click'
 let cardMode   = 'side';   // 'side' | 'float'
 let layoutMode = 'fixed';  // 'fixed' | 'auto'
 let selectedId = null;
+let filterCode = null;  // null = 正常模式；'N-3-1' 等 = 篩選模式
 let unitStrandColor = {};
 let nodesDS, edgesDS, network, nodePositions;
 
@@ -158,6 +159,96 @@ function clearHighlight() {
     document.getElementById('float-card').classList.remove('visible');
   }
   network.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
+}
+
+function filterByCode(code) {
+  filterCode = code;
+  var sel = document.getElementById('filter-code-select');
+  if (sel) sel.value = code;
+
+  var matchIds = new Set();
+  units.forEach(function(u) {
+    if ((u.indicators || []).some(function(ind) { return ind.code === code; })) {
+      matchIds.add(u.id);
+    }
+  });
+
+  nodesDS.update(units.map(function(u) {
+    if (matchIds.has(u.id)) {
+      var dc = DOMAIN_COLORS[u.domain] || { bg: '#e2e8f0', text: '#475569' };
+      return { id: u.id, opacity: 1,
+               color: { background: dc.bg, border: '#1e293b',
+                        highlight: { background: dc.bg, border: '#1e293b' } },
+               borderWidth: 4 };
+    }
+    return { id: u.id, opacity: 0.15 };
+  }));
+
+  selectedId = null;
+  renderFilterPanel(code, matchIds);
+}
+
+function clearFilter() {
+  filterCode = null;
+  var sel = document.getElementById('filter-code-select');
+  if (sel) sel.value = '';
+  nodesDS.update(units.map(function(u) { return getDefaultNodeStyle(u); }));
+  document.getElementById('card-panel').innerHTML =
+    '<div class="card-empty"><div><div style="font-size:48px;margin-bottom:12px">🗺️</div>' +
+    '<div>點選單元<br>查看知識脈絡</div></div></div>';
+}
+
+function toggleFilterUnit(id) {
+  var el = document.getElementById('filter-unit-' + id);
+  if (el) el.classList.toggle('collapsed');
+}
+
+function renderFilterPanel(code, matchIds) {
+  var matchUnits = units.filter(function(u) { return matchIds.has(u.id); });
+  matchUnits.sort(function(a, b) {
+    return (a.grade * 2 + a.semester) - (b.grade * 2 + b.semester);
+  });
+
+  var codeText = '';
+  for (var i = 0; i < matchUnits.length; i++) {
+    var found = (matchUnits[i].indicators || []).find(function(ind) { return ind.code === code; });
+    if (found && found.text) { codeText = found.text; break; }
+  }
+
+  var html = '<div class="filter-header">' +
+    '<span class="filter-code-title">' + code + '</span>' +
+    '<button class="filter-close" onclick="clearFilter()">✕</button>' +
+    '</div>';
+
+  if (codeText) {
+    html += '<div class="filter-desc-text">' + codeText + '</div>';
+  }
+
+  html += '<div class="filter-count">共 ' + matchUnits.length + ' 個單元</div>';
+
+  matchUnits.forEach(function(u) {
+    var dc = DOMAIN_COLORS[u.domain] || { bg: '#e2e8f0', text: '#475569' };
+    var sl = u.semester === 1 ? '上' : '下';
+    var isCurrent = (u.grade === CURRENT_GRADE && u.semester === CURRENT_SEMESTER);
+    var objHTML = (u.objectives || []).map(function(o) {
+      return '<li style="margin-bottom:3px">' + o + '</li>';
+    }).join('');
+
+    html += '<div class="filter-unit" id="filter-unit-' + u.id + '">' +
+      '<div class="filter-unit-header" onclick="toggleFilterUnit(\'' + u.id + '\')">' +
+        '<span class="card-badge" style="background:' + dc.bg + ';color:' + dc.text + ';margin:0;flex-shrink:0">' +
+          u.grade + '年' + sl + '・' + u.domain + '</span>' +
+        '<span style="font-size:13px;font-weight:700;color:#1e293b">' + u.title + '</span>' +
+        (isCurrent ? '<span class="current-grade-badge">現正授課</span>' : '') +
+        '<span class="filter-unit-toggle">▼</span>' +
+      '</div>' +
+      '<div class="filter-unit-body">' +
+        '<ul style="padding-left:16px;font-size:12px;line-height:1.8;color:#374151">' + objHTML + '</ul>' +
+      '</div>' +
+    '</div>';
+  });
+
+  document.getElementById('card-panel').innerHTML = html;
 }
 
 // ── 輔助函式 ───────────────────────────────────────────────────
@@ -391,7 +482,11 @@ function renderCard(unit, selectedId) {
 
   var indHTML = unit.indicators.length
     ? unit.indicators.map(function(i) {
-        return '<div class="indicator-item"><div class="indicator-code">'+i.code+'</div>'+i.text+'</div>';
+        return '<div class="indicator-item">' +
+          '<div class="indicator-code" onclick="filterByCode(\'' + i.code + '\')" title="點擊篩選此代碼">' +
+            i.code +
+          '</div>' + i.text +
+        '</div>';
       }).join('') : '<div class="empty-hint">待填入</div>';
 
   var actHTML = unit.activities.length
@@ -481,6 +576,34 @@ function renderToolbar() {
   search.id = 'search-box'; search.placeholder = '搜尋單元…';
   search.oninput = function() { applySearch(this.value.trim()); };
   tb.appendChild(search);
+
+  var sep4 = document.createElement('div'); sep4.className = 'tb-sep'; tb.appendChild(sep4);
+
+  var filterSelect = document.createElement('select');
+  filterSelect.id = 'filter-code-select';
+  filterSelect.style.cssText = 'padding:3px 8px;border-radius:16px;border:1.5px solid #cbd5e1;font-size:11px;color:#64748b;outline:none;cursor:pointer;background:white;';
+  var defaultOpt = document.createElement('option');
+  defaultOpt.value = ''; defaultOpt.textContent = '課綱代碼';
+  filterSelect.appendChild(defaultOpt);
+
+  var allCodes = [];
+  units.forEach(function(u) {
+    (u.indicators || []).forEach(function(ind) {
+      if (allCodes.indexOf(ind.code) === -1) allCodes.push(ind.code);
+    });
+  });
+  allCodes.sort().forEach(function(code) {
+    var opt = document.createElement('option');
+    opt.value = code; opt.textContent = code;
+    filterSelect.appendChild(opt);
+  });
+
+  filterSelect.value = filterCode || '';
+  filterSelect.onchange = function() {
+    if (this.value) filterByCode(this.value);
+    else clearFilter();
+  };
+  tb.appendChild(filterSelect);
 
   buildLegend();
 }
@@ -634,14 +757,28 @@ async function init() {
 
     network.on('click', function(params) {
       if (params.nodes.length > 0) {
-        selectUnit(params.nodes[0]);
+        var nodeId = params.nodes[0];
+        if (filterCode) {
+          var el = document.getElementById('filter-unit-' + nodeId);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            el.classList.add('filter-unit-flash');
+            setTimeout(function() { el.classList.remove('filter-unit-flash'); }, 400);
+          }
+        } else {
+          selectUnit(nodeId);
+        }
       } else {
-        clearHighlight();
+        if (filterCode) clearFilter();
+        else clearHighlight();
       }
     });
 
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') clearHighlight();
+      if (e.key === 'Escape') {
+        if (filterCode) clearFilter();
+        else clearHighlight();
+      }
     });
 
     document.getElementById('float-card-close').onclick = function() {

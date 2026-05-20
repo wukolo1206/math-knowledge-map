@@ -56,7 +56,6 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; h
 .traj-item.next { background: #f0fdf4; border-left: 3px solid #22c55e; }
 .traj-grade { font-size: 10px; color: #64748b; min-width: 28px; }
 .indicator-item { background: #f8fafc; border-radius: 6px; padding: 8px 10px; font-size: 12px; line-height: 1.5; color: #374151; margin-bottom: 4px; }
-.indicator-code { font-size: 10px; font-weight: 700; color: #6366f1; margin-bottom: 2px; }
 .activity-item { display: flex; align-items: center; gap: 8px; padding: 7px 10px; background: #f8fafc; border-radius: 6px; font-size: 12px; margin-bottom: 3px; }
 .activity-num { width: 20px; height: 20px; background: #3b82f6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0; }
 .tool-link { display: inline-block; padding: 4px 12px; background: #eff6ff; color: #1d4ed8; border-radius: 6px; font-size: 12px; text-decoration: none; margin: 2px; }
@@ -94,6 +93,28 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; h
 .succ-item   { background: #f0fdf4; border-left: 3px solid #22c55e; }
 .layer-grade { font-size: 10px; color: #64748b; min-width: 30px; flex-shrink: 0; }
 .layer-title { color: #1e293b; }
+
+/* ── 可點擊 indicator chip ── */
+.indicator-code { cursor: pointer; transition: background .15s, color .15s; display: inline-block; font-size: 10px; font-weight: 700; color: #6366f1; margin-bottom: 2px; }
+.indicator-code:hover { background: #4f46e5; color: white; border-radius: 4px; padding: 1px 4px; }
+
+/* ── 篩選面板 ── */
+.filter-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px 8px; }
+.filter-code-title { font-size: 18px; font-weight: 700; color: #4f46e5; }
+.filter-close { background: none; border: none; cursor: pointer; font-size: 18px; color: #94a3b8; padding: 0 4px; line-height: 1; }
+.filter-close:hover { color: #475569; }
+.filter-desc-text { padding: 0 20px 8px; font-size: 12px; color: #64748b; line-height: 1.5; }
+.filter-count { padding: 0 20px 12px; font-size: 11px; font-weight: 700; color: #94a3b8; letter-spacing: .06em; text-transform: uppercase; border-bottom: 1px solid #f1f5f9; }
+.filter-unit { border-bottom: 1px solid #f1f5f9; }
+.filter-unit-header { display: flex; align-items: center; gap: 8px; padding: 10px 20px; cursor: pointer; user-select: none; flex-wrap: wrap; }
+.filter-unit-header:hover { background: #f8fafc; }
+.filter-unit-toggle { font-size: 10px; color: #94a3b8; margin-left: auto; transition: transform .15s; }
+.filter-unit.collapsed .filter-unit-toggle { transform: rotate(-90deg); }
+.filter-unit-body { padding: 0 20px 12px; }
+.filter-unit.collapsed .filter-unit-body { display: none; }
+.current-grade-badge { font-size: 10px; background: #fef3c7; color: #92400e; border-radius: 10px; padding: 1px 8px; font-weight: 700; }
+@keyframes filter-flash { 0%,100% { background: transparent; } 50% { background: #ede9fe; } }
+.filter-unit-flash { animation: filter-flash .4s ease; }
 </style>
 </head>
 <body>
