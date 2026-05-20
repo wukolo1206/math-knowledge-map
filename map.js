@@ -31,7 +31,7 @@ function renderExamQuestions(unit) {
   var gradeMap = {3:'三',4:'四',5:'五',6:'六'};
   var items = qs.map(function(q) {
     var label = q.year + '年 ' + (gradeMap[q.grade]||q.grade) + '年級 第' + q.q_no + '題';
-    var stem = q.stem ? q.stem.slice(0, 80) + (q.stem.length > 80 ? '…' : '') : '（含圖題）';
+    var stem = q.stem || '（含圖題）';
     var imgHtml = q.has_image && q.image_path
       ? '<img src="' + q.image_path + '" class="exam-q-img" loading="lazy" onclick="this.classList.toggle(\'exam-q-img-full\')">'
       : '';
