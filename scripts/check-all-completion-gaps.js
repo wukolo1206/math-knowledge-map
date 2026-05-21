@@ -13,7 +13,8 @@ const checks = [
   'check-g5b-completion-gap.js',
   'check-g6a-completion-gap.js',
   'check-g6b-completion-gap.js',
-  'check-g3b-card-data.js'
+  'check-g3b-card-data.js',
+  'check-card-render-samples.js'
 ];
 
 for (const script of checks) {
