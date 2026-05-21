@@ -70,6 +70,7 @@ const relations = parseCsv(fs.readFileSync(path.join(sourceRoot, 'relations.csv'
 const activityConcepts = parseCsv(fs.readFileSync(path.join(sourceRoot, 'activity_concepts.csv'), 'utf8'));
 const activities = parseCsv(fs.readFileSync(path.join(sourceRoot, 'activities.csv'), 'utf8'));
 const candidates = parseCsv(fs.readFileSync(path.join(sourceRoot, 'concept_candidates.csv'), 'utf8'));
+const sourceUnits = parseCsv(fs.readFileSync(path.join(sourceRoot, 'units.csv'), 'utf8'));
 const units = JSON.parse(fs.readFileSync(path.join(root, 'data', 'units.json'), 'utf8'));
 
 const conceptIds = concepts.map((concept) => concept.concept_id);
@@ -78,11 +79,13 @@ assert(duplicateConceptIds.length === 0, 'concept_id 重複: ' + duplicateConcep
 
 const conceptById = new Map(concepts.map((concept) => [concept.concept_id, concept]));
 const activityIds = new Set(activities.map((activity) => activity.activity_id));
+const unitIds = new Set(sourceUnits.map((unit) => unit.unit_id));
 
 for (const concept of concepts) {
   assert(concept.concept_id && concept.concept_id.trim(), '有概念缺少 concept_id');
   assert(concept.concept_name && concept.concept_name.trim(), concept.concept_id + ' 缺少 concept_name');
   assert(concept.unit_id && concept.unit_id.trim(), concept.concept_id + ' 缺少 unit_id');
+  assert(unitIds.has(concept.unit_id), concept.concept_id + ' unit_id 斷鏈: ' + concept.unit_id);
   assert(concept.level && concept.level.trim(), concept.concept_id + ' 缺少 level');
   assert(concept.description && concept.description.trim(), concept.concept_id + ' 缺少 description');
   assert(concept.source_note && concept.source_note.trim(), concept.concept_id + ' 缺少 source_note');
