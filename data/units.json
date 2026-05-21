@@ -1282,9 +1282,59 @@
     ],
     "tools": [],
     "notes": "",
-    "concepts": [],
+    "concepts": [
+      {
+        "id": "C-WHOLE-NUMBER-10000",
+        "name": "10000以內的數",
+        "description": "透過位值表徵與點數活動認識一萬以內的數，理解千位位值與位值單位換算",
+        "source_note": "第1單元頁段活動一數到10000與N-3-1"
+      },
+      {
+        "id": "C-WHOLE-NUMBER-MONEY-REP",
+        "name": "使用錢幣表示大數",
+        "description": "用錢幣或等值表徵表示一萬以內的數，連結具體量與十進位位值結構",
+        "source_note": "第1單元頁段活動二使用錢幣與N-3-1"
+      },
+      {
+        "id": "C-WHOLE-NUMBER-10000-COMPARE",
+        "name": "10000以內數的大小比較",
+        "description": "依十進位位值由高位到低位比較一萬以內兩數大小",
+        "source_note": "第1單元頁段活動三比大小與N-3-1"
+      },
+      {
+        "id": "C-INTEGER-NUMBER-LINE",
+        "name": "整數數線",
+        "description": "認識整數數線並能在數線上報讀標示一萬以內的數，連結數序與大小比較",
+        "source_note": "第1單元頁段活動四整數數線與N-3-11"
+      }
+    ],
     "misconceptions": [],
-    "concept_relations": []
+    "concept_relations": [
+      {
+        "from": "10000以內的數",
+        "to": "使用錢幣表示大數",
+        "type": "同單元",
+        "note": "三上第1單元由一萬以內數的位值認識延伸到錢幣表徵"
+      },
+      {
+        "from": "10000以內的數",
+        "to": "10000以內數的大小比較",
+        "type": "同單元",
+        "note": "理解一萬以內位值後才能依高位到低位比較大小"
+      },
+      {
+        "from": "10000以內數的大小比較",
+        "to": "整數數線",
+        "type": "同單元",
+        "note": "整數數線把數序與大小比較表徵在同一條線上"
+      },
+      {
+        "from": "10000以內的數",
+        "to": "三四位數加法",
+        "type": "後續",
+        "note": "一萬以內數的位值結構支撐三四位數加法直式計算"
+      }
+    ]
   },
   {
     "id": "3u-u2-四位數的加減",
@@ -1318,9 +1368,59 @@
     ],
     "tools": [],
     "notes": "",
-    "concepts": [],
+    "concepts": [
+      {
+        "id": "C-ADD-3-4DIGIT",
+        "name": "三四位數加法",
+        "description": "使用加法直式解決三位數與四位數加法問題，包含多次進位情形",
+        "source_note": "第2單元頁段活動一三四位數的加法與N-3-2"
+      },
+      {
+        "id": "C-SUB-3DIGIT",
+        "name": "三位數減法",
+        "description": "使用減法直式解決三位數減法問題，包含退位情形",
+        "source_note": "第2單元頁段活動二三位數的減法與N-3-2"
+      },
+      {
+        "id": "C-SUB-4DIGIT",
+        "name": "四位數減法",
+        "description": "使用減法直式解決四位數減法問題，包含多次退位情形",
+        "source_note": "第2單元頁段活動三四位數的減法與N-3-2"
+      },
+      {
+        "id": "C-ADD-SUB-ESTIMATION",
+        "name": "加減估算",
+        "description": "在生活情境中使用較大位數加減估算策略，並用估算檢驗計算結果合理性",
+        "source_note": "第2單元頁段活動四加減估算與N-3-8"
+      }
+    ],
     "misconceptions": [],
-    "concept_relations": []
+    "concept_relations": [
+      {
+        "from": "10000以內的數",
+        "to": "三四位數加法",
+        "type": "後續",
+        "note": "一萬以內數的位值結構支撐三四位數加法直式計算"
+      },
+      {
+        "from": "三四位數加法",
+        "to": "三位數減法",
+        "type": "同單元",
+        "note": "三上第2單元由較大位數加法進到三位數減法"
+      },
+      {
+        "from": "三位數減法",
+        "to": "四位數減法",
+        "type": "後續",
+        "note": "三位數減法銜接四位數減法與多次退位"
+      },
+      {
+        "from": "三四位數加法",
+        "to": "加減估算",
+        "type": "同單元",
+        "note": "加減直式計算經驗支撐用估算檢驗結果合理性"
+      }
+    ]
   },
   {
     "id": "3u-u3-毫米",
@@ -1351,9 +1451,35 @@
     ],
     "tools": [],
     "notes": "",
-    "concepts": [],
+    "concepts": [
+      {
+        "id": "C-LENGTH-MILLIMETER",
+        "name": "認識毫米",
+        "description": "認識長度單位毫米並能進行實測量感估測與公分毫米換算",
+        "source_note": "第3單元頁段活動一認識毫米與N-3-12"
+      },
+      {
+        "id": "C-LENGTH-MM-CALCULATION",
+        "name": "毫米長度計算",
+        "description": "解決含公分與毫米的長度計算問題，並以單位換算支撐加減計算",
+        "source_note": "第3單元頁段活動二長度的計算與N-3-12"
+      }
+    ],
     "misconceptions": [],
-    "concept_relations": []
+    "concept_relations": [
+      {
+        "from": "認識毫米",
+        "to": "毫米長度計算",
+        "type": "同單元",
+        "note": "認識毫米與公分毫米換算後才能處理長度加減計算"
+      },
+      {
+        "from": "認識毫米",
+        "to": "1毫米等於0.1公分",
+        "type": "後續",
+        "note": "三上毫米概念銜接三下以1毫米等於0.1公分描述長度"
+      }
+    ]
   },
   {
     "id": "3u-u4-乘法",
@@ -1555,9 +1681,47 @@
     ],
     "tools": [],
     "notes": "",
-    "concepts": [],
+    "concepts": [
+      {
+        "id": "C-AREA-SQUARE-CENTIMETER",
+        "name": "認識平方公分",
+        "description": "認識面積單位平方公分，透過實測與點數建立面積量感",
+        "source_note": "第6單元頁段活動一認識平方公分與N-3-14"
+      },
+      {
+        "id": "C-AREA-CUT-RECOMPOSE",
+        "name": "切割拼湊算面積",
+        "description": "透過平面圖形分割與重組，理解面積在切割拼湊中的保留與計算方法",
+        "source_note": "第6單元頁段活動二切割拼湊算面積與S-3-4"
+      },
+      {
+        "id": "C-AREA-ESTIMATION",
+        "name": "面積估測",
+        "description": "以平方公分為單位估測不規則或生活物件的面積大小，培養面積量感",
+        "source_note": "第6單元頁段活動三估估看面積有多大與N-3-14"
+      }
+    ],
     "misconceptions": [],
-    "concept_relations": []
+    "concept_relations": [
+      {
+        "from": "認識平方公分",
+        "to": "切割拼湊算面積",
+        "type": "同單元",
+        "note": "平方公分面積單位支撐透過切割拼湊計算面積"
+      },
+      {
+        "from": "認識平方公分",
+        "to": "面積估測",
+        "type": "同單元",
+        "note": "平方公分量感支撐生活物件面積估測"
+      },
+      {
+        "from": "切割拼湊算面積",
+        "to": "圓面積公式",
+        "type": "後續",
+        "note": "平面圖形切割重組經驗銜接後續面積公式與圓面積推導"
+      }
+    ]
   },
   {
     "id": "3u-u7-除法",
@@ -1733,9 +1897,47 @@
     ],
     "tools": [],
     "notes": "",
-    "concepts": [],
+    "concepts": [
+      {
+        "id": "C-CAPACITY-MILLILITER",
+        "name": "認識毫升",
+        "description": "認識容量單位毫升，透過實測量感與估測理解小容量",
+        "source_note": "第8單元頁段活動一認識毫升與N-3-15"
+      },
+      {
+        "id": "C-CAPACITY-LITER-MILLILITER",
+        "name": "公升與毫升關係",
+        "description": "認識公升與毫升的關係並能進行容量單位換算",
+        "source_note": "第8單元頁段活動二公升與毫升與N-3-15"
+      },
+      {
+        "id": "C-CAPACITY-ADD-SUB",
+        "name": "容量加減計算",
+        "description": "解決公升毫升複名數的容量加減計算與生活應用問題",
+        "source_note": "第8單元頁段活動三容量的加減計算與N-3-15"
+      }
+    ],
     "misconceptions": [],
-    "concept_relations": []
+    "concept_relations": [
+      {
+        "from": "認識毫升",
+        "to": "公升與毫升關係",
+        "type": "同單元",
+        "note": "認識毫升後進入公升毫升關係與換算"
+      },
+      {
+        "from": "公升與毫升關係",
+        "to": "容量加減計算",
+        "type": "同單元",
+        "note": "公升毫升換算能力支撐容量複名數加減計算"
+      },
+      {
+        "from": "公升與毫升關係",
+        "to": "公斤公克換算",
+        "type": "後續",
+        "note": "容量單位換算經驗銜接三下公斤公克的單位換算脈絡"
+      }
+    ]
   },
   {
     "id": "3u-u9-分數",
