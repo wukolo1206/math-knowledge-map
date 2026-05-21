@@ -237,9 +237,12 @@
     "year": 106,
     "grade": 3,
     "q_no": 14,
-    "stem": "把一個蛋糕平分成 15 塊。彥芳有 個蛋糕，吃了 個蛋糕，後來媽媽又 15 15",
+    "stem": "把一個蛋糕平分成 15 塊。彥芳有 個蛋糕，吃了 個蛋糕，後來媽媽又 15 15 3 給她 個蛋糕。現在彥芳有幾個蛋糕？ 15 5",
     "options": {
-      "3": "給她 個蛋糕。現在彥芳有幾個蛋糕？"
+      "1": "個蛋糕",
+      "2": "個蛋糕",
+      "3": "個蛋糕",
+      "4": "個蛋糕"
     },
     "indicators": [
       "N-3-6"
@@ -352,7 +355,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q20.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -366,7 +369,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q21.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -379,7 +382,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q22.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -392,7 +395,7 @@
     ],
     "answer": "1或2",
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -405,7 +408,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q24.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -418,7 +421,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_3_q25.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -460,9 +463,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 3,
-    "stem": "要找5 的等值分數，下列哪個選項的約分過程是正確的？ 45 5 5÷5 1 ① 5 = 5 = 5 45 45 45 5 5 5 ② 5 = 5 = 5 45 45÷5 9 5 5÷5 1 ③ 5 = 5 = 5 45 45÷5 9 5 5÷5 1 ④ 5 = 5 ÷ 5 + = 1 45 45÷5 9",
+    "stem": "要找5 的等值分數，下列哪個選項的約分過程是正確的？ 45 5 5÷5 1",
     "options": {
-      "1": "1"
+      "1": "5 = 5 = 5",
+      "2": "5 = 5 = 5",
+      "3": "5 = 5 = 5",
+      "4": "5 = 5 ÷ 5 + = 1"
     },
     "indicators": [
       "N-4-6"
@@ -475,10 +481,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 4,
-    "stem": "老師有 2 張一樣大的圖畫紙，小明拿走了其中一張的 ，小美拿走了",
+    "stem": "老師有 2 張一樣大的圖畫紙，小明拿走了其中一張的 ，小美拿走了 2 2 另外一張的 。請問老師還有多少張圖畫紙？ 3 1",
     "options": {
-      "2": "2",
-      "3": "1"
+      "1": "張",
+      "2": "張",
+      "3": "張",
+      "4": "張"
     },
     "indicators": [
       "N-5-2"
@@ -491,11 +499,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 5,
-    "stem": "",
+    "stem": "1 盒餅乾有 24 片，阿土把 盒平分給 4 個人，每人可分得幾盒?請選出 8 正確的做法。 4 1",
     "options": {
-      "1": "盒餅乾有 24 片，阿土把 盒平分給 4 個人，每人可分得幾盒?請選出",
-      "3": "1",
-      "4": "1"
+      "1": "÷ 4 =",
+      "2": "÷ 4 =",
+      "3": "4 ÷ =",
+      "4": "24× ÷ 4 = 3"
     },
     "indicators": [
       "N-5-2"
@@ -508,10 +517,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 6,
-    "stem": "每包綠豆1 公斤，媽媽用了2 包煮綠豆湯，請問媽媽用了幾公斤的綠豆? 5 2 9 ① 公斤 10",
+    "stem": "每包綠豆1 公斤，媽媽用了2 包煮綠豆湯，請問媽媽用了幾公斤的綠豆? 5 2 9",
     "options": {
-      "1": "④ 4 公斤",
-      "3": "② 2 公斤"
+      "1": "公斤",
+      "2": "2 公斤",
+      "3": "4 公斤",
+      "4": "4 公斤"
     },
     "indicators": [
       "N-5-2"
@@ -542,9 +553,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 8,
-    "stem": "",
+    "stem": "1 包紅豆重 1.455 公斤，老闆進貨 2 包，一共是幾公斤?請選出正確的做 法。",
     "options": {
-      "1": "包紅豆重 1.455 公斤，老闆進貨 2 包，一共是幾公斤?請選出正確的做"
+      "1": "1.455 + 2 = 3.455，答:3.455 公斤",
+      "2": "1.455 + 2 = 1.457，答:1.457 公斤",
+      "3": "1.455 + 1.455 = 2.91，答:2.91 公斤",
+      "4": "1.455 × 2 = 0.291，答:0.291 公斤"
     },
     "indicators": [
       "N-5-2"
@@ -557,15 +571,13 @@
     "year": 106,
     "grade": 5,
     "q_no": 9,
-    "stem": "下列是小數乘法直式計算過程，請問哪個做法是正確的? ① ②",
-    "options": {
-      "3": "③"
-    },
+    "stem": "下列是小數乘法直式計算過程，請問哪個做法是正確的?",
+    "options": {},
     "indicators": [
       "N-5-8"
     ],
     "answer": 4,
-    "has_image": false,
+    "has_image": true,
     "image_path": ""
   },
   {
@@ -590,9 +602,12 @@
     "year": 106,
     "grade": 5,
     "q_no": 11,
-    "stem": "上圖是一條數線，圖中箭頭處應該標示為？ ① 3.2",
+    "stem": "上圖是一條數線，圖中箭頭處應該標示為？",
     "options": {
-      "2": "② 3"
+      "1": "3.2",
+      "2": "3",
+      "3": "3",
+      "4": "3"
     },
     "indicators": [
       "N-5-2"
@@ -767,14 +782,14 @@
     "year": 106,
     "grade": 5,
     "q_no": 21,
-    "stem": "下圖塗色部分的扇形是由 圓和 72 度的圓心組成，請問這個扇形的圓心角 6 是幾度? ① 132 度 ② 102 度",
+    "stem": "下圖塗色部分的扇形是由 圓和 72 度的圓心組成，請問這個扇形的圓心角 6 是幾度?",
     "options": {},
     "indicators": [
       "S-5-3"
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_5_q21.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -787,7 +802,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_5_q22.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -800,7 +815,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_5_q23.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -813,7 +828,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_5_q24.png"
+    "image_path": ""
   },
   {
     "year": 106,
@@ -826,15 +841,18 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/106_5_q25.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 3,
     "q_no": 1,
-    "stem": "爸爸整理皮包，一共拿出：",
+    "stem": "爸爸整理皮包，一共拿出： 2 張 ，9 張 ，11 個 和 6 個 ， 請問爸爸皮包裡共有多少元？",
     "options": {
-      "2": "張 ，9 張 ，11 個 和 6 個 ，"
+      "1": "29116 元",
+      "2": "21016 元",
+      "3": "2916 元",
+      "4": "3016 元"
     },
     "indicators": [
       "N-3-6"
@@ -890,7 +908,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q04.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -939,7 +957,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q07.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -964,10 +982,7 @@
     "grade": 3,
     "q_no": 9,
     "stem": "下列哪一個磅秤的指針指在 2 公斤 400 公克？",
-    "options": {
-      "1": "②",
-      "3": "④"
-    },
+    "options": {},
     "indicators": [
       "N-3-16",
       "m-II-3"
@@ -981,9 +996,7 @@
     "grade": 3,
     "q_no": 10,
     "stem": "老師全家準備從彰化到左營旅遊，訂了 5 張高鐵成 人票，每張票價是 670 元， 5 張票共要付多少元？」下 列哪一個直式計算正確？",
-    "options": {
-      "1": "② ③ ④"
-    },
+    "options": {},
     "indicators": [
       "N-3-6"
     ],
@@ -1020,15 +1033,18 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q12.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 3,
     "q_no": 13,
-    "stem": "超市舉辦特價活動，原本一瓶 9 元的綠茶，現在便宜",
+    "stem": "超市舉辦特價活動，原本一瓶 9 元的綠茶，現在便宜 3 元。媽媽到超市花了 144 元購買特價綠茶，她一共買 了幾瓶？",
     "options": {
-      "3": "元。媽媽到超市花了 144 元購買特價綠茶，她一共買"
+      "1": "12 瓶",
+      "2": "16 瓶",
+      "3": "24 瓶",
+      "4": "48 瓶"
     },
     "indicators": [
       "N-3-6"
@@ -1041,14 +1057,14 @@
     "year": 108,
     "grade": 3,
     "q_no": 14,
-    "stem": "下圖甲、乙兩個正方形中，∠1 和∠5 哪一個角比較大？ ① ∠1 6 ② ∠5",
+    "stem": "下圖甲、乙兩個正方形中，∠1 和∠5 哪一個角比較大？",
     "options": {},
     "indicators": [
       "S-3-1"
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q14.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1074,7 +1090,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q16.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1107,7 +1123,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q18.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1150,14 +1166,14 @@
     "year": 108,
     "grade": 3,
     "q_no": 21,
-    "stem": "媽媽將一條蜂蜜蛋糕平分成 12 塊當點心（如下圖）， 爸爸吃了 5 塊，哥哥吃了 2 塊，弟弟吃了 1 塊後，剩下 幾條蛋糕？",
+    "stem": "媽媽將一條蜂蜜蛋糕平分成 12 塊當點心（如下圖）， 爸爸吃了 5 塊，哥哥吃了 2 塊，弟弟吃了 1 塊後，剩下 幾條蛋糕？ 4",
     "options": {},
     "indicators": [
       "N-3-9"
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q21.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1189,7 +1205,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1214,10 +1230,7 @@
     "grade": 3,
     "q_no": 25,
     "stem": "下面哪一個選項的面積和 右邊正方形的面積不同？",
-    "options": {
-      "1": "②",
-      "3": "④"
-    },
+    "options": {},
     "indicators": [
       "N-3-6"
     ],
@@ -1229,9 +1242,12 @@
     "year": 108,
     "grade": 4,
     "q_no": 1,
-    "stem": "等腰三角形一定有哪些特徵？ 甲.有三個銳角 乙.有二個一樣大的底角 丙.有二條等長的邊 丁.有一個直角 上述哪些說法是正確的？ ① 甲、丁 ② 乙、丙 ③ 甲、丙 ④ 乙、丁",
+    "stem": "等腰三角形一定有哪些特徵？ 甲.有三個銳角 乙.有二個一樣大的底角 丙.有二條等長的邊 丁.有一個直角 上述哪些說法是正確的？",
     "options": {
-      "3": "2"
+      "1": "甲、丁",
+      "2": "乙、丙",
+      "3": "甲、丙",
+      "4": "乙、丁"
     },
     "indicators": [
       "S-4-7"
@@ -1244,9 +1260,12 @@
     "year": 108,
     "grade": 4,
     "q_no": 2,
-    "stem": "「一包養樂多有 6 瓶，小傑有 包，小傑的養樂多比小婷的多 包，小婷有 6 6 幾包養樂多？」下列哪一個算式和答案是正確的？",
+    "stem": "「一包養樂多有 6 瓶，小傑有 包，小傑的養樂多比小婷的多 包，小婷有 6 6 幾包養樂多？」下列哪一個算式和答案是正確的？ 3 2 5 5",
     "options": {
-      "3": "2 5 5"
+      "1": "＋ ＝ 答： 包",
+      "2": "＋ ＝ 答： 包",
+      "3": "－ ＝1 答：1 包",
+      "4": "－ ＝ 答： 包"
     },
     "indicators": [
       "N-4-3"
@@ -1284,16 +1303,14 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q04.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 4,
     "q_no": 5,
     "stem": "下面哪一個直式計算是正確的？",
-    "options": {
-      "1": "② ③ ④"
-    },
+    "options": {},
     "indicators": [
       "N-4-3"
     ],
@@ -1323,11 +1340,12 @@
     "year": 108,
     "grade": 4,
     "q_no": 7,
-    "stem": "下面有三種不同分數的分類，但其中一個放錯位置了。請找出來，並選擇 正確的理由？ 第一類 第二類 第三類",
+    "stem": "下面有三種不同分數的分類，但其中一個放錯位置了。請找出來，並選擇 正確的理由？ 第一類 第二類 第三類 1 1 3 9 5 11 7 2 1 、 、 、 、 1 、2 、1 8 3 2 7 4 6 12 5 9 3",
     "options": {
-      "1": "1 3 9 5 11 7 2 1",
-      "2": "3",
-      "3": "① 放錯，因為它是假分數，應該放到第二類"
+      "1": "放錯，因為它是假分數，應該放到第二類",
+      "2": "放錯，因為它的分子不為 1，應該放到第三類",
+      "3": "1 放錯，因為它的分子是 1，應該放到第一類",
+      "4": "1 放錯，因為它是帶分數大於 1，應該放到第二類"
     },
     "indicators": [
       "N-4-5"
@@ -1340,10 +1358,8 @@
     "year": 108,
     "grade": 4,
     "q_no": 8,
-    "stem": "下面哪一個直式計算是正確的？ ① ② ③ ④",
-    "options": {
-      "2": "3.7 23.7 2 3.7 23. 7"
-    },
+    "stem": "下面哪一個直式計算是正確的？",
+    "options": {},
     "indicators": [
       "N-4-3"
     ],
@@ -1355,14 +1371,14 @@
     "year": 108,
     "grade": 4,
     "q_no": 9,
-    "stem": "下圖是健康國小舉辦四年級健康園遊會，各班收入長條圖。",
+    "stem": "下圖是健康國小舉辦四年級健康園遊會，各班收入長條圖。  4 健 康 國 小 四 年 級 健 康 園 遊 會 各 班 收 入 長 條 圖 忠 班 0 孝 仁 愛 班 班 班 收 9 8 7 6 5 4 3 2 1 入0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (0 0 0 0 0 0 0 0 0 元 ) 班 級 請問下列哪一個說法是對的?",
     "options": {},
     "indicators": [
       "D-4-1"
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q09.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1376,7 +1392,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q10.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1418,9 +1434,12 @@
     "year": 108,
     "grade": 4,
     "q_no": 13,
-    "stem": "",
+    "stem": "1 公里 95 公尺×12= ( )，算算看，( )裡的答案應該是多少？",
     "options": {
-      "1": "公里 95 公尺×12= ( )，算算看，( )裡的答案應該是多少？"
+      "1": "1 公里 140 公尺",
+      "2": "12 公里 140 公尺",
+      "3": "13 公里 140 公尺",
+      "4": "23 公里 40 公尺"
     },
     "indicators": [
       "N-4-9"
@@ -1451,10 +1470,12 @@
     "year": 108,
     "grade": 4,
     "q_no": 15,
-    "stem": "媽媽到大賣場買了一個 18 吋大披薩，平分 12 等份來宴請客人，然後每 2 等份裝一盤，結果總共吃掉了 5 盤。請問這次總共吃掉多少個披薩？ ① 2× 5 = 10 ② 2+5=7",
+    "stem": "媽媽到大賣場買了一個 18 吋大披薩，平分 12 等份來宴請客人，然後每 2 等份裝一盤，結果總共吃掉了 5 盤。請問這次總共吃掉多少個披薩？",
     "options": {
-      "1": "2",
-      "2": "10"
+      "1": "2× 5 = 10",
+      "2": "2+5=7",
+      "3": "× 5 =",
+      "4": "× 2 ="
     },
     "indicators": [
       "N-4-3"
@@ -1510,15 +1531,18 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q18.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 4,
     "q_no": 19,
-    "stem": "叔叔加班，從早上 9 點上班，直到當天晚上 9 點才下班。請問在叔叔加班 期間，時針是順時針還是逆時針旋轉？時針一共轉了幾度？這個角也可以 如何稱呼？ ① 逆時針旋轉，旋轉 180 度，也可稱平角 ② 順時針旋轉，旋轉 180 度，也可稱平角 ③ 逆時針旋轉，旋轉 360 度，也可稱周角 ④ 順時針旋轉，旋轉 360 度，也可稱周角  8 分",
+    "stem": "叔叔加班，從早上 9 點上班，直到當天晚上 9 點才下班。請問在叔叔加班 期間，時針是順時針還是逆時針旋轉？時針一共轉了幾度？這個角也可以 如何稱呼？",
     "options": {
-      "1": "阿"
+      "1": "逆時針旋轉，旋轉 180 度，也可稱平角",
+      "2": "順時針旋轉，旋轉 180 度，也可稱平角",
+      "3": "逆時針旋轉，旋轉 360 度，也可稱周角",
+      "4": "順時針旋轉，旋轉 360 度，也可稱周角"
     },
     "indicators": [
       "N-4-10"
@@ -1538,7 +1562,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q20.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1623,7 +1647,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_4_q25.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1791,9 +1815,12 @@
     "year": 108,
     "grade": 5,
     "q_no": 10,
-    "stem": "下列哪一個算式無法正確算出長方形 ABCD 的面積？ A D 27 B C （單位：公分） 27 13 ① 13(13+27) ② 27(13+27) ③ 2727+1327 ④ 2713+2727",
+    "stem": "下列哪一個算式無法正確算出長方形 ABCD 的面積？ A D 27 B C （單位：公分） 27 13",
     "options": {
-      "4": "1"
+      "1": "13(13+27)",
+      "2": "27(13+27)",
+      "3": "2727+1327",
+      "4": "2713+2727"
     },
     "indicators": [
       "N-5-2"
@@ -1824,22 +1851,25 @@
     "year": 108,
     "grade": 5,
     "q_no": 12,
-    "stem": "如下圖，數線上有甲、乙、丙、丁四個點，下列哪一個選項是正確的? 甲 乙 丙 丁 ● ● ● ● 0 1 2 3 ① 甲= 0.1",
+    "stem": "如下圖，數線上有甲、乙、丙、丁四個點，下列哪一個選項是正確的? 甲 乙 丙 丁 ● ● ● ● 0 1 2 3",
     "options": {},
     "indicators": [
       "N-4-8"
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_5_q12.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 5,
     "q_no": 13,
-    "stem": "陳老師要學生用擴分的方法找出4 的等值分數，下列哪個選項的計算過程 5 是正確的？",
+    "stem": "陳老師要學生用擴分的方法找出4 的等值分數，下列哪個選項的計算過程 5 是正確的？ 2 22 4",
     "options": {
-      "2": "22 4"
+      "1": "4 = 4 = 4",
+      "2": "4 = 4 = 4",
+      "3": "4 = 4 = 4",
+      "4": "4 = 42 + = 8"
     },
     "indicators": [
       "N-4-6"
@@ -1895,17 +1925,18 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_5_q16.png"
+    "image_path": ""
   },
   {
     "year": 108,
     "grade": 5,
     "q_no": 17,
-    "stem": "下列哪個算式，算出來的答案最小？",
+    "stem": "下列哪個算式，算出來的答案最小？ 1",
     "options": {
-      "1": "① 124",
-      "2": "1",
-      "4": "1"
+      "1": "124",
+      "2": "2 12",
+      "3": "121",
+      "4": "12"
     },
     "indicators": [
       "N-5-2"
@@ -1925,7 +1956,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_5_q18.png"
+    "image_path": ""
   },
   {
     "year": 108,
@@ -1985,10 +2016,12 @@
     "year": 108,
     "grade": 5,
     "q_no": 22,
-    "stem": "媽媽到大賣場買了一個 18 吋大披薩，平分 12 等份來宴請客人，然後每 2 等份裝一盤，結果總共吃掉了 5 盤。請問這次總共吃掉多少個披薩？ ① 18 ÷ 12 ÷ 2 × 5",
+    "stem": "媽媽到大賣場買了一個 18 吋大披薩，平分 12 等份來宴請客人，然後每 2 等份裝一盤，結果總共吃掉了 5 盤。請問這次總共吃掉多少個披薩？",
     "options": {
-      "1": "② ÷ 2 × 5",
-      "2": "④ × 5"
+      "1": "18 ÷ 12 ÷ 2 × 5",
+      "2": "÷ 2 × 5",
+      "3": "× 5",
+      "4": "× 5"
     },
     "indicators": [
       "N-5-2"
@@ -2037,14 +2070,14 @@
     "year": 108,
     "grade": 5,
     "q_no": 25,
-    "stem": "老師將兩條一樣長的紙帶等分後塗上顏色(如下圖)，兩條紙帶塗色部份的長 度相差多少條？",
+    "stem": "老師將兩條一樣長的紙帶等分後塗上顏色(如下圖)，兩條紙帶塗色部份的長 度相差多少條？ 1",
     "options": {},
     "indicators": [
       "N-5-2"
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/108_5_q25.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2158,10 +2191,12 @@
     "year": 109,
     "grade": 3,
     "q_no": 7,
-    "stem": "把 720 個積木平分成 7 堆，每堆有多少個？還剩下 幾個？小寶、小玉、阿強和成漢的算法如下，請問 誰的算法和答案完全正確？ 小寶 小玉 阿強 成漢",
+    "stem": "把 720 個積木平分成 7 堆，每堆有多少個？還剩下 幾個？小寶、小玉、阿強和成漢的算法如下，請問 誰的算法和答案完全正確？ 小寶 小玉 阿強 成漢 1 2 1 2 1 0 0 1 0 2 7 ) 7 2 0 7 ) 7 2 0 7 ) 7 2 0 7 ) 7 2 0 7 7 7 0 0 7 2 0 2 0 0020 00 2 0 1 4 1 4 1 4 6 6 6",
     "options": {
-      "1": "2 1 2 1 0 0 1 0 2",
-      "2": "0 2 0 0020 00 2 0"
+      "1": "小寶：每堆有 12 個，剩下 6 個。",
+      "2": "小玉：每堆有 12 個，剩下 6 個。",
+      "3": "阿強：每堆有 100 個，剩下 20 個。",
+      "4": "成漢：每堆有 102 個，剩下 6 個。"
     },
     "indicators": [
       "N-3-4"
@@ -2199,7 +2234,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q09.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2223,10 +2258,12 @@
     "year": 109,
     "grade": 3,
     "q_no": 11,
-    "stem": "圖 2 著色的部份佔全部的幾分之幾？",
+    "stem": "圖 2 著色的部份佔全部的幾分之幾？ 2",
     "options": {
-      "2": "①",
-      "4": "2"
+      "1": "2\n2",
+      "2": "4\n2",
+      "3": "6\n2",
+      "4": "8\n圖 2"
     },
     "indicators": [
       "N-3-9"
@@ -2284,7 +2321,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q14.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2316,7 +2353,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q16.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2348,7 +2385,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q18.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2362,7 +2399,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q19.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2375,7 +2412,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q20.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2407,7 +2444,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q22.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2420,7 +2457,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2451,7 +2488,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_3_q25.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2475,9 +2512,12 @@
     "year": 109,
     "grade": 4,
     "q_no": 2,
-    "stem": "右邊除法直式的計算過程紀錄是否正確？",
+    "stem": "右邊除法直式的計算過程紀錄是否正確？ 3",
     "options": {
-      "3": "① 正確，商是 50，餘數是 15 。 2"
+      "1": "正確，商是 50，餘數是 15 。 2",
+      "2": "正確，商是 5，餘數是 15 。",
+      "3": "不正確，商是 23，餘數是 15 。",
+      "4": "不正確，商是 32，餘數是 15。"
     },
     "indicators": [
       "N-4-3"
@@ -2508,9 +2548,12 @@
     "year": 109,
     "grade": 4,
     "q_no": 4,
-    "stem": "好吃披薩店把每一個披薩都平分成 6 片，每種口味的披薩價錢都一樣，且 每種飲料的價錢都一樣。 披薩店的價目表：",
+    "stem": "好吃披薩店把每一個披薩都平分成 6 片，每種口味的披薩價錢都一樣，且 每種飲料的價錢都一樣。 披薩店的價目表： 1 片披薩 60 元，一個披薩（6 片）330 元 1 杯飲料 45 元，買 5 杯飲料 210 元 A 套餐：1 片披薩+1 杯飲料 99 元 B 套餐：2 片披薩+1 杯飲料 149 元 C 套餐：2 片披薩+3 杯飲料 229 元 小廷和 5 位同學一起去買午餐，每人都要有 1 片披薩和 1 杯飲料，下列哪 一種買法最划算？",
     "options": {
-      "1": "片披薩 60 元，一個披薩（6 片）330 元"
+      "1": "買 6 組 A 套餐。",
+      "2": "買 3 組 B 套餐和 3 杯飲料。",
+      "3": "買 2 組 C 套餐和 2 片披薩。",
+      "4": "買一個披薩和 6 杯飲料 。"
     },
     "indicators": [
       "N-4-3"
@@ -2559,25 +2602,25 @@
     "year": 109,
     "grade": 4,
     "q_no": 7,
-    "stem": "下列哪一個選項是真分數？ 8",
-    "options": {
-      "4": "1"
-    },
+    "stem": "下列哪一個選項是真分數？ 8 9 9 8 9 9 8",
+    "options": {},
     "indicators": [
       "N-4-5"
     ],
     "answer": 1,
-    "has_image": false,
+    "has_image": true,
     "image_path": ""
   },
   {
     "year": 109,
     "grade": 4,
     "q_no": 8,
-    "stem": "小勝生日派對，買了 2 瓶汽水，喝了 1 瓶，還剩下多少瓶汽水？ 7 5 ① 瓶 7",
+    "stem": "小勝生日派對，買了 2 瓶汽水，喝了 1 瓶，還剩下多少瓶汽水？ 7 5",
     "options": {
-      "2": "② 瓶",
-      "3": "8"
+      "1": "瓶",
+      "2": "瓶",
+      "3": "瓶",
+      "4": "瓶"
     },
     "indicators": [
       "N-4-3"
@@ -2590,10 +2633,12 @@
     "year": 109,
     "grade": 4,
     "q_no": 9,
-    "stem": "已知數線上 A 點的位置是 1 ，B 點的位置是多少？ 10",
+    "stem": "已知數線上 A 點的位置是 1 ，B 點的位置是多少？ 10 4",
     "options": {
-      "2": "④ 3",
-      "4": "① 2"
+      "1": "2",
+      "2": "2",
+      "3": "2",
+      "4": "3"
     },
     "indicators": [
       "N-4-8"
@@ -2643,10 +2688,7 @@
     "grade": 4,
     "q_no": 12,
     "stem": "將「1.8+3.92=( )」寫成直式，下面哪個直式計算正確？ 1.8 1. 8 + 3.92 + 3.92",
-    "options": {
-      "1": "②",
-      "3": "④"
-    },
+    "options": {},
     "indicators": [
       "N-4-3"
     ],
@@ -2658,9 +2700,12 @@
     "year": 109,
     "grade": 4,
     "q_no": 13,
-    "stem": "",
+    "stem": "1 公斤 45 公克×24=幾公斤幾公克？",
     "options": {
-      "1": "公斤 45 公克×24=幾公斤幾公克？"
+      "1": "2 公斤 80 公克",
+      "2": "11 公斤 80 公克",
+      "3": "25 公斤 80 公克",
+      "4": "34 公斤 80 公克"
     },
     "indicators": [
       "N-4-3"
@@ -2698,7 +2743,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_4_q15.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2758,14 +2803,14 @@
     "year": 109,
     "grade": 4,
     "q_no": 19,
-    "stem": "如圖 2，小明沿著 EF 將長方形裁剪成 2 個全等的梯形，已知長方形的長、 寬分別是 16cm 和 9.2cm。 下列對於兩個圖形的敘述，哪些正確？ A 5cm E B 甲：∠1=115° 乙：∠3=115°",
+    "stem": "如圖 2，小明沿著 EF 將長方形裁剪成 2 個全等的梯形，已知長方形的長、 寬分別是 16cm 和 9.2cm。 下列對於兩個圖形的敘述，哪些正確？ A 5cm E B 甲：∠1=115° 乙：∠3=115° 1 65° 丙：D̅̅̅F̅=9.2cm 丁：F̅̅̅C̅=5cm",
     "options": {},
     "indicators": [
       "S-4-8"
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_4_q19.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2778,7 +2823,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_4_q20.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2809,7 +2854,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_4_q22.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -2840,15 +2885,18 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_4_q24.png"
+    "image_path": ""
   },
   {
     "year": 109,
     "grade": 4,
     "q_no": 25,
-    "stem": "甲有 75 元，乙的錢是甲的 37 倍。若要計算乙比甲多多少元，下面哪個算式 是正確的？ ① 75×37－37 ② 75×37－75 ③ (75－1)×37 ④ (75－37)×37  10 （ 班 級 戊丁丙 乙甲 ） 0 2 近 視 人 數",
+    "stem": "甲有 75 元，乙的錢是甲的 37 倍。若要計算乙比甲多多少元，下面哪個算式 是正確的？",
     "options": {
-      "4": "統 計 圖"
+      "1": "75×37－37",
+      "2": "75×37－75",
+      "3": "(75－1)×37",
+      "4": "(75－37)×37"
     },
     "indicators": [
       "R-4-2"
@@ -2861,9 +2909,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 1,
-    "stem": "元宵節時，村裡舉辦廟會祈福活動，廟方準備 68 隻平安龜祈求上天保佑，每 隻平均重 1200 公克，請問平安龜共重多少公克？ 小維的算法： 小安的算法：",
+    "stem": "元宵節時，村裡舉辦廟會祈福活動，廟方準備 68 隻平安龜祈求上天保佑，每 隻平均重 1200 公克，請問平安龜共重多少公克？ 小維的算法： 小安的算法： 1 2 0 0 1 2 0 0 × 6 8 × 6 8 9 6 9 6 0 0 7 2 7 2 0 0 8 1 6 0 0 8 1 6 0 0 請問兩人的計算過程，誰對誰錯？",
     "options": {
-      "1": "2 0 0 1 2 0 0"
+      "1": "小維對，小安錯",
+      "2": "小安對，小維錯",
+      "3": "小維、小安都對",
+      "4": "小維、小安都錯"
     },
     "indicators": [
       "R-5-1"
@@ -2966,9 +3017,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 7,
-    "stem": "媽媽花了 300 元買到一個大披薩，並且將這個大披薩平分成 12 片。姊姊說：「一 片太大了，我只想吃一半」；哥哥說：「太好吃了，我要吃兩片」。請問姊姊和 哥哥各吃了幾個披薩？",
+    "stem": "媽媽花了 300 元買到一個大披薩，並且將這個大披薩平分成 12 片。姊姊說：「一 片太大了，我只想吃一半」；哥哥說：「太好吃了，我要吃兩片」。請問姊姊和 哥哥各吃了幾個披薩？ 1 2",
     "options": {
-      "1": "2"
+      "1": "姊姊吃了 個披薩，哥哥吃了 個披薩。",
+      "2": "姊姊吃了 個披薩，哥哥吃了 個披薩。",
+      "3": "姊姊吃了 個披薩，哥哥吃了 個披薩。",
+      "4": "姊姊吃了 個披薩，哥哥吃了 個披薩。"
     },
     "indicators": [
       "N-5-10"
@@ -2981,9 +3035,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 8,
-    "stem": "為了慶祝班際跳繩比賽獲得冠軍，小亞老師買了兩個一樣大的披薩幫班上同學 慶功，其中一個披薩平分給 8 位有上場比賽的同學，另外一個披薩則平分給 沒有參加比賽的同學。已知班上一共有 18 位同學，請問上場同學比沒上場的 同學每位多分到幾個披薩？",
+    "stem": "為了慶祝班際跳繩比賽獲得冠軍，小亞老師買了兩個一樣大的披薩幫班上同學 慶功，其中一個披薩平分給 8 位有上場比賽的同學，另外一個披薩則平分給 沒有參加比賽的同學。已知班上一共有 18 位同學，請問上場同學比沒上場的 同學每位多分到幾個披薩？ 1",
     "options": {
-      "1": "① 個"
+      "1": "個",
+      "2": "個",
+      "3": "個",
+      "4": "個"
     },
     "indicators": [
       "N-5-2"
@@ -2996,9 +3053,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 9,
-    "stem": "一袋米重 3 公斤，製作米糕需要 1 袋米，請問需要多少公斤的米？ 6",
+    "stem": "一袋米重 3 公斤，製作米糕需要 1 袋米，請問需要多少公斤的米？ 6 1 1",
     "options": {
-      "1": "1"
+      "1": "3+1 = 4",
+      "2": "3+1 = 4",
+      "3": "3× 1 = 3× =",
+      "4": "3× 1 = 3× 1 + 3 × = 3"
     },
     "indicators": [
       "N-5-2"
@@ -3011,10 +3071,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 10,
-    "stem": "爺爺將一塊 6 公畝的農地，平分成 3 區種植不同的農作物，每一區的農作",
+    "stem": "爺爺將一塊 6 公畝的農地，平分成 3 區種植不同的農作物，每一區的農作 3 物面積是多少？下列哪一個計算過程正確？ 2 2÷3",
     "options": {
-      "2": "2÷3",
-      "3": "物面積是多少？下列哪一個計算過程正確？"
+      "1": "6 ÷ 3 = 6 ÷ 3 +",
+      "2": "6 ÷ 3 = 6 ÷ 3 +",
+      "3": "6 ÷ 3 = 6 ÷ 3 +",
+      "4": "6 ÷ 3 = ÷ 3 ="
     },
     "indicators": [
       "N-5-10"
@@ -3027,12 +3089,12 @@
     "year": 109,
     "grade": 5,
     "q_no": 11,
-    "stem": "鳳梨重 公斤，哈密瓜重 公斤，梨子重 公斤，西瓜重 公斤，最重的",
+    "stem": "鳳梨重 公斤，哈密瓜重 公斤，梨子重 公斤，西瓜重 公斤，最重的 4 6 3 12 水果比最輕的水果重多少公斤？ 1",
     "options": {
-      "1": "① 公斤",
-      "2": "② 公斤",
-      "3": "③ 公斤",
-      "4": "6 3 12"
+      "1": "公斤",
+      "2": "公斤",
+      "3": "公斤",
+      "4": "公斤"
     },
     "indicators": [
       "N-5-2"
@@ -3081,21 +3143,26 @@
     "year": 109,
     "grade": 5,
     "q_no": 14,
-    "stem": "下圖是一條數線，關於 A 和 B 的關係，下列哪一個選項是錯誤的？ 6 A 7 B 8 ① A < 7，但 B > 7，所以 B > A 。",
+    "stem": "下圖是一條數線，關於 A 和 B 的關係，下列哪一個選項是錯誤的？ 6 A 7 B 8",
     "options": {},
     "indicators": [
       "N-5-2"
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_5_q14.png"
+    "image_path": ""
   },
   {
     "year": 109,
     "grade": 5,
     "q_no": 15,
     "stem": "元宵節提花燈，晚上 7 點裝上滿格的充電電池後，妹妹提著燈籠玩了一整晚， 直到電池沒電之後，10點才上床睡覺。這顆電池每分鐘耗電量是一樣的情況下， 請問下面對這顆電池電力狀態的描述，哪一個是正確的？ （ 代表電池滿格， 代表電池沒電）",
-    "options": {},
+    "options": {
+      "1": "7點時 8點時 9點時 10點時",
+      "2": "7點時 7點45分時 8點15分時 9點30分時 10點時",
+      "3": "7點時 7點45分時 8點30分時 9點15分時 10點時",
+      "4": "7點時 7點50分時 8點30分時 9點10分時 10點時"
+    },
     "indicators": [
       "N-5-2"
     ],
@@ -3150,7 +3217,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_5_q18.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -3176,8 +3243,10 @@
     "q_no": 20,
     "stem": "下列哪一面國旗的圖形是只有兩條對稱軸的線對稱圖形？",
     "options": {
-      "1": "(臺灣) ②(加拿大)",
-      "3": "(南韓) ④(瑞士)"
+      "1": "(臺灣)",
+      "2": "(加拿大)",
+      "3": "(南韓)",
+      "4": "(瑞士)"
     },
     "indicators": [
       "S-5-4"
@@ -3316,10 +3385,12 @@
     "year": 109,
     "grade": 6,
     "q_no": 3,
-    "stem": "下列哪一個分數為最簡分數？",
+    "stem": "下列哪一個分數為最簡分數？ 3",
     "options": {
-      "1": "5 7",
-      "3": "①"
+      "1": "9\n17",
+      "2": "51\n26",
+      "3": "65\n21",
+      "4": "1\n5 7"
     },
     "indicators": [
       "N-6-5"
@@ -3332,27 +3403,25 @@
     "year": 109,
     "grade": 6,
     "q_no": 4,
-    "stem": "10 ÷ =( )，請問( )中的答案是多少？ 7 5 49",
-    "options": {
-      "2": "7",
-      "3": "10",
-      "4": "15"
-    },
+    "stem": "10 ÷ =( )，請問( )中的答案是多少？ 7 5 49 375 32",
+    "options": {},
     "indicators": [
       "N-6-5"
     ],
     "answer": 2,
-    "has_image": false,
+    "has_image": true,
     "image_path": ""
   },
   {
     "year": 109,
     "grade": 6,
     "q_no": 5,
-    "stem": "下列哪一個算式的計算結果最大？",
+    "stem": "下列哪一個算式的計算結果最大？ 1 5",
     "options": {
-      "1": "5",
-      "2": "1"
+      "1": "×",
+      "2": "÷",
+      "3": "×",
+      "4": "÷"
     },
     "indicators": [
       "N-6-5"
@@ -3365,11 +3434,12 @@
     "year": 109,
     "grade": 6,
     "q_no": 6,
-    "stem": "一條繩子，用去了 條，還剩下 公尺，這條繩子原來的長度是多少？ 5 5",
+    "stem": "一條繩子，用去了 條，還剩下 公尺，這條繩子原來的長度是多少？ 5 5 3",
     "options": {
-      "1": "③ 公尺",
-      "2": "1",
-      "3": "① 公尺"
+      "1": "公尺",
+      "2": "公尺",
+      "3": "公尺",
+      "4": "公尺"
     },
     "indicators": [
       "N-6-5"
@@ -3533,7 +3603,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_6_q15.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -3600,15 +3670,18 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_6_q19.png"
+    "image_path": ""
   },
   {
     "year": 109,
     "grade": 6,
     "q_no": 20,
-    "stem": "下列哪一個算式，可以求算出三角柱的體積？ 17 15 17",
+    "stem": "下列哪一個算式，可以求算出三角柱的體積？ 17 15 17 4 16 (單位：公分)",
     "options": {
-      "4": "16"
+      "1": "16×15×4",
+      "2": "16×15×17",
+      "3": "16×15÷ 2 ×4",
+      "4": "16×15÷ 2 ×17"
     },
     "indicators": [
       "S-6-4"
@@ -3621,9 +3694,12 @@
     "year": 109,
     "grade": 6,
     "q_no": 21,
-    "stem": "在比例尺 的地圖上，Ａ、Ｂ兩地的距離為 2 公分，那麼在比例尺 5000",
+    "stem": "在比例尺 的地圖上，Ａ、Ｂ兩地的距離為 2 公分，那麼在比例尺 5000 1 的地圖上，Ａ、Ｂ兩地的距離是多少公分？ 10000",
     "options": {
-      "1": "的地圖上，Ａ、Ｂ兩地的距離是多少公分？"
+      "1": "1",
+      "2": "2",
+      "3": "4",
+      "4": "8"
     },
     "indicators": [
       "S-6-2"
@@ -3643,7 +3719,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/109_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 109,
@@ -3667,10 +3743,12 @@
     "year": 109,
     "grade": 6,
     "q_no": 24,
-    "stem": "奶奶的年齡是爸爸的 倍，剛好也是孫子的 3 倍。如果將孫子的年齡當作",
+    "stem": "奶奶的年齡是爸爸的 倍，剛好也是孫子的 3 倍。如果將孫子的年齡當作 2 𝑥，則爸爸的年齡可以用下列何者來表示？ 3",
     "options": {
-      "2": "𝑥，則爸爸的年齡可以用下列何者來表示？",
-      "3": "① 𝑥 × (3 + )"
+      "1": "𝑥 × (3 + )",
+      "2": "𝑥 × 3 ×",
+      "3": "𝑥 ÷ 3 ×",
+      "4": "𝑥 × 3 ÷"
     },
     "indicators": [
       "N-6-5"
@@ -3689,7 +3767,7 @@
       "N-6-8"
     ],
     "answer": 4,
-    "has_image": false,
+    "has_image": true,
     "image_path": ""
   },
   {
@@ -3829,7 +3907,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_3_q08.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4005,7 +4083,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_3_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4161,7 +4239,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_4_q02.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4352,7 +4430,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_5_q11.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4617,7 +4695,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q10.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4630,7 +4708,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q11.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4643,7 +4721,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4656,7 +4734,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q23.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4669,7 +4747,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4682,7 +4760,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4695,7 +4773,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4708,7 +4786,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4721,7 +4799,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4734,7 +4812,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4747,7 +4825,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q19.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4760,7 +4838,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q19.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4773,7 +4851,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q23.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4786,7 +4864,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q23.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4799,7 +4877,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4812,7 +4890,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4825,7 +4903,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4851,7 +4929,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 110,
@@ -4864,7 +4942,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/110_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -4985,7 +5063,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_3_q07.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -4998,7 +5076,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_3_q08.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5067,7 +5145,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_3_q12.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5154,7 +5232,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_3_q17.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5221,7 +5299,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_3_q21.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5306,7 +5384,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q01.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5355,7 +5433,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q04.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5440,7 +5518,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q09.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5631,7 +5709,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q20.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5645,7 +5723,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q21.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5694,7 +5772,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_4_q24.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5886,7 +5964,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q10.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5899,7 +5977,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q11.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5912,7 +5990,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q12.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -5925,7 +6003,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q13.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6008,7 +6086,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q18.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6021,7 +6099,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_5_q19.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6178,7 +6256,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q03.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6262,7 +6340,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q08.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6311,7 +6389,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q11.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6359,7 +6437,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q14.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6496,7 +6574,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6528,7 +6606,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/111_6_q24.png"
+    "image_path": ""
   },
   {
     "year": 111,
@@ -6647,7 +6725,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_3_q06.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -6858,7 +6936,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_3_q18.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -6890,7 +6968,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_3_q20.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -6941,7 +7019,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -6972,7 +7050,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_3_q25.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7021,7 +7099,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q03.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7034,7 +7112,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q04.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7101,7 +7179,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q08.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7204,7 +7282,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q14.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7217,7 +7295,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q15.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7284,7 +7362,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q19.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7387,7 +7465,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_4_q25.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7418,7 +7496,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_5_q02.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7575,7 +7653,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_5_q11.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7678,7 +7756,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_5_q17.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7744,7 +7822,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_5_q21.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -7845,7 +7923,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q02.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8002,7 +8080,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q11.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8049,7 +8127,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q14.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8062,7 +8140,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q15.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8110,7 +8188,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8177,7 +8255,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q22.png"
+    "image_path": ""
   },
   {
     "year": 112,
@@ -8225,7 +8303,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/112_6_q25.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8292,7 +8370,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_3_q04.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8413,7 +8491,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_3_q11.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8426,7 +8504,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_3_q12.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8495,7 +8573,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_3_q16.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8617,7 +8695,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8737,7 +8815,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_4_q05.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8750,7 +8828,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_4_q06.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -8889,7 +8967,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_4_q14.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9083,7 +9161,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_4_q25.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9259,7 +9337,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_5_q10.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9326,7 +9404,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_5_q14.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9429,7 +9507,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_5_q20.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9496,7 +9574,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_5_q24.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9509,7 +9587,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_5_q25.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9540,7 +9618,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_6_q02.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9625,7 +9703,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_6_q07.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9656,7 +9734,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/113_6_q09.png"
+    "image_path": ""
   },
   {
     "year": 113,
@@ -9973,7 +10051,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q02.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10023,7 +10101,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q05.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10109,7 +10187,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q10.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10196,7 +10274,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q15.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10299,7 +10377,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q21.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10313,7 +10391,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q22.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10326,7 +10404,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_3_q23.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10428,7 +10506,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q04.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10459,7 +10537,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q06.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10472,7 +10550,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q07.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10557,7 +10635,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q12.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10624,7 +10702,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q16.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10637,7 +10715,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_4_q17.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10884,7 +10962,7 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q06.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10933,7 +11011,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q09.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -10964,7 +11042,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q11.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11067,7 +11145,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q17.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11151,7 +11229,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q22.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11200,7 +11278,7 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_5_q25.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11393,7 +11471,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_6_q11.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11424,7 +11502,7 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_6_q13.png"
+    "image_path": ""
   },
   {
     "year": 114,
@@ -11510,7 +11588,7 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://raw.githubusercontent.com/wukolo1206/math-knowledge-map/main/img_questions/114_6_q18.png"
+    "image_path": ""
   },
   {
     "year": 114,
