@@ -26,7 +26,78 @@
       "1u-u6-30-以內的數"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-NUMBER-1-5",
+        "name": "認識1到5",
+        "description": "以點數、實物與數字符號連結1到5的數量",
+        "source_note": "第1單元活動一認識1～5"
+      },
+      {
+        "id": "C-NUMBER-6-10",
+        "name": "認識6到10",
+        "description": "以具體物與數字符號連結6到10的數量",
+        "source_note": "第1單元活動二認識6～10"
+      },
+      {
+        "id": "C-NUMBER-ZERO",
+        "name": "認識0",
+        "description": "理解沒有物件時可用0表示數量",
+        "source_note": "第1單元活動三認識0"
+      },
+      {
+        "id": "C-QUANTITY-REPRESENTATION-10",
+        "name": "表示10以內數量",
+        "description": "用數字、圖像與具體物表示10以內數量",
+        "source_note": "第1單元活動四表示數量"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "認識1到5",
+        "to": "認識6到10",
+        "type": "同單元",
+        "note": "先認識1到5再擴充到6到10"
+      },
+      {
+        "from": "認識6到10",
+        "to": "認識0",
+        "type": "同單元",
+        "note": "10以內數量經驗銜接0的意義"
+      },
+      {
+        "from": "認識6到10",
+        "to": "表示10以內數量",
+        "type": "同單元",
+        "note": "10以內數詞數字符號經驗支撐表示數量"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "排數字",
+        "type": "銜接",
+        "note": "10以內數量表徵銜接數字順序排列"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "比多少",
+        "type": "同單元",
+        "note": "10以內數量表徵支撐比較多少"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "分一分",
+        "type": "銜接",
+        "note": "數量表徵經驗支撐分解數量"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "數到20",
+        "type": "銜接",
+        "note": "10以內數量表徵銜接20以內數"
+      }
+    ]
   },
   {
     "id": "1u-u2-比長短",
@@ -61,7 +132,42 @@
       "1d-u5-有多長"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-LENGTH-DIRECT-COMPARE",
+        "name": "比長短",
+        "description": "以直接比較判斷物件長短",
+        "source_note": "第2單元活動一比長短"
+      },
+      {
+        "id": "C-ATTRIBUTE-COMPARE",
+        "name": "比高矮與厚薄",
+        "description": "比較物件高矮、厚薄等可觀察屬性",
+        "source_note": "第2單元活動二比高矮、比厚薄"
+      },
+      {
+        "id": "C-LINE-STRAIGHT-CURVED",
+        "name": "直線和曲線",
+        "description": "辨認直線與曲線並用於描述形狀或路徑",
+        "source_note": "第2單元活動三直線和曲線"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "比長短",
+        "to": "比高矮與厚薄",
+        "type": "同單元",
+        "note": "長短比較經驗擴充到高矮與厚薄比較"
+      },
+      {
+        "from": "比高矮與厚薄",
+        "to": "直線和曲線",
+        "type": "同單元",
+        "note": "屬性觀察經驗支撐直線曲線辨認"
+      }
+    ]
   },
   {
     "id": "1u-u3-排順序-比多少",
@@ -89,7 +195,66 @@
       "1u-u6-30-以內的數"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-NUMBER-SEQUENCE-10",
+        "name": "排數字",
+        "description": "依10以內數字的前後順序排列數字",
+        "source_note": "第3單元活動一排數字"
+      },
+      {
+        "id": "C-ORDINAL-POSITION",
+        "name": "排在第幾個",
+        "description": "以第幾個描述物件在序列中的位置",
+        "source_note": "第3單元活動二排在第幾個"
+      },
+      {
+        "id": "C-ORDINAL-CARDINAL-DIFFERENCE",
+        "name": "第幾個和幾個",
+        "description": "區分序數的第幾個與基數的幾個",
+        "source_note": "第3單元活動三第幾個和幾個"
+      },
+      {
+        "id": "C-QUANTITY-COMPARE-MORE-LESS",
+        "name": "比多少",
+        "description": "用一一對應或數量判斷比較多少",
+        "source_note": "第3單元活動四比多少"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "表示10以內數量",
+        "to": "排數字",
+        "type": "銜接",
+        "note": "10以內數量表徵銜接數字順序排列"
+      },
+      {
+        "from": "排數字",
+        "to": "排在第幾個",
+        "type": "同單元",
+        "note": "數字順序經驗支撐序數第幾個"
+      },
+      {
+        "from": "排在第幾個",
+        "to": "第幾個和幾個",
+        "type": "同單元",
+        "note": "序數位置經驗支撐分辨第幾個與幾個"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "比多少",
+        "type": "同單元",
+        "note": "10以內數量表徵支撐比較多少"
+      },
+      {
+        "from": "比多少",
+        "to": "30以內比大小",
+        "type": "銜接",
+        "note": "比較多少經驗銜接30以內數的大小比較"
+      }
+    ]
   },
   {
     "id": "1u-u4-分與合",
@@ -118,7 +283,60 @@
       "1u-u8-10-以內的減法"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-NUMBER-DECOMPOSE",
+        "name": "分一分",
+        "description": "將一個數量分成兩部分並說明分解結果",
+        "source_note": "第4單元活動一分一分"
+      },
+      {
+        "id": "C-NUMBER-COMPOSE",
+        "name": "合一合",
+        "description": "將兩部分合成一個整體數量",
+        "source_note": "第4單元活動二合一合"
+      },
+      {
+        "id": "C-TEN-COMPOSITION",
+        "name": "10的分與合",
+        "description": "熟悉10的組成與分解關係",
+        "source_note": "第4單元活動三10的分與合"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "表示10以內數量",
+        "to": "分一分",
+        "type": "銜接",
+        "note": "數量表徵經驗支撐分解數量"
+      },
+      {
+        "from": "分一分",
+        "to": "合一合",
+        "type": "同單元",
+        "note": "分解數量經驗銜接合成數量"
+      },
+      {
+        "from": "合一合",
+        "to": "10的分與合",
+        "type": "同單元",
+        "note": "合成分解經驗聚焦到10的分與合"
+      },
+      {
+        "from": "10的分與合",
+        "to": "合起來是多少",
+        "type": "銜接",
+        "note": "10的分與合支撐10以內加法意義"
+      },
+      {
+        "from": "10的分與合",
+        "to": "剩下多少",
+        "type": "銜接",
+        "note": "10的分與合支撐10以內減法意義"
+      }
+    ]
   },
   {
     "id": "1u-u5-方盒-圓罐-球",
@@ -149,7 +367,48 @@
       "2d-u8-分類與立體形體"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-SOLID-SHAPE-STACK-CLASSIFY",
+        "name": "堆疊與分類",
+        "description": "依立體形體可堆疊、可滾動等特徵分類",
+        "source_note": "第5單元活動一堆疊與分類"
+      },
+      {
+        "id": "C-PLANE-SHAPE-INTRO",
+        "name": "認識平面圖形",
+        "description": "由實物面或操作經驗辨認常見平面圖形",
+        "source_note": "第5單元活動二認識平面圖形"
+      },
+      {
+        "id": "C-SHAPE-COMPOSE-DESIGN",
+        "name": "做造型",
+        "description": "運用平面圖形拼組與創作造型",
+        "source_note": "第5單元活動三做造型"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "堆疊與分類",
+        "to": "認識平面圖形",
+        "type": "同單元",
+        "note": "立體形體操作經驗銜接平面圖形辨認"
+      },
+      {
+        "from": "認識平面圖形",
+        "to": "做造型",
+        "type": "同單元",
+        "note": "平面圖形辨認支撐拼組造型"
+      },
+      {
+        "from": "做造型",
+        "to": "平面圖形",
+        "type": "銜接",
+        "note": "一上圖形拼組經驗銜接一下圖形與分類"
+      }
+    ]
   },
   {
     "id": "1u-u6-30-以內的數",
@@ -178,7 +437,78 @@
       "1d-u1-50-以內的數"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-NUMBER-COUNT-20",
+        "name": "數到20",
+        "description": "依順序點數與讀寫20以內的數",
+        "source_note": "第6單元活動一數到20"
+      },
+      {
+        "id": "C-NUMBER-COUNT-30",
+        "name": "數到30",
+        "description": "依順序點數與讀寫30以內的數",
+        "source_note": "第6單元活動二數到30"
+      },
+      {
+        "id": "C-QUANTITY-REPRESENTATION-30",
+        "name": "表示30以內數量",
+        "description": "用數字、圖像與具體物表示30以內數量",
+        "source_note": "第6單元活動三表示數量"
+      },
+      {
+        "id": "C-ORDINAL-WITHIN-30",
+        "name": "30以內序數",
+        "description": "在30以內序列中描述第幾個的位置",
+        "source_note": "第6單元活動四排在第幾個"
+      },
+      {
+        "id": "C-NUMBER-COMPARE-30",
+        "name": "30以內比大小",
+        "description": "比較30以內數的大小並說明理由",
+        "source_note": "第6單元活動五比大小"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "比多少",
+        "to": "30以內比大小",
+        "type": "銜接",
+        "note": "比較多少經驗銜接30以內數的大小比較"
+      },
+      {
+        "from": "表示10以內數量",
+        "to": "數到20",
+        "type": "銜接",
+        "note": "10以內數量表徵銜接20以內數"
+      },
+      {
+        "from": "數到20",
+        "to": "數到30",
+        "type": "同單元",
+        "note": "20以內數數經驗擴充到30以內"
+      },
+      {
+        "from": "數到30",
+        "to": "表示30以內數量",
+        "type": "同單元",
+        "note": "30以內數詞數字符號支撐數量表徵"
+      },
+      {
+        "from": "數到30",
+        "to": "30以內序數",
+        "type": "同單元",
+        "note": "30以內數序支撐序數位置描述"
+      },
+      {
+        "from": "表示30以內數量",
+        "to": "30以內比大小",
+        "type": "同單元",
+        "note": "30以內數量表徵支撐大小比較"
+      }
+    ]
   },
   {
     "id": "1u-u7-10-以內的加法",
@@ -212,7 +542,54 @@
       "1d-u2-18-以內的加法"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-ADDITION-JOIN-10",
+        "name": "合起來是多少",
+        "description": "以合併情境理解10以內加法意義",
+        "source_note": "第7單元活動一合起來是多少"
+      },
+      {
+        "id": "C-ZERO-ADDITION",
+        "name": "0的加法",
+        "description": "理解0加入或被加入時數量不變",
+        "source_note": "第7單元活動二0的加法"
+      },
+      {
+        "id": "C-ADDITION-CALC-10",
+        "name": "10以內加法計算",
+        "description": "用數數、分合或圖像進行10以內加法",
+        "source_note": "第7單元活動三加加看"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "10的分與合",
+        "to": "合起來是多少",
+        "type": "銜接",
+        "note": "10的分與合支撐10以內加法意義"
+      },
+      {
+        "from": "合起來是多少",
+        "to": "0的加法",
+        "type": "同單元",
+        "note": "加法意義經驗支撐0的加法"
+      },
+      {
+        "from": "合起來是多少",
+        "to": "10以內加法計算",
+        "type": "同單元",
+        "note": "合併情境銜接10以內加法計算"
+      },
+      {
+        "from": "10以內加法計算",
+        "to": "10以內加減混合",
+        "type": "同單元",
+        "note": "加法計算經驗支撐加減情境判斷"
+      }
+    ]
   },
   {
     "id": "1u-u8-10-以內的減法",
@@ -248,7 +625,66 @@
       "1d-u4-18-以內的減法"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-SUBTRACTION-TAKEAWAY-10",
+        "name": "剩下多少",
+        "description": "以拿走情境理解10以內減法意義",
+        "source_note": "第8單元活動一剩下多少"
+      },
+      {
+        "id": "C-SUBTRACTION-COMPARE-10",
+        "name": "多多少少多少",
+        "description": "以比較情境理解相差多少的減法意義",
+        "source_note": "第8單元活動二多多少、少多少"
+      },
+      {
+        "id": "C-SUBTRACTION-CALC-10",
+        "name": "10以內減法計算",
+        "description": "用數數、分合或圖像進行10以內減法",
+        "source_note": "第8單元活動三減減看"
+      },
+      {
+        "id": "C-ADD-SUB-MIXED-10",
+        "name": "10以內加減混合",
+        "description": "在情境中判斷使用加法或減法並列式計算",
+        "source_note": "第8單元活動四加加減減"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "10的分與合",
+        "to": "剩下多少",
+        "type": "銜接",
+        "note": "10的分與合支撐10以內減法意義"
+      },
+      {
+        "from": "剩下多少",
+        "to": "多多少少多少",
+        "type": "同單元",
+        "note": "拿走情境經驗銜接比較情境減法"
+      },
+      {
+        "from": "剩下多少",
+        "to": "10以內減法計算",
+        "type": "同單元",
+        "note": "減法意義銜接10以內減法計算"
+      },
+      {
+        "from": "10以內加法計算",
+        "to": "10以內加減混合",
+        "type": "同單元",
+        "note": "加法計算經驗支撐加減情境判斷"
+      },
+      {
+        "from": "10以內減法計算",
+        "to": "10以內加減混合",
+        "type": "同單元",
+        "note": "減法計算經驗支撐加減情境判斷"
+      }
+    ]
   },
   {
     "id": "1u-u9-幾點鐘",
@@ -275,7 +711,60 @@
       "2u-u8-幾時幾分"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-TIME-SEQUENCE-DURATION",
+        "name": "時間先後和長短",
+        "description": "以生活事件描述時間先後與經過時間長短",
+        "source_note": "第9單元活動一時間的先後和長短"
+      },
+      {
+        "id": "C-CLOCK-FACE-INTRO",
+        "name": "認識時鐘",
+        "description": "認識時鐘鐘面、時針與分針",
+        "source_note": "第9單元活動二認識時鐘"
+      },
+      {
+        "id": "C-TIME-OCLOCK",
+        "name": "幾點鐘",
+        "description": "讀出整點時刻並和生活作息連結",
+        "source_note": "第9單元活動三幾點鐘"
+      },
+      {
+        "id": "C-TIME-HALF-HOUR",
+        "name": "幾點半",
+        "description": "讀出半點時刻並和生活作息連結",
+        "source_note": "第9單元活動四幾點半"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "時間先後和長短",
+        "to": "認識時鐘",
+        "type": "同單元",
+        "note": "生活時間先後經驗支撐認識時鐘"
+      },
+      {
+        "from": "認識時鐘",
+        "to": "幾點鐘",
+        "type": "同單元",
+        "note": "認識鐘面後讀整點時刻"
+      },
+      {
+        "from": "幾點鐘",
+        "to": "幾點半",
+        "type": "同單元",
+        "note": "整點時刻經驗銜接半點時刻"
+      },
+      {
+        "from": "幾點半",
+        "to": "幾時幾分",
+        "type": "銜接",
+        "note": "一上整點半點經驗銜接二上幾時幾分"
+      }
+    ]
   },
   {
     "id": "1d-u1-50-以內的數",
