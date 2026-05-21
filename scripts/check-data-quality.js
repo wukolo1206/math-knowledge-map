@@ -65,21 +65,47 @@ function findDuplicates(items) {
   return Array.from(duplicates);
 }
 
+function validateDocSourceRefs(fileName, rows, sourceDocById) {
+  for (const row of rows) {
+    if (!row.source || !row.source.startsWith('DOC-')) continue;
+    const sourceDoc = sourceDocById.get(row.source);
+    assert(sourceDoc, fileName + ' source 斷鏈: ' + row.source);
+    assert(sourceDoc.status === 'available', fileName + ' source 引用未可用文件: ' + row.source);
+  }
+}
+
 const concepts = parseCsv(fs.readFileSync(path.join(sourceRoot, 'concepts.csv'), 'utf8'));
 const relations = parseCsv(fs.readFileSync(path.join(sourceRoot, 'relations.csv'), 'utf8'));
 const activityConcepts = parseCsv(fs.readFileSync(path.join(sourceRoot, 'activity_concepts.csv'), 'utf8'));
 const activities = parseCsv(fs.readFileSync(path.join(sourceRoot, 'activities.csv'), 'utf8'));
 const candidates = parseCsv(fs.readFileSync(path.join(sourceRoot, 'concept_candidates.csv'), 'utf8'));
 const sourceUnits = parseCsv(fs.readFileSync(path.join(sourceRoot, 'units.csv'), 'utf8'));
+const sourceDocs = parseCsv(fs.readFileSync(path.join(sourceRoot, 'source_documents.csv'), 'utf8'));
 const units = JSON.parse(fs.readFileSync(path.join(root, 'data', 'units.json'), 'utf8'));
 
 const conceptIds = concepts.map((concept) => concept.concept_id);
 const duplicateConceptIds = findDuplicates(conceptIds);
 assert(duplicateConceptIds.length === 0, 'concept_id 重複: ' + duplicateConceptIds.join(', '));
 
+const sourceDocIds = sourceDocs.map((sourceDoc) => sourceDoc.doc_id);
+const duplicateSourceDocIds = findDuplicates(sourceDocIds);
+assert(duplicateSourceDocIds.length === 0, 'source_documents.csv doc_id 重複: ' + duplicateSourceDocIds.join(', '));
+
 const conceptById = new Map(concepts.map((concept) => [concept.concept_id, concept]));
 const activityIds = new Set(activities.map((activity) => activity.activity_id));
 const unitIds = new Set(sourceUnits.map((unit) => unit.unit_id));
+const sourceDocById = new Map(sourceDocs.map((sourceDoc) => [sourceDoc.doc_id, sourceDoc]));
+
+for (const sourceDoc of sourceDocs) {
+  assert(sourceDoc.doc_id && sourceDoc.doc_id.trim(), 'source_documents.csv 缺少 doc_id');
+  assert(sourceDoc.file_name && sourceDoc.file_name.trim(), sourceDoc.doc_id + ' 缺少 file_name');
+  assert(sourceDoc.path && sourceDoc.path.trim(), sourceDoc.doc_id + ' 缺少 path');
+  assert(['available', 'missing'].includes(sourceDoc.status), sourceDoc.doc_id + ' status 不合法: ' + sourceDoc.status);
+}
+
+validateDocSourceRefs('units.csv', sourceUnits, sourceDocById);
+validateDocSourceRefs('activities.csv', activities, sourceDocById);
+validateDocSourceRefs('concept_candidates.csv', candidates, sourceDocById);
 
 for (const concept of concepts) {
   assert(concept.concept_id && concept.concept_id.trim(), '有概念缺少 concept_id');
