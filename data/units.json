@@ -614,7 +614,60 @@
       "2d-u1-1000-以內的數"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-WHOLE-NUMBER-200-COUNT",
+        "name": "數到200",
+        "description": "以數數與具體表徵認識200以內的數",
+        "source_note": "第1單元活動一數到200與N-2-5"
+      },
+      {
+        "id": "C-WHOLE-NUMBER-200-PLACE-VALUE",
+        "name": "幾個百幾個十幾個一",
+        "description": "理解200以內數的百十個位值結構",
+        "source_note": "第1單元活動二幾個百幾個十幾個一與N-2-5"
+      },
+      {
+        "id": "C-MONEY-200-REPRESENTATION",
+        "name": "使用錢幣表示200以內的數",
+        "description": "以已學錢幣表示200以內的數並建立數感",
+        "source_note": "第1單元活動三使用錢幣與N-2-5"
+      },
+      {
+        "id": "C-WHOLE-NUMBER-200-COMPARE",
+        "name": "200以內數的大小比較",
+        "description": "運用位值與大於小於符號比較200以內數的大小",
+        "source_note": "第1單元活動四比大小與R-2-1"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "數到200",
+        "to": "幾個百幾個十幾個一",
+        "type": "同單元",
+        "note": "數到200後建立百十個位值結構"
+      },
+      {
+        "from": "幾個百幾個十幾個一",
+        "to": "使用錢幣表示200以內的數",
+        "type": "同單元",
+        "note": "200以內位值結構支撐以錢幣表示數量"
+      },
+      {
+        "from": "幾個百幾個十幾個一",
+        "to": "200以內數的大小比較",
+        "type": "同單元",
+        "note": "位值理解支撐200以內數的大小比較"
+      },
+      {
+        "from": "幾個百幾個十幾個一",
+        "to": "二位數加法直式",
+        "type": "銜接",
+        "note": "200以內位值概念銜接二位數加法直式"
+      }
+    ]
   },
   {
     "id": "2u-u2-二位數的直式加減",
@@ -644,7 +697,60 @@
       "2u-u4-加減關係與應用"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-ADD-2DIGIT-VERTICAL",
+        "name": "二位數加法直式",
+        "description": "用位值理解二位數加法直式計算",
+        "source_note": "第2單元活動一加法直式計算與N-2-2"
+      },
+      {
+        "id": "C-SUB-2DIGIT-VERTICAL",
+        "name": "二位數減法直式",
+        "description": "用位值理解二位數減法直式計算",
+        "source_note": "第2單元活動二減法直式計算與N-2-2"
+      },
+      {
+        "id": "C-ADD-SUB-2DIGIT-MIXED",
+        "name": "二位數加減混合計算",
+        "description": "解決二位數加減混合的計算與情境問題",
+        "source_note": "第2單元活動三加加減減與N-2-2"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "幾個百幾個十幾個一",
+        "to": "二位數加法直式",
+        "type": "銜接",
+        "note": "200以內位值概念銜接二位數加法直式"
+      },
+      {
+        "from": "二位數加法直式",
+        "to": "二位數減法直式",
+        "type": "同單元",
+        "note": "二位數加法直式經驗銜接二位數減法直式"
+      },
+      {
+        "from": "二位數加法直式",
+        "to": "二位數加減混合計算",
+        "type": "同單元",
+        "note": "加法直式能力支撐二位數加減混合計算"
+      },
+      {
+        "from": "二位數減法直式",
+        "to": "二位數加減混合計算",
+        "type": "同單元",
+        "note": "減法直式能力支撐二位數加減混合計算"
+      },
+      {
+        "from": "二位數加減混合計算",
+        "to": "加減關係",
+        "type": "銜接",
+        "note": "加減混合計算經驗銜接加減互逆關係"
+      }
+    ]
   },
   {
     "id": "2u-u3-量長度",
@@ -679,7 +785,60 @@
       "4d-u2-四邊形"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-LENGTH-ITERATED-UNIT",
+        "name": "個別單位測量長度",
+        "description": "用個別單位測量並比較物件長度",
+        "source_note": "第3單元活動一個別單位的測量與N-2-11"
+      },
+      {
+        "id": "C-LENGTH-CENTIMETER",
+        "name": "認識公分",
+        "description": "認識長度單位公分並能報讀公分數",
+        "source_note": "第3單元活動二認識公分與N-2-11/S-2-3"
+      },
+      {
+        "id": "C-RULER-MEASURE-LENGTH",
+        "name": "直尺量長度",
+        "description": "使用直尺測量長度並畫出指定長度線段",
+        "source_note": "第3單元活動三量長度與S-2-3"
+      },
+      {
+        "id": "C-LENGTH-CM-ADD-SUB",
+        "name": "長度加減",
+        "description": "解決以公分為單位的長度加減計算問題",
+        "source_note": "第3單元活動四長度的加減與N-2-11"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "個別單位測量長度",
+        "to": "認識公分",
+        "type": "銜接",
+        "note": "個別單位測量經驗銜接標準單位公分"
+      },
+      {
+        "from": "認識公分",
+        "to": "直尺量長度",
+        "type": "同單元",
+        "note": "認識公分後使用直尺測量與畫線段"
+      },
+      {
+        "from": "直尺量長度",
+        "to": "長度加減",
+        "type": "同單元",
+        "note": "長度測量經驗支撐公分長度加減計算"
+      },
+      {
+        "from": "長度加減",
+        "to": "認識毫米",
+        "type": "銜接",
+        "note": "公分長度加減經驗銜接三上毫米與公分毫米計算"
+      }
+    ]
   },
   {
     "id": "2u-u4-加減關係與應用",
@@ -711,7 +870,60 @@
       "2u-u6-兩步驟的加減"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-ADD-SUB-INVERSE",
+        "name": "加減關係",
+        "description": "理解加法與減法互逆關係",
+        "source_note": "第4單元活動一加減關係與R-2-4"
+      },
+      {
+        "id": "C-ADD-SUB-VERIFY",
+        "name": "用加減關係驗算",
+        "description": "運用加減互逆關係驗算答案",
+        "source_note": "第4單元活動二用加減關係驗算與R-2-4"
+      },
+      {
+        "id": "C-ADD-SUB-WORD-PROBLEMS",
+        "name": "加減應用問題",
+        "description": "運用加減關係解決生活情境中的加減問題",
+        "source_note": "第4單元活動三加減應用問題與R-2-4"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "二位數加減混合計算",
+        "to": "加減關係",
+        "type": "銜接",
+        "note": "加減混合計算經驗銜接加減互逆關係"
+      },
+      {
+        "from": "加減關係",
+        "to": "用加減關係驗算",
+        "type": "同單元",
+        "note": "加減互逆關係可用於驗算"
+      },
+      {
+        "from": "加減關係",
+        "to": "加減應用問題",
+        "type": "同單元",
+        "note": "加減互逆關係支撐加減應用問題解題"
+      },
+      {
+        "from": "用加減關係驗算",
+        "to": "加減應用問題",
+        "type": "同單元",
+        "note": "驗算策略支撐加減應用題答案檢核"
+      },
+      {
+        "from": "加減應用問題",
+        "to": "兩步驟加法問題",
+        "type": "銜接",
+        "note": "加減應用問題經驗銜接兩步驟加法問題"
+      }
+    ]
   },
   {
     "id": "2u-u5-面積的大小比較",
@@ -742,7 +954,48 @@
       "3u-u6-面積"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-AREA-DIRECT-COMPARE",
+        "name": "面積直接比較",
+        "description": "以重疊或觀察直接比較面積大小",
+        "source_note": "第5單元活動一面積的直接比較與S-2-5"
+      },
+      {
+        "id": "C-AREA-INDIRECT-COMPARE",
+        "name": "面積間接比較",
+        "description": "透過中介物或操作活動間接比較面積大小",
+        "source_note": "第5單元活動二面積的間接比較與S-2-5"
+      },
+      {
+        "id": "C-AREA-UNIT-COMPARE",
+        "name": "面積個別單位比較",
+        "description": "以個別單位鋪排與數量比較面積大小",
+        "source_note": "第5單元活動三面積的個別單位比較與N-2-12/S-2-5"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "面積直接比較",
+        "to": "面積間接比較",
+        "type": "銜接",
+        "note": "面積直接比較銜接透過中介物間接比較"
+      },
+      {
+        "from": "面積間接比較",
+        "to": "面積個別單位比較",
+        "type": "銜接",
+        "note": "面積間接比較銜接以個別單位比較"
+      },
+      {
+        "from": "面積個別單位比較",
+        "to": "認識平方公分",
+        "type": "銜接",
+        "note": "面積個別單位比較銜接三上平方公分面積單位"
+      }
+    ]
   },
   {
     "id": "2u-u6-兩步驟的加減",
@@ -776,7 +1029,60 @@
       "2u-u9-3-6-9-7-的乘法"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-TWO-STEP-ADD",
+        "name": "兩步驟加法問題",
+        "description": "解決不併式的兩步驟加法應用問題",
+        "source_note": "第6單元活動一兩步驟的加法問題與N-2-8"
+      },
+      {
+        "id": "C-TWO-STEP-SUB",
+        "name": "兩步驟減法問題",
+        "description": "解決不併式的兩步驟減法應用問題",
+        "source_note": "第6單元活動二兩步驟的減法問題與N-2-8"
+      },
+      {
+        "id": "C-TWO-STEP-ADD-SUB",
+        "name": "兩步驟加減問題",
+        "description": "解決不併式的兩步驟加減混合應用問題",
+        "source_note": "第6單元活動三兩步驟的加減問題與N-2-8"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "加減應用問題",
+        "to": "兩步驟加法問題",
+        "type": "銜接",
+        "note": "加減應用問題經驗銜接兩步驟加法問題"
+      },
+      {
+        "from": "兩步驟加法問題",
+        "to": "兩步驟減法問題",
+        "type": "同單元",
+        "note": "兩步驟加法問題與兩步驟減法問題同屬加減兩步驟解題"
+      },
+      {
+        "from": "兩步驟加法問題",
+        "to": "兩步驟加減問題",
+        "type": "同單元",
+        "note": "兩步驟加法經驗支撐加減混合兩步驟問題"
+      },
+      {
+        "from": "兩步驟減法問題",
+        "to": "兩步驟加減問題",
+        "type": "同單元",
+        "note": "兩步驟減法經驗支撐加減混合兩步驟問題"
+      },
+      {
+        "from": "兩步驟加減問題",
+        "to": "乘法情境與倍",
+        "type": "銜接",
+        "note": "兩步驟加減情境經驗銜接相同單位量與倍的乘法情境"
+      }
+    ]
   },
   {
     "id": "2u-u7-2-5-4-8-的乘法",
@@ -809,7 +1115,42 @@
       "2d-u5-乘法"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-MULTIPLICATION-EQUAL-GROUPS",
+        "name": "乘法情境與倍",
+        "description": "透過幾個一數或連加解決相同單位量問題並認識倍的語言與乘法算式意義",
+        "source_note": "第7單元活動一目標1-1至2-1與學習內容N-2-6"
+      },
+      {
+        "id": "C-MULTIPLICATION-2-5-4-8",
+        "name": "2、5、4、8的乘法",
+        "description": "解決被乘數為2、5、4、8的乘法問題並製作乘法表及熟悉相鄰乘法算式關係",
+        "source_note": "第7單元活動二至五目標與學習內容N-2-7"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "乘法情境與倍",
+        "to": "2、5、4、8的乘法",
+        "type": "銜接",
+        "note": "倍與乘法情境意義銜接2、5、4、8乘法事實"
+      },
+      {
+        "from": "2、5、4、8的乘法",
+        "to": "3、6、9、7的乘法",
+        "type": "銜接",
+        "note": "先以2、5、4、8乘法經驗銜接3、6、9、7乘法事實"
+      },
+      {
+        "from": "兩步驟加減問題",
+        "to": "乘法情境與倍",
+        "type": "銜接",
+        "note": "兩步驟加減情境經驗銜接相同單位量與倍的乘法情境"
+      }
+    ]
   },
   {
     "id": "2u-u8-幾時幾分",
@@ -839,7 +1180,54 @@
       "4d-u9-時間的計算"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-TIME-CLOCK-HOUR-MINUTE",
+        "name": "幾時幾分",
+        "description": "以鐘面時針與分針位置認識幾時幾分",
+        "source_note": "第8單元活動一幾時幾分與N-2-13"
+      },
+      {
+        "id": "C-TIME-DIGITAL-CLOCK",
+        "name": "數字鐘",
+        "description": "連結鐘面與數字鐘表示時刻",
+        "source_note": "第8單元活動二數字鐘與N-2-13"
+      },
+      {
+        "id": "C-TIME-ELAPSED-HOURS",
+        "name": "經過幾小時",
+        "description": "點數兩整時時刻之間經過幾小時",
+        "source_note": "第8單元活動三經過幾小時與N-2-13"
+      },
+      {
+        "id": "C-TIME-HOUR-MINUTE-AFTER",
+        "name": "會是幾時幾分",
+        "description": "從給定時刻推算經過整時後的時刻",
+        "source_note": "第8單元活動四會是幾時幾分與N-2-13"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "幾時幾分",
+        "to": "數字鐘",
+        "type": "同單元",
+        "note": "鐘面時刻認識銜接數字鐘表示"
+      },
+      {
+        "from": "幾時幾分",
+        "to": "經過幾小時",
+        "type": "同單元",
+        "note": "認識幾時幾分後點數整時經過時間"
+      },
+      {
+        "from": "經過幾小時",
+        "to": "會是幾時幾分",
+        "type": "同單元",
+        "note": "經過幾小時經驗支撐推算會是幾時幾分"
+      }
+    ]
   },
   {
     "id": "2u-u9-3-6-9-7-的乘法",
@@ -873,7 +1261,42 @@
       "2d-u9-分分看"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-MULTIPLICATION-3-6-9-7",
+        "name": "3、6、9、7的乘法",
+        "description": "解決被乘數為3、6、9、7的乘法問題並製作乘法表及熟練乘法",
+        "source_note": "第9單元活動一至四目標與學習內容N-2-7"
+      },
+      {
+        "id": "C-MULTIPLICATION-PROBLEM-POSING",
+        "name": "乘法擬題",
+        "description": "從情境圖或給定乘法算式擬出乘法問題並說明乘法算式意義",
+        "source_note": "第9單元活動五目標3-1至3-2"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "2、5、4、8的乘法",
+        "to": "3、6、9、7的乘法",
+        "type": "銜接",
+        "note": "先以2、5、4、8乘法經驗銜接3、6、9、7乘法事實"
+      },
+      {
+        "from": "3、6、9、7的乘法",
+        "to": "10、1、0的乘法",
+        "type": "銜接",
+        "note": "二上3、6、9、7乘法銜接二下10、1、0乘法完成十十乘法"
+      },
+      {
+        "from": "3、6、9、7的乘法",
+        "to": "乘法擬題",
+        "type": "同單元",
+        "note": "熟練3、6、9、7乘法後進行乘法情境擬題"
+      }
+    ]
   },
   {
     "id": "2u-u10-容量與重量",
@@ -905,7 +1328,72 @@
       "3u-u8-公升和毫升"
     ],
     "tools": [],
-    "notes": ""
+    "notes": "",
+    "concepts": [
+      {
+        "id": "C-CAPACITY-DIRECT-COMPARE",
+        "name": "容量直接比較",
+        "description": "以操作活動直接比較容器容量大小",
+        "source_note": "第10單元活動一容量的比較一與N-2-12"
+      },
+      {
+        "id": "C-CAPACITY-INDIRECT-COMPARE",
+        "name": "容量間接比較",
+        "description": "透過中介容器或個別單位間接比較容量大小",
+        "source_note": "第10單元活動二容量的比較二與N-2-12"
+      },
+      {
+        "id": "C-WEIGHT-DIRECT-COMPARE",
+        "name": "重量直接比較",
+        "description": "以掂重或天平操作直接比較重量大小",
+        "source_note": "第10單元活動三重量的比較一與N-2-12"
+      },
+      {
+        "id": "C-WEIGHT-INDIRECT-COMPARE",
+        "name": "重量間接比較",
+        "description": "透過中介物或個別單位間接比較重量大小",
+        "source_note": "第10單元活動四重量的比較二與N-2-12"
+      },
+      {
+        "id": "C-WEIGHT-TRANSITIVE",
+        "name": "重量遞移律",
+        "description": "運用遞移關係判斷重量大小順序",
+        "source_note": "第10單元活動五重量的遞移律與R-2-1"
+      }
+    ],
+    "misconceptions": [],
+    "concept_relations": [
+      {
+        "from": "容量直接比較",
+        "to": "容量間接比較",
+        "type": "銜接",
+        "note": "容量直接比較銜接間接比較"
+      },
+      {
+        "from": "重量直接比較",
+        "to": "重量間接比較",
+        "type": "銜接",
+        "note": "重量直接比較銜接間接比較"
+      },
+      {
+        "from": "重量間接比較",
+        "to": "重量遞移律",
+        "type": "同單元",
+        "note": "重量間接比較支撐用遞移律判斷重量順序"
+      },
+      {
+        "from": "容量間接比較",
+        "to": "認識毫升",
+        "type": "銜接",
+        "note": "容量比較經驗銜接三上毫升與容量單位"
+      },
+      {
+        "from": "重量遞移律",
+        "to": "重量直接間接比較",
+        "type": "銜接",
+        "note": "重量比較與遞移律形成後續重量學習先備概念"
+      }
+    ]
   },
   {
     "id": "2d-u1-1000-以內的數",
