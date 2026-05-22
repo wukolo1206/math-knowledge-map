@@ -282,6 +282,7 @@ function setZoomScale(value) {
   if (!network) return;
   if (value === 'fit') {
     fitCurrentView();
+    setActiveZoomButton(value);
     return;
   }
   var scale = parseFloat(value);
@@ -290,6 +291,31 @@ function setZoomScale(value) {
     scale: scale,
     animation: { duration: 350, easingFunction: 'easeInOutQuad' }
   });
+  setActiveZoomButton(value);
+}
+
+function setActiveZoomButton(value) {
+  document.querySelectorAll('[data-zoom]').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.zoom === value);
+  });
+}
+
+function getIndicatorTextMap() {
+  var codeTextByCode = {};
+  units.forEach(function(u) {
+    (u.indicators || []).forEach(function(ind) {
+      if (ind.code && ind.text && !codeTextByCode[ind.code]) {
+        codeTextByCode[ind.code] = ind.text;
+      }
+    });
+  });
+  return codeTextByCode;
+}
+
+function formatIndicatorOption(code, codeTextByCode) {
+  var text = codeTextByCode[code] || '';
+  if (text.length > 28) text = text.slice(0, 28) + '…';
+  return text ? code + '｜' + text : code;
 }
 
 function toggleFilterUnit(id) {
@@ -735,25 +761,23 @@ function renderToolbar() {
 
   var sep4 = document.createElement('div'); sep4.className = 'tb-sep'; tb.appendChild(sep4);
 
-  var zoomSelect = document.createElement('select');
-  zoomSelect.id = 'zoom-select';
-  zoomSelect.className = 'tb-select';
   [
-    ['適合畫面', 'fit'],
-    ['50%', '0.5'],
-    ['75%', '0.75'],
     ['100%', '1'],
+    ['75%', '0.75'],
+    ['50%', '0.5'],
     ['125%', '1.25'],
     ['150%', '1.5'],
-    ['200%', '2']
+    ['200%', '2'],
+    ['適合畫面', 'fit']
   ].forEach(function(pair) {
-    var opt = document.createElement('option');
-    opt.textContent = pair[0];
-    opt.value = pair[1];
-    zoomSelect.appendChild(opt);
+    var btn = document.createElement('button');
+    btn.className = 'zoom-btn' + (pair[1] === 'fit' ? ' zoom-fit-btn' : '');
+    btn.textContent = pair[0];
+    btn.dataset.zoom = pair[1];
+    btn.onclick = function() { setZoomScale(pair[1]); };
+    if (pair[1] === '1') btn.classList.add('active');
+    tb.appendChild(btn);
   });
-  zoomSelect.onchange = function() { setZoomScale(this.value); };
-  tb.appendChild(zoomSelect);
 
   var sepZoom = document.createElement('div'); sepZoom.className = 'tb-sep'; tb.appendChild(sepZoom);
 
@@ -765,6 +789,7 @@ function renderToolbar() {
   filterSelect.appendChild(defaultOpt);
 
   var allCodes = [];
+  var codeTextByCode = getIndicatorTextMap();
   units.forEach(function(u) {
     (u.indicators || []).forEach(function(ind) {
       if (allCodes.indexOf(ind.code) === -1) allCodes.push(ind.code);
@@ -772,7 +797,7 @@ function renderToolbar() {
   });
   allCodes.sort().forEach(function(code) {
     var opt = document.createElement('option');
-    opt.value = code; opt.textContent = code;
+    opt.value = code; opt.textContent = formatIndicatorOption(code, codeTextByCode);
     filterSelect.appendChild(opt);
   });
 
