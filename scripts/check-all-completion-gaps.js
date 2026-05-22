@@ -15,7 +15,8 @@ const checks = [
   'check-g6b-completion-gap.js',
   'check-g3b-card-data.js',
   'check-card-render-samples.js',
-  'check-data-quality.js'
+  'check-data-quality.js',
+  'check-side-panel-ui.js'
 ];
 
 for (const script of checks) {

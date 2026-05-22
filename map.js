@@ -109,6 +109,7 @@ let units = [];
 let viewMode   = 'all';    // 'all' | 'click'
 let cardMode   = 'side';   // 'side' | 'float'
 let layoutMode = 'fixed';  // 'fixed' | 'auto'
+let cardTab    = 'concepts'; // 'concepts' | 'relations' | 'sources'
 let selectedId = null;
 let filterCode = null;  // null = 正常模式；'N-3-1' 等 = 篩選模式
 let unitStrandColor = {};
@@ -456,6 +457,13 @@ function buildLayeredLists(id) {
   return { prereqLayers: prereqLayers, succLayers: succLayers };
 }
 
+function setCardTab(tab) {
+  cardTab = tab;
+  if (!selectedId) return;
+  var unit = unitById(selectedId);
+  if (unit) renderCard(unit, selectedId);
+}
+
 // ── 工具列 ────────────────────────────────────────────────────
 
 // ── 選取單元 ──────────────────────────────────────────────────
@@ -559,16 +567,16 @@ function renderCard(unit, selectedId) {
     ? '<div class="section-label">備課提醒</div><div class="notes-box">'+unit.notes+'</div>' : '';
 
   var objHTML = unit.objectives.length
-    ? '<ul style="padding-left:16px;font-size:12px;line-height:1.8;color:#374151">' +
+    ? '<ul class="objectives-list">' +
         unit.objectives.map(function(o) { return '<li>'+o+'</li>'; }).join('') + '</ul>'
     : '<div class="empty-hint">待填入</div>';
 
   var conceptHTML = (unit.concepts && unit.concepts.length)
     ? unit.concepts.map(function(c) {
-        return '<div class="indicator-item">' +
-          '<div style="font-weight:700;color:#1e293b;margin-bottom:2px">' + c.name + '</div>' +
-          '<div>' + c.description + '</div>' +
-          (c.source_note ? '<div style="font-size:10px;color:#94a3b8;margin-top:3px">' + c.source_note + '</div>' : '') +
+        return '<div class="concept-card">' +
+          '<div class="concept-name">' + c.name + '</div>' +
+          '<div class="concept-desc">' + c.description + '</div>' +
+          (c.source_note ? '<div class="source-note">' + c.source_note + '</div>' : '') +
         '</div>';
       }).join('')
     : '';
@@ -578,34 +586,65 @@ function renderCard(unit, selectedId) {
         return '<div class="notes-box" style="margin-bottom:6px">' +
           '<div style="font-weight:700;margin-bottom:2px">' + m.name + '</div>' +
           '<div>' + m.description + '</div>' +
-          (m.source_note ? '<div style="font-size:10px;color:#a16207;margin-top:3px">' + m.source_note + '</div>' : '') +
+          (m.source_note ? '<div class="source-note" style="color:#a16207">' + m.source_note + '</div>' : '') +
         '</div>';
       }).join('')
     : '';
 
   var relationHTML = (unit.concept_relations && unit.concept_relations.length)
-    ? '<ul style="padding-left:16px;font-size:12px;line-height:1.7;color:#374151">' +
+    ? '<ul class="relation-list">' +
         unit.concept_relations.map(function(r) {
           return '<li><strong>' + r.type + '</strong>：' + r.from + ' → ' + r.to +
-            (r.note ? '<br><span style="color:#64748b">' + r.note + '</span>' : '') + '</li>';
+            (r.note ? '<br><span class="relation-note">' + r.note + '</span>' : '') + '</li>';
         }).join('') + '</ul>'
     : '';
+
+  function tabButton(tab, label) {
+    return '<button class="card-tab-btn' + (cardTab === tab ? ' active' : '') +
+      '" onclick="setCardTab(\'' + tab + '\')">' + label + '</button>';
+  }
+
+  var conceptCount = (unit.concepts || []).length;
+  var relationCount = (unit.concept_relations || []).length;
+  var sourceCount = (unit.indicators || []).length + (unit.activities || []).length;
+  var summaryHTML = '<div class="card-summary">' +
+    '核心概念 ' + conceptCount + ' 個，直接先備 ' + directPrereq.length +
+    ' 個，直接後續 ' + directSucc.length + ' 個。' +
+    '</div>';
+
+  var bodyHTML = '';
+  if (cardTab === 'concepts') {
+    bodyHTML =
+      (conceptHTML ? '<div class="section-label">核心概念</div>' + conceptHTML : '<div class="empty-hint">待填入核心概念</div>') +
+      (misconceptionHTML ? '<div class="section-label">容易卡住的點</div>' + misconceptionHTML : '') +
+      '<div class="section-label">直接先備（' + directPrereq.length + '個）</div>' + prereqHTML +
+      '<div class="section-label">直接後續（' + directSucc.length + '個）</div>' + succHTML;
+  } else if (cardTab === 'relations') {
+    bodyHTML =
+      (relationHTML ? '<div class="section-label">概念銜接（' + relationCount + '條）</div>' + relationHTML : '<div class="empty-hint">尚無概念銜接資料</div>') +
+      '<div class="section-label">知識地圖先備</div>' + prereqHTML +
+      '<div class="section-label">知識地圖後續</div>' + succHTML;
+  } else {
+    bodyHTML =
+      '<div class="section-label">課綱指標</div>' + indHTML +
+      '<div class="section-label">學習目標</div>' + objHTML +
+      '<div class="section-label">課本活動</div>' + actHTML +
+      toolsHTML + notesHTML +
+      renderExamQuestions(unit);
+  }
 
   panel.innerHTML =
     '<div class="card-content">' +
       '<span class="card-badge" style="background:'+dc.bg+';color:'+dc.text+'">' +
         gradeLabel(unit.grade,unit.semester)+'・'+unit.domain+'</span>' +
       '<div class="card-title">'+unit.title+'</div>' +
-      (conceptHTML ? '<div class="section-label">核心概念</div>' + conceptHTML : '') +
-      (misconceptionHTML ? '<div class="section-label">容易卡住的點</div>' + misconceptionHTML : '') +
-      (relationHTML ? '<div class="section-label">概念銜接</div>' + relationHTML : '') +
-      '<div class="section-label">課綱指標</div>' + indHTML +
-      '<div class="section-label">學習目標</div>' + objHTML +
-      '<div class="section-label">直接先備（' + directPrereq.length + '個）</div>' + prereqHTML +
-      '<div class="section-label">直接後續（' + directSucc.length + '個）</div>' + succHTML +
-      '<div class="section-label">課本活動</div>' + actHTML +
-      toolsHTML + notesHTML +
-      renderExamQuestions(unit) +
+      summaryHTML +
+      '<div class="card-tabs">' +
+        tabButton('concepts', '概念') +
+        tabButton('relations', '關聯') +
+        tabButton('sources', '來源') +
+      '</div>' +
+      bodyHTML +
     '</div>';
 }
 
