@@ -33,6 +33,9 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; h
 .zoom-btn:hover { border-color: #94a3b8; color: #334155; }
 .zoom-btn.active { background: #1e293b; border-color: #1e293b; color: white; }
 .zoom-fit-btn { min-width: 62px; }
+.filter-chip { display: inline-flex; align-items: center; gap: 6px; max-width: 260px; padding: 4px 10px; border-radius: 16px; background: #ede9fe; color: #4c1d95; font-size: 11px; font-weight: 700; }
+.filter-chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.filter-chip button { border: none; background: transparent; color: #7c3aed; cursor: pointer; font-size: 14px; line-height: 1; padding: 0; }
 
 /* ── 主線圖例（工具列下方展開） ── */
 #strand-legend {
@@ -136,6 +139,10 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; h
 .filter-close:hover { color: #475569; }
 .filter-desc-text { padding: 0 20px 8px; font-size: 12px; color: #64748b; line-height: 1.5; }
 .filter-count { padding: 0 20px 12px; font-size: 11px; font-weight: 700; color: #94a3b8; letter-spacing: .06em; text-transform: uppercase; border-bottom: 1px solid #f1f5f9; }
+.filter-summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 0 20px 14px; }
+.filter-summary-item { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px; }
+.filter-summary-label { font-size: 10px; font-weight: 700; color: #94a3b8; margin-bottom: 2px; }
+.filter-summary-value { font-size: 13px; font-weight: 800; color: #1e293b; }
 .filter-unit { border-bottom: 1px solid #f1f5f9; }
 .filter-unit-header { display: flex; align-items: center; gap: 8px; padding: 10px 20px; cursor: pointer; user-select: none; flex-wrap: wrap; }
 .filter-unit-header:hover { background: #f8fafc; }
@@ -143,6 +150,9 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; display: flex; h
 .filter-unit.collapsed .filter-unit-toggle { transform: rotate(-90deg); }
 .filter-unit-body { padding: 0 20px 12px; }
 .filter-unit.collapsed .filter-unit-body { display: none; }
+.filter-objective-list { padding-left: 18px; font-size: 14px; line-height: 1.75; color: #374151; }
+.filter-locate-btn { margin-top: 8px; border: 1px solid #cbd5e1; background: white; color: #475569; border-radius: 16px; padding: 4px 10px; font-size: 12px; font-weight: 700; cursor: pointer; }
+.filter-locate-btn:hover { border-color: #94a3b8; color: #1e293b; }
 .current-grade-badge { font-size: 10px; background: #fef3c7; color: #92400e; border-radius: 10px; padding: 1px 8px; font-weight: 700; }
 @keyframes filter-flash { 0%,100% { background: transparent; } 50% { background: #ede9fe; } }
 .filter-unit-flash { animation: filter-flash .4s ease; }

@@ -236,6 +236,7 @@ function filterByCode(code) {
       matchIds.add(u.id);
     }
   });
+  var visibleIds = buildIndicatorContextIds(matchIds);
 
   nodesDS.update(units.map(function(u) {
     if (matchIds.has(u.id)) {
@@ -243,23 +244,62 @@ function filterByCode(code) {
       return { id: u.id, opacity: 1,
                color: { background: dc.bg, border: '#1e293b',
                         highlight: { background: dc.bg, border: '#1e293b' } },
-               borderWidth: 4 };
+               borderWidth: 4, hidden: false };
     }
-    return { id: u.id, opacity: 0.15 };
+    if (visibleIds.has(u.id)) {
+      return { id: u.id, opacity: 0.42, hidden: false, borderWidth: 2,
+               color: { background: '#f8fafc', border: '#cbd5e1',
+                        highlight: { background: '#f8fafc', border: '#94a3b8' } },
+               className: 'filter-context' };
+    }
+    return { id: u.id, hidden: true };
+  }));
+
+  edgesDS.update(edgesDS.get().map(function(edge) {
+    if (!visibleIds.has(edge.from) || !visibleIds.has(edge.to)) {
+      return { id: edge.id, hidden: true };
+    }
+    var touchesMatch = matchIds.has(edge.from) || matchIds.has(edge.to);
+    return {
+      id: edge.id,
+      hidden: false,
+      color: { color: touchesMatch ? '#94a3b8' : 'rgba(203,213,225,0.35)' },
+      width: touchesMatch ? 2 : 1
+    };
   }));
 
   selectedId = null;
   renderFilterPanel(code, matchIds);
+  renderToolbar();
+  network.fit({ nodes: Array.from(visibleIds), animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
 }
 
 function clearFilter() {
   filterCode = null;
   var sel = document.getElementById('filter-code-select');
   if (sel) sel.value = '';
-  nodesDS.update(units.map(function(u) { return getDefaultNodeStyle(u); }));
+  nodesDS.update(units.map(function(u) {
+    return Object.assign(getDefaultNodeStyle(u), { hidden: false });
+  }));
+  edgesDS.update(edgesDS.getIds().map(function(eid) {
+    return { id: eid, hidden: false, color: { color: '#cbd5e1' }, width: 1 };
+  }));
   document.getElementById('card-panel').innerHTML =
     '<div class="card-empty"><div><div style="font-size:48px;margin-bottom:12px">🗺️</div>' +
     '<div>點選單元<br>查看知識脈絡</div></div></div>';
+  renderToolbar();
+}
+
+function buildIndicatorContextIds(matchIds) {
+  var visibleIds = new Set();
+  matchIds.forEach(function(id) {
+    visibleIds.add(id);
+    var u = unitById(id);
+    if (!u) return;
+    (u.prerequisites || []).forEach(function(pid) { visibleIds.add(pid); });
+    (u.successors || []).forEach(function(sid) { visibleIds.add(sid); });
+  });
+  return visibleIds;
 }
 
 function visibleNodeIdsForCurrentView() {
@@ -344,13 +384,24 @@ function renderFilterPanel(code, matchIds) {
     html += '<div class="filter-desc-text">' + codeText + '</div>';
   }
 
-  html += '<div class="filter-count">共 ' + matchUnits.length + ' 個單元</div>';
+  var gradeSummary = Array.from(new Set(matchUnits.map(function(u) {
+    return u.grade + '年' + (u.semester === 1 ? '上' : '下');
+  }))).join('、') || '無';
+  var domainSummary = Array.from(new Set(matchUnits.map(function(u) { return u.domain; }))).join('、') || '無';
+  html += '<div class="filter-summary-grid">' +
+    '<div class="filter-summary-item"><div class="filter-summary-label">相關單元</div><div class="filter-summary-value">' + matchUnits.length + ' 個</div></div>' +
+    '<div class="filter-summary-item"><div class="filter-summary-label">涵蓋年級</div><div class="filter-summary-value">' + gradeSummary + '</div></div>' +
+    '<div class="filter-summary-item"><div class="filter-summary-label">領域</div><div class="filter-summary-value">' + domainSummary + '</div></div>' +
+    '</div>';
+
+  html += '<div class="filter-count">符合此指標的單元</div>';
 
   matchUnits.forEach(function(u) {
     var dc = DOMAIN_COLORS[u.domain] || { bg: '#e2e8f0', text: '#475569' };
     var sl = u.semester === 1 ? '上' : '下';
     var isCurrent = (u.grade === CURRENT_GRADE && u.semester === CURRENT_SEMESTER);
-    var objHTML = (u.objectives || []).map(function(o) {
+    var indicatorObjectives = (u.objectives || []);
+    var objHTML = indicatorObjectives.map(function(o) {
       return '<li style="margin-bottom:3px">' + o + '</li>';
     }).join('');
 
@@ -363,12 +414,23 @@ function renderFilterPanel(code, matchIds) {
         '<span class="filter-unit-toggle">▼</span>' +
       '</div>' +
       '<div class="filter-unit-body">' +
-        '<ul style="padding-left:16px;font-size:12px;line-height:1.8;color:#374151">' + objHTML + '</ul>' +
+        '<ul class="filter-objective-list">' + objHTML + '</ul>' +
+        '<button class="filter-locate-btn" onclick="focusFilterUnit(\'' + u.id + '\')">定位地圖</button>' +
       '</div>' +
     '</div>';
   });
 
   document.getElementById('card-panel').innerHTML = html;
+}
+
+function focusFilterUnit(id) {
+  var unit = unitById(id);
+  if (!unit) return;
+  network.selectNodes([id]);
+  network.focus(id, {
+    scale: 1.15,
+    animation: { duration: 450, easingFunction: 'easeInOutQuad' }
+  });
 }
 
 // ── 輔助函式 ───────────────────────────────────────────────────
@@ -808,7 +870,21 @@ function renderToolbar() {
   };
   tb.appendChild(filterSelect);
 
+  renderFilterChip(tb);
+
   buildLegend();
+}
+
+function renderFilterChip(toolbar) {
+  if (!filterCode) return;
+  var codeTextByCode = getIndicatorTextMap();
+  var label = formatIndicatorOption(filterCode, codeTextByCode);
+  var chip = document.createElement('span');
+  chip.className = 'filter-chip';
+  chip.title = label;
+  chip.innerHTML = '<span>' + label + '</span><button type="button" aria-label="清除指標篩選">×</button>';
+  chip.querySelector('button').onclick = clearFilter;
+  toolbar.appendChild(chip);
 }
 
 function buildLegend() {

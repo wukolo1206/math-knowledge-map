@@ -17,7 +17,8 @@ const checks = [
   'check-card-render-samples.js',
   'check-data-quality.js',
   'check-side-panel-ui.js',
-  'check-zoom-control.js'
+  'check-zoom-control.js',
+  'check-indicator-filter-ui.js'
 ];
 
 for (const script of checks) {
