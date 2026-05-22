@@ -262,6 +262,36 @@ function clearFilter() {
     '<div>點選單元<br>查看知識脈絡</div></div></div>';
 }
 
+function visibleNodeIdsForCurrentView() {
+  if (!selectedId) return units.map(function(u) { return u.id; });
+  var ids = new Set([selectedId]);
+  allAncestors(selectedId).forEach(function(id) { ids.add(id); });
+  allDescendants(selectedId).forEach(function(id) { ids.add(id); });
+  return Array.from(ids);
+}
+
+function fitCurrentView() {
+  if (!network) return;
+  network.fit({
+    nodes: visibleNodeIdsForCurrentView(),
+    animation: { duration: 450, easingFunction: 'easeInOutQuad' }
+  });
+}
+
+function setZoomScale(value) {
+  if (!network) return;
+  if (value === 'fit') {
+    fitCurrentView();
+    return;
+  }
+  var scale = parseFloat(value);
+  if (!scale) return;
+  network.moveTo({
+    scale: scale,
+    animation: { duration: 350, easingFunction: 'easeInOutQuad' }
+  });
+}
+
 function toggleFilterUnit(id) {
   var el = document.getElementById('filter-unit-' + id);
   if (el) el.classList.toggle('collapsed');
@@ -705,9 +735,31 @@ function renderToolbar() {
 
   var sep4 = document.createElement('div'); sep4.className = 'tb-sep'; tb.appendChild(sep4);
 
+  var zoomSelect = document.createElement('select');
+  zoomSelect.id = 'zoom-select';
+  zoomSelect.className = 'tb-select';
+  [
+    ['適合畫面', 'fit'],
+    ['50%', '0.5'],
+    ['75%', '0.75'],
+    ['100%', '1'],
+    ['125%', '1.25'],
+    ['150%', '1.5'],
+    ['200%', '2']
+  ].forEach(function(pair) {
+    var opt = document.createElement('option');
+    opt.textContent = pair[0];
+    opt.value = pair[1];
+    zoomSelect.appendChild(opt);
+  });
+  zoomSelect.onchange = function() { setZoomScale(this.value); };
+  tb.appendChild(zoomSelect);
+
+  var sepZoom = document.createElement('div'); sepZoom.className = 'tb-sep'; tb.appendChild(sepZoom);
+
   var filterSelect = document.createElement('select');
   filterSelect.id = 'filter-code-select';
-  filterSelect.style.cssText = 'padding:3px 8px;border-radius:16px;border:1.5px solid #cbd5e1;font-size:11px;color:#64748b;outline:none;cursor:pointer;background:white;';
+  filterSelect.className = 'tb-select';
   var defaultOpt = document.createElement('option');
   defaultOpt.value = ''; defaultOpt.textContent = '課綱代碼';
   filterSelect.appendChild(defaultOpt);

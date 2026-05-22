@@ -16,7 +16,8 @@ const checks = [
   'check-g3b-card-data.js',
   'check-card-render-samples.js',
   'check-data-quality.js',
-  'check-side-panel-ui.js'
+  'check-side-panel-ui.js',
+  'check-zoom-control.js'
 ];
 
 for (const script of checks) {
