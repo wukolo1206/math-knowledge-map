@@ -1,10 +1,10 @@
----
+﻿---
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "子專案文件初始化 2026-05-26"
+version: "資料品質文件與來源備註同步 2026-05-26"
 url: https://wukolo1206.github.io/math-knowledge-map/
-next_action: 確認資料品質檢查與 GitHub Pages 顯示狀態
+next_action: 整理上層 repo 中知識地圖資料變動，確認是否提交抽取腳本
 updated: 2026-05-26
 ---
 
@@ -46,3 +46,4 @@ updated: 2026-05-26
 - 以教材 PDF、教師手冊、學習地圖 PDF、課綱與既有 CSV/Markdown 為主。
 - 不用推測補先備、後續、課綱對齊或易錯概念。
 - 不足時標示待確認或待補資料。
+
