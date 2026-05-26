@@ -15,7 +15,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -33,7 +35,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -51,7 +55,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -69,7 +75,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -87,7 +95,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -105,7 +115,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -123,7 +135,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -141,7 +155,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -159,7 +175,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -177,7 +195,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -195,7 +215,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -213,7 +235,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -231,7 +255,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -249,7 +275,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -267,7 +295,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -285,7 +315,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -304,7 +336,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -323,7 +357,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -341,7 +377,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -355,7 +393,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q20.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -369,7 +409,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q21.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -382,7 +424,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q22.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -395,7 +439,9 @@
     ],
     "answer": "1或2",
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q23.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -408,7 +454,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q24.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -421,7 +469,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_3_q25.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -439,7 +489,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -457,7 +509,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -475,7 +529,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -493,7 +549,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -511,7 +569,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -529,7 +589,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -547,7 +609,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -565,7 +629,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -578,7 +644,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q9.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -596,7 +664,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -614,7 +684,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -632,7 +704,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -650,7 +724,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -668,7 +744,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -686,7 +764,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -704,7 +784,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -722,7 +804,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -740,7 +824,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -758,7 +844,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -776,7 +864,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -789,7 +879,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q21.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -802,7 +894,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q22.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -815,7 +909,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q23.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -828,7 +924,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q24.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 106,
@@ -841,7 +939,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/106_5_q25.png",
+    "assessment_domain": null,
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -859,7 +959,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -877,7 +979,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -895,7 +999,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -908,7 +1014,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q4.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -926,7 +1034,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -944,7 +1054,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -957,7 +1069,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q7.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q7.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -975,7 +1089,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -989,7 +1105,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1002,7 +1120,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1020,7 +1140,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1033,7 +1155,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q12.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1051,7 +1175,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1064,7 +1190,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q14.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1077,7 +1205,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1090,7 +1220,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q16.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q16.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1109,7 +1241,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1123,7 +1257,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1141,7 +1277,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1160,7 +1298,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1173,7 +1313,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q21.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1192,7 +1334,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1205,7 +1349,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_3_q23.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1223,7 +1369,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1236,7 +1384,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1254,7 +1404,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1272,7 +1424,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1290,7 +1444,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1303,7 +1459,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q4.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1321,7 +1479,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1339,7 +1499,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1357,7 +1519,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1375,7 +1539,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1388,7 +1554,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q9.png",
+    "assessment_domain": "統計",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1402,7 +1570,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q10.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q10.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1420,7 +1590,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1438,7 +1610,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1456,7 +1630,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1474,7 +1650,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1492,7 +1670,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1510,7 +1690,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1528,7 +1710,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1541,7 +1725,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q18.png",
+    "assessment_domain": "統計",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1559,7 +1745,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1572,7 +1760,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q20.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1590,7 +1780,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1608,7 +1800,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1626,7 +1820,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1644,7 +1840,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1657,7 +1855,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_4_q25.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1675,7 +1875,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1693,7 +1895,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1711,7 +1915,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1729,7 +1935,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1747,7 +1955,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1765,7 +1975,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1783,7 +1995,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1801,7 +2015,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1819,7 +2035,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1837,7 +2055,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1855,7 +2075,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1868,7 +2090,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q12.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1886,7 +2110,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1904,7 +2130,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1922,7 +2150,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1935,7 +2165,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q16.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q16.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1953,7 +2185,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1966,7 +2200,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q18.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -1984,7 +2220,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2002,7 +2240,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2020,7 +2260,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2038,7 +2280,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2056,7 +2300,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2074,7 +2320,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 108,
@@ -2087,7 +2335,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/108_5_q25.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2105,7 +2355,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2123,7 +2375,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2141,7 +2395,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2159,7 +2415,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2177,7 +2435,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2195,7 +2455,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2213,7 +2475,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2231,7 +2495,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2244,7 +2510,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q9.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2262,7 +2530,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2280,7 +2550,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2298,7 +2570,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2317,7 +2591,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2331,7 +2607,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q14.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2350,7 +2628,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2363,7 +2643,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q16.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q16.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2381,7 +2663,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2395,7 +2679,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q18.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2409,7 +2695,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q19.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2422,7 +2710,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q20.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2440,7 +2730,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2454,7 +2746,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q22.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2467,7 +2761,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q23.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2485,7 +2781,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2498,7 +2796,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_3_q25.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2516,7 +2816,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2534,7 +2836,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2552,7 +2856,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2570,7 +2876,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2588,7 +2896,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2606,7 +2916,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2619,7 +2931,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q7.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q7.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2637,7 +2951,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2655,7 +2971,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2673,7 +2991,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2691,7 +3011,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2709,7 +3031,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2727,7 +3051,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2745,7 +3071,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2758,7 +3086,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q15.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q15.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2776,7 +3106,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2794,7 +3126,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2812,7 +3146,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2825,7 +3161,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q19.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2838,7 +3176,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q20.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2856,7 +3196,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2869,7 +3211,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q22.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2887,7 +3231,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2900,7 +3246,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_4_q24.png",
+    "assessment_domain": "統計",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2918,7 +3266,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2936,7 +3286,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2954,7 +3306,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2972,7 +3326,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -2990,7 +3346,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3008,7 +3366,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3026,7 +3386,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3044,7 +3406,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3062,7 +3426,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3080,7 +3446,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3098,7 +3466,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3116,7 +3486,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3134,7 +3506,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3152,7 +3526,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3165,7 +3541,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_5_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_5_q14.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3183,7 +3561,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3201,7 +3581,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3219,7 +3601,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3232,7 +3616,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_5_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_5_q18.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3250,7 +3636,9 @@
     ],
     "answer": "1或2",
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3268,7 +3656,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3286,7 +3676,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3304,7 +3696,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3322,7 +3716,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3340,7 +3736,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3358,7 +3756,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3376,7 +3776,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3394,7 +3796,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3412,7 +3816,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3425,7 +3831,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q4.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3443,7 +3851,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3461,7 +3871,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3479,7 +3891,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3497,7 +3911,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3515,7 +3931,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3533,7 +3951,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3551,7 +3971,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3569,7 +3991,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3587,7 +4011,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3605,7 +4031,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3618,7 +4046,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q15.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q15.png",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3636,7 +4066,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3654,7 +4086,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3672,7 +4106,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3685,7 +4121,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q19.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3703,7 +4141,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3721,7 +4161,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3734,7 +4176,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q22.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3752,7 +4196,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3770,7 +4216,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": null
   },
   {
     "year": 109,
@@ -3783,7 +4231,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/109_6_q25.png",
+    "assessment_domain": "幾何",
+    "assessment_type": null
   },
   {
     "year": 110,
@@ -3801,7 +4251,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -3819,7 +4271,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -3837,7 +4291,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -3855,7 +4311,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -3873,7 +4331,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -3891,7 +4351,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -3909,7 +4371,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -3922,7 +4386,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_3_q8.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_3_q8.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -3940,7 +4406,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -3958,7 +4426,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -3976,7 +4446,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -3994,7 +4466,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4012,7 +4486,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4030,7 +4506,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4048,7 +4526,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4067,7 +4547,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4085,7 +4567,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4098,7 +4582,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_3_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_3_q18.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4116,7 +4602,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4135,7 +4623,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4154,7 +4644,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4172,7 +4664,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4190,7 +4684,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4209,7 +4705,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4228,7 +4726,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4246,7 +4746,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4259,7 +4761,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_4_q2.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_4_q2.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4277,7 +4781,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4295,7 +4801,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4313,7 +4821,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4331,7 +4841,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4349,7 +4861,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4367,7 +4881,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4385,7 +4901,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4403,7 +4921,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4421,7 +4941,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4439,7 +4961,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4452,7 +4976,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_5_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_5_q11.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4470,7 +4996,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4488,7 +5016,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4506,7 +5036,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4524,7 +5056,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4542,7 +5076,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4560,7 +5096,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4578,7 +5116,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4596,7 +5136,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4614,7 +5156,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4632,7 +5176,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4650,7 +5196,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4668,7 +5216,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4686,7 +5236,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4704,7 +5256,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 110,
@@ -4717,7 +5271,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q10.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q10.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4730,7 +5286,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q11.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4743,7 +5301,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4756,7 +5316,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4769,7 +5331,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4782,7 +5346,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4795,7 +5361,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4808,7 +5376,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4821,7 +5391,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4834,7 +5406,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4847,7 +5421,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q19.png",
+    "assessment_domain": "代數",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4860,7 +5436,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q19.png",
+    "assessment_domain": "代數",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4873,7 +5451,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4886,7 +5466,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q23.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4899,7 +5481,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4912,7 +5496,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 110,
@@ -4925,7 +5511,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4938,7 +5526,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q24.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4951,7 +5541,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 110,
@@ -4964,7 +5556,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/110_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -4982,7 +5576,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5000,7 +5596,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5018,7 +5616,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5036,7 +5636,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5054,7 +5656,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5072,7 +5676,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5085,7 +5691,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q7.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q7.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5098,7 +5706,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q8.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q8.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5117,7 +5727,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5135,7 +5747,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5153,7 +5767,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5167,7 +5783,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q12.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5186,7 +5804,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5204,7 +5824,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5222,7 +5844,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5240,7 +5864,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5254,7 +5880,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q17.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q17.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5272,7 +5900,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5290,7 +5920,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5308,7 +5940,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5321,7 +5955,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_3_q21.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5339,7 +5975,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5357,7 +5995,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5375,7 +6015,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5393,7 +6035,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5406,7 +6050,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q1.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q1.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5424,7 +6070,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5442,7 +6090,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5455,7 +6105,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q4.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5473,7 +6125,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5491,7 +6145,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5509,7 +6165,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5527,7 +6185,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5540,7 +6200,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q9.png",
+    "assessment_domain": "統計",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5558,7 +6220,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5576,7 +6240,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5594,7 +6260,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5612,7 +6280,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5630,7 +6300,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5648,7 +6320,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5666,7 +6340,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5684,7 +6360,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5702,7 +6380,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5720,7 +6400,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "統計",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5733,7 +6415,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q20.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5747,7 +6431,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q21.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5765,7 +6451,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5783,7 +6471,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5796,7 +6486,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_4_q24.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5814,7 +6506,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5832,7 +6526,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5850,7 +6546,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5868,7 +6566,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5886,7 +6586,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5904,7 +6606,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5922,7 +6626,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -5940,7 +6646,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5958,7 +6666,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -5976,7 +6686,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -5989,7 +6701,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q10.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q10.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6002,7 +6716,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q11.png",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6015,7 +6731,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q12.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6028,7 +6746,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q13.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q13.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6046,7 +6766,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6064,7 +6786,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6082,7 +6806,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6100,7 +6826,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6113,7 +6841,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q18.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6126,7 +6856,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_5_q19.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6144,7 +6876,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6162,7 +6896,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6180,7 +6916,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6198,7 +6936,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6216,7 +6956,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6234,7 +6976,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6252,7 +6996,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6270,7 +7016,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6283,7 +7031,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q3.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q3.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6301,7 +7051,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6319,7 +7071,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6337,7 +7091,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6355,7 +7111,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6368,7 +7126,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q8.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q8.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6386,7 +7146,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6404,7 +7166,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6417,7 +7181,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q11.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6435,7 +7201,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6453,7 +7221,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6466,7 +7236,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q14.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6484,7 +7256,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6502,7 +7276,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6520,7 +7296,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6538,7 +7316,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6556,7 +7336,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6574,7 +7356,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6592,7 +7376,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6605,7 +7391,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q22.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 111,
@@ -6623,7 +7411,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 111,
@@ -6637,7 +7427,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/111_6_q24.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 111,
@@ -6655,7 +7447,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6673,7 +7467,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6691,7 +7487,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -6709,7 +7507,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6727,7 +7527,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6745,7 +7547,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6758,7 +7562,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q6.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q6.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6776,7 +7582,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6794,7 +7602,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6812,7 +7622,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6830,7 +7642,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6848,7 +7662,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6866,7 +7682,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6884,7 +7702,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6902,7 +7722,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -6920,7 +7742,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6938,7 +7762,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -6956,7 +7782,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6969,7 +7797,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q18.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -6987,7 +7817,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7001,7 +7833,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q20.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7019,7 +7853,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7038,7 +7874,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7052,7 +7890,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q23.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7070,7 +7910,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7083,7 +7925,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_3_q25.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7101,7 +7945,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7119,7 +7965,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7132,7 +7980,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q3.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q3.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7145,7 +7995,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q4.png",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7163,7 +8015,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7181,7 +8035,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7199,7 +8055,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7212,7 +8070,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q8.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q8.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7230,7 +8090,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7248,7 +8110,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7266,7 +8130,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7284,7 +8150,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7302,7 +8170,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7315,7 +8185,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q14.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7328,7 +8200,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q15.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q15.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7346,7 +8220,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7364,7 +8240,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7382,7 +8260,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7395,7 +8275,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q19.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q19.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7413,7 +8295,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7431,7 +8315,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7449,7 +8335,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7467,7 +8355,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7485,7 +8375,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7498,7 +8390,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_4_q25.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7516,7 +8410,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7529,7 +8425,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q2.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q2.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7547,7 +8445,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7565,7 +8465,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7583,7 +8485,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7601,7 +8505,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7619,7 +8525,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7637,7 +8545,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7655,7 +8565,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7673,7 +8585,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7686,7 +8600,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q11.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7704,7 +8620,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7722,7 +8640,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7740,7 +8660,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7758,7 +8680,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7776,7 +8700,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7789,7 +8715,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q17.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q17.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7807,7 +8735,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7825,7 +8755,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7843,7 +8775,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7856,7 +8790,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_5_q21.png",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7874,7 +8810,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7892,7 +8830,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -7910,7 +8850,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7928,7 +8870,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7946,7 +8890,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7959,7 +8905,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q2.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q2.png",
+    "assessment_domain": "代數",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -7977,7 +8925,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -7995,7 +8945,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8013,7 +8965,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8031,7 +8985,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "代數",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8049,7 +9005,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8067,7 +9025,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8085,7 +9045,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8103,7 +9065,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8116,7 +9080,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q11.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8134,7 +9100,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8152,7 +9120,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8165,7 +9135,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q14.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8178,7 +9150,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q15.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q15.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8196,7 +9170,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -8214,7 +9190,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8227,7 +9205,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q18.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8245,7 +9225,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -8263,7 +9245,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 112,
@@ -8281,7 +9265,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8294,7 +9280,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q22.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8312,7 +9300,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 112,
@@ -8330,7 +9320,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 112,
@@ -8343,7 +9335,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/112_6_q25.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8361,7 +9355,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8379,7 +9375,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8397,7 +9395,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -8410,7 +9410,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q4.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8428,7 +9430,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -8446,7 +9450,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8464,7 +9470,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8482,7 +9490,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8500,7 +9510,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8518,7 +9530,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8531,7 +9545,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q11.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8544,7 +9560,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q12.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8562,7 +9580,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8580,7 +9600,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8599,7 +9621,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8613,7 +9637,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q16.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q16.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -8631,7 +9657,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8649,7 +9677,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8667,7 +9697,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8685,7 +9717,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8703,7 +9737,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8721,7 +9757,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8735,7 +9773,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_3_q23.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8753,7 +9793,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8771,7 +9813,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8789,7 +9833,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -8807,7 +9853,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8825,7 +9873,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8843,7 +9893,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8856,7 +9908,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q5.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q5.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8869,7 +9923,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q6.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q6.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8887,7 +9943,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8905,7 +9963,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8923,7 +9983,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8941,7 +10003,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -8959,7 +10023,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -8977,7 +10043,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -8995,7 +10063,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9008,7 +10078,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q14.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9026,7 +10098,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9044,7 +10118,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9062,7 +10138,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9080,7 +10158,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9098,7 +10178,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9116,7 +10198,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9134,7 +10218,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9152,7 +10238,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9170,7 +10258,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9188,7 +10278,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9202,7 +10294,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_4_q25.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9220,7 +10314,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9238,7 +10334,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9256,7 +10354,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9274,7 +10374,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9292,7 +10394,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9310,7 +10414,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9328,7 +10434,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9346,7 +10454,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9364,7 +10474,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9378,7 +10490,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q10.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q10.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9396,7 +10510,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9414,7 +10530,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9432,7 +10550,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9445,7 +10565,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q14.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q14.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9463,7 +10585,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9481,7 +10605,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9499,7 +10625,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9517,7 +10645,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9535,7 +10665,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9548,7 +10680,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q20.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q20.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9566,7 +10700,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9584,7 +10720,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9602,7 +10740,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9615,7 +10755,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q24.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q24.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9628,7 +10770,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_5_q25.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9646,7 +10790,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9659,7 +10805,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q2.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q2.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9677,7 +10825,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9695,7 +10845,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9713,7 +10865,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9731,7 +10885,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9744,7 +10900,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q7.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q7.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9762,7 +10920,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9775,7 +10935,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/113_6_q9.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9793,7 +10955,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9811,7 +10975,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9829,7 +10995,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -9847,7 +11015,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9865,7 +11035,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9883,7 +11055,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9901,7 +11075,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9919,7 +11095,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9937,7 +11115,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -9955,7 +11135,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9973,7 +11155,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -9991,7 +11175,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 113,
@@ -10009,7 +11195,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -10027,7 +11215,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "幾何",
+    "assessment_type": "解題思考"
   },
   {
     "year": 113,
@@ -10045,7 +11235,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 113,
@@ -10063,7 +11255,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10081,7 +11275,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10094,7 +11290,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q2.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q2.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10112,7 +11310,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10130,7 +11330,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10144,7 +11346,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q5.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q5.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10162,7 +11366,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10180,7 +11386,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10199,7 +11407,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10217,7 +11427,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10230,7 +11442,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q10.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q10.png",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10248,7 +11462,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10267,7 +11483,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10285,7 +11503,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10303,7 +11523,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10317,7 +11539,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q15.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q15.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10335,7 +11559,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10353,7 +11579,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10371,7 +11599,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10389,7 +11619,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10407,7 +11639,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10420,7 +11654,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q21.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q21.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10434,7 +11670,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q22.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10447,7 +11685,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q23.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_3_q23.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10465,7 +11705,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10483,7 +11725,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10501,7 +11745,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10519,7 +11765,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10537,7 +11785,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10550,7 +11800,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q4.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q4.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10568,7 +11820,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10581,7 +11835,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q6.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q6.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10594,7 +11850,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q7.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q7.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10612,7 +11870,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10630,7 +11890,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10648,7 +11910,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10666,7 +11930,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10679,7 +11945,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q12.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q12.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10697,7 +11965,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10715,7 +11985,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10733,7 +12005,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10746,7 +12020,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q16.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q16.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10759,7 +12035,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q17.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_4_q17.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10777,7 +12055,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10795,7 +12075,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10813,7 +12095,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10831,7 +12115,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10849,7 +12135,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10867,7 +12155,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10885,7 +12175,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -10903,7 +12195,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10921,7 +12215,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10939,7 +12235,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10957,7 +12255,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -10975,7 +12275,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -10993,7 +12295,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11006,7 +12310,9 @@
     ],
     "answer": 1,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q6.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q6.png",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11024,7 +12330,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11042,7 +12350,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11055,7 +12365,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q9.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q9.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11073,7 +12385,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11086,7 +12400,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q11.png",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11104,7 +12420,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11122,7 +12440,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11140,7 +12460,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11158,7 +12480,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11176,7 +12500,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11189,7 +12515,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q17.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q17.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11207,7 +12535,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11225,7 +12555,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11243,7 +12575,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11261,7 +12595,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11274,7 +12610,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q22.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q22.png",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11292,7 +12630,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11310,7 +12650,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11323,7 +12665,9 @@
     ],
     "answer": 3,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q25.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_5_q25.png",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11341,7 +12685,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11359,7 +12705,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11377,7 +12725,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11395,7 +12745,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11413,7 +12765,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11431,7 +12785,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "關係",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11449,7 +12805,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11467,7 +12825,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11485,7 +12845,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11503,7 +12865,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11516,7 +12880,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q11.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q11.png",
+    "assessment_domain": "關係",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11534,7 +12900,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11547,7 +12915,9 @@
     ],
     "answer": 4,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q13.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q13.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11565,7 +12935,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11583,7 +12955,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11601,7 +12975,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11619,7 +12995,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11633,7 +13011,9 @@
     ],
     "answer": 2,
     "has_image": true,
-    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q18.png"
+    "image_path": "https://wukolo1206.github.io/past-exam-trainer/img/114_6_q18.png",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "程序執行"
   },
   {
     "year": 114,
@@ -11651,7 +13031,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11669,7 +13051,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "量與實測",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11687,7 +13071,9 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "解題思考"
   },
   {
     "year": 114,
@@ -11705,7 +13091,9 @@
     ],
     "answer": 2,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "空間與形狀",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11723,7 +13111,9 @@
     ],
     "answer": 3,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11741,7 +13131,9 @@
     ],
     "answer": 4,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "概念理解"
   },
   {
     "year": 114,
@@ -11759,6 +13151,8 @@
     ],
     "answer": 1,
     "has_image": false,
-    "image_path": ""
+    "image_path": "",
+    "assessment_domain": "數與計算",
+    "assessment_type": "解題思考"
   }
 ]
