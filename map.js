@@ -881,6 +881,13 @@ function renderToolbar() {
   statsLink.style.cssText = 'padding:3px 12px;border-radius:16px;border:1.5px solid #cbd5e1;background:white;color:#64748b;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px;';
   tb.appendChild(statsLink);
 
+  var examLink = document.createElement('a');
+  examLink.href = 'https://wukolo1206.github.io/past-exam-trainer/';
+  examLink.target = '_blank';
+  examLink.innerHTML = '📝 考古題練習';
+  examLink.style.cssText = 'padding:3px 12px;border-radius:16px;border:1.5px solid #cbd5e1;background:white;color:#64748b;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px;';
+  tb.appendChild(examLink);
+
   buildLegend();
 }
 
