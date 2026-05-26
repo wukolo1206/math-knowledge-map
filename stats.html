@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>試題分析 — 國小數學學力檢測</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f1f5f9; color: #1e293b; min-height: 100vh; }
+
+/* header */
+#header { background: white; border-bottom: 1px solid #e2e8f0; padding: 12px 24px; display: flex; align-items: center; gap: 16px; }
+#header h1 { font-size: 18px; font-weight: 800; }
+#header a { font-size: 13px; color: #64748b; text-decoration: none; }
+#header a:hover { color: #334155; }
+#grade-filter { margin-left: auto; display: flex; gap: 6px; }
+.grade-btn { padding: 4px 14px; border-radius: 16px; border: 1.5px solid #cbd5e1; background: white; color: #64748b; font-size: 12px; cursor: pointer; transition: all .15s; }
+.grade-btn.active { background: #1e293b; color: white; border-color: #1e293b; }
+
+/* main */
+#main { max-width: 1100px; margin: 0 auto; padding: 24px; display: flex; flex-direction: column; gap: 24px; }
+
+/* 圖表卡片 */
+.chart-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.chart-card h2 { font-size: 15px; font-weight: 700; margin-bottom: 16px; color: #334155; }
+.chart-wrap { position: relative; }
+#freq-chart-wrap { height: 520px; }
+#trend-chart-wrap { height: 320px; }
+
+/* 題目展開區 */
+#detail-section { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); display: none; }
+#detail-section h2 { font-size: 15px; font-weight: 700; margin-bottom: 12px; }
+.detail-q { border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; background: #f8fafc; }
+.detail-q-label { font-size: 12px; font-weight: 700; color: #64748b; margin-bottom: 4px; }
+.detail-q-stem { font-size: 14px; line-height: 1.6; }
+.detail-q-img { width: 100%; border-radius: 4px; margin-top: 6px; }
+.detail-q-opts { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
+.detail-q-opt { font-size: 13px; color: #475569; background: #f1f5f9; border-radius: 4px; padding: 3px 8px; }
+.detail-q-opt.correct { background: #dcfce7; color: #166534; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <a href="index.html">← 回地圖</a>
+  <h1>📊 試題分析</h1>
+  <div id="grade-filter">
+    <button class="grade-btn active" data-grade="">全部年級</button>
+    <button class="grade-btn" data-grade="3">3 年級</button>
+    <button class="grade-btn" data-grade="4">4 年級</button>
+    <button class="grade-btn" data-grade="5">5 年級</button>
+    <button class="grade-btn" data-grade="6">6 年級</button>
+  </div>
+</div>
+
+<div id="main">
+  <div class="chart-card">
+    <h2>指標出題頻率（點擊長條展開題目）</h2>
+    <div class="chart-wrap" id="freq-chart-wrap">
+      <canvas id="freqChart"></canvas>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <h2>跨年度出題趨勢（前 5 名指標）</h2>
+    <div class="chart-wrap" id="trend-chart-wrap">
+      <canvas id="trendChart"></canvas>
+    </div>
+  </div>
+
+  <div id="detail-section">
+    <h2 id="detail-title"></h2>
+    <div id="detail-list"></div>
+  </div>
+</div>
+
+<script>
+// ── 全域狀態 ──
+var allQuestions = [];
+var currentGrade = null;
+var freqChartInstance = null;
+var trendChartInstance = null;
+var YEARS = [106, 108, 109, 110, 111, 112, 113, 114];
+var COLORS = ['#3b82f6','#f59e0b','#10b981','#ef4444','#8b5cf6','#ec4899','#14b8a6','#f97316'];
+
+// ── 載入資料 ──
+fetch('data/exam_questions.json')
+  .then(function(r){ return r.json(); })
+  .then(function(qs){
+    allQuestions = qs;
+    render(null);
+    initGradeFilter();
+  });
+
+// ── 年級篩選器 ──
+function initGradeFilter() {
+  document.querySelectorAll('.grade-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.grade-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var g = btn.dataset.grade ? parseInt(btn.dataset.grade) : null;
+      currentGrade = g;
+      render(g);
+    });
+  });
+}
+
+// ── 主渲染入口 ──
+function render(gradeFilter) {
+  var qs = gradeFilter ? allQuestions.filter(function(q){ return q.grade === gradeFilter; }) : allQuestions;
+  var freq = buildFreq(qs);
+  renderFreqChart(freq);
+  renderTrendChart(freq, qs);
+}
+
+// ── 計算頻率 ──
+function buildFreq(qs) {
+  var freq = {};
+  qs.forEach(function(q) {
+    (q.indicators || []).forEach(function(code) {
+      if (!freq[code]) freq[code] = { total: 0, byYear: {} };
+      freq[code].total++;
+      freq[code].byYear[q.year] = (freq[code].byYear[q.year] || 0) + 1;
+    });
+  });
+  return freq;
+}
+
+// ── 圖表函式（Task 2、3 補充）──
+function renderFreqChart(freq) { /* 見 Task 2 */ }
+function renderTrendChart(freq, qs) { /* 見 Task 3 */ }
+
+// ── 展開題目清單（Task 4 補充）──
+function expandIndicator(code) { /* 見 Task 4 */ }
+
+// ── URL 參數處理 ──
+window.addEventListener('load', function() {
+  var params = new URLSearchParams(window.location.search);
+  var ind = params.get('indicator');
+  if (ind) {
+    setTimeout(function() { expandIndicator(ind); }, 500);
+  }
+});
+</script>
+</body>
+</html>
