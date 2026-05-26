@@ -128,11 +128,148 @@ function buildFreq(qs) {
 }
 
 // ── 圖表函式（Task 2、3 補充）──
-function renderFreqChart(freq) { /* 見 Task 2 */ }
-function renderTrendChart(freq, qs) { /* 見 Task 3 */ }
+function renderFreqChart(freq) {
+  var sorted = Object.entries(freq).sort(function(a,b){ return b[1].total - a[1].total; });
+  var labels = sorted.map(function(e){ return e[0]; });
+  var data   = sorted.map(function(e){ return e[1].total; });
+
+  if (freqChartInstance) freqChartInstance.destroy();
+
+  var ctx = document.getElementById('freqChart').getContext('2d');
+  var wrap = document.getElementById('freq-chart-wrap');
+  wrap.style.height = Math.max(300, labels.length * 22 + 40) + 'px';
+
+  freqChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: '#3b82f6',
+        hoverBackgroundColor: '#1d4ed8',
+        borderRadius: 4
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) { return ' ' + ctx.raw + ' 題'; }
+          }
+        }
+      },
+      scales: {
+        x: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 11 } } },
+        y: { ticks: { font: { size: 11 }, color: '#475569' } }
+      },
+      onClick: function(e, elements) {
+        if (elements.length) expandIndicator(labels[elements[0].index]);
+      }
+    }
+  });
+}
+function renderTrendChart(freq, qs) {
+  var top5 = Object.entries(freq)
+    .sort(function(a,b){ return b[1].total - a[1].total; })
+    .slice(0, 5)
+    .map(function(e){ return e[0]; });
+
+  var datasets = top5.map(function(code, i) {
+    return {
+      label: code,
+      data: YEARS.map(function(y){ return (freq[code] && freq[code].byYear[y]) || 0; }),
+      borderColor: COLORS[i],
+      backgroundColor: COLORS[i] + '22',
+      tension: 0.3,
+      pointRadius: 4,
+      pointHoverRadius: 6,
+      fill: false
+    };
+  });
+
+  if (trendChartInstance) trendChartInstance.destroy();
+
+  var ctx = document.getElementById('trendChart').getContext('2d');
+  trendChartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: YEARS.map(function(y){ return y + '年'; }),
+      datasets: datasets
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: true,
+          position: 'bottom',
+          labels: { font: { size: 11 }, boxWidth: 12 }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ' ' + ctx.dataset.label + '：' + ctx.raw + ' 題';
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { stepSize: 1, font: { size: 11 } },
+          grid: { color: '#f1f5f9' }
+        },
+        x: { ticks: { font: { size: 11 } } }
+      }
+    }
+  });
+}
 
 // ── 展開題目清單（Task 4 補充）──
-function expandIndicator(code) { /* 見 Task 4 */ }
+function expandIndicator(code) {
+  var section = document.getElementById('detail-section');
+  var title   = document.getElementById('detail-title');
+  var list    = document.getElementById('detail-list');
+
+  var qs = currentGrade
+    ? allQuestions.filter(function(q){ return q.grade === currentGrade; })
+    : allQuestions;
+
+  var matched = qs.filter(function(q){
+    return (q.indicators || []).indexOf(code) !== -1;
+  }).sort(function(a,b){ return a.year - b.year || a.grade - b.grade || a.q_no - b.q_no; });
+
+  title.textContent = code + '（' + matched.length + ' 題）';
+  list.innerHTML = matched.map(function(q) {
+    var syms = ['①','②','③','④'];
+    var opts = '';
+    if (!q.has_image && q.options && Object.keys(q.options).length) {
+      opts = '<div class="detail-q-opts">' +
+        [1,2,3,4].filter(function(i){ return q.options[String(i)]; })
+          .map(function(i){
+            return '<div class="detail-q-opt' + (q.answer === i ? ' correct' : '') + '">' +
+              syms[i-1] + ' ' + q.options[String(i)] + '</div>';
+          }).join('') +
+        '</div>';
+    }
+    var img = '';
+    if (q.has_image && q.image_path) {
+      img = '<img src="' + q.image_path + '" class="detail-q-img" loading="lazy">';
+    }
+    return '<div class="detail-q">' +
+      '<div class="detail-q-label">' + q.year + '年 ' + q.grade + '年級 第' + q.q_no + '題</div>' +
+      '<div class="detail-q-stem">' + (q.stem || '') + '</div>' +
+      opts + img +
+    '</div>';
+  }).join('');
+
+  section.style.display = 'block';
+  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 // ── URL 參數處理 ──
 window.addEventListener('load', function() {

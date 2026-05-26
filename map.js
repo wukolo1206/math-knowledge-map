@@ -872,6 +872,15 @@ function renderToolbar() {
 
   renderFilterChip(tb);
 
+  var sepStats = document.createElement('div'); sepStats.className = 'tb-sep'; tb.appendChild(sepStats);
+
+  var statsLink = document.createElement('a');
+  statsLink.href = 'stats.html';
+  statsLink.target = '_blank';
+  statsLink.innerHTML = '📊 試題分析';
+  statsLink.style.cssText = 'padding:3px 12px;border-radius:16px;border:1.5px solid #cbd5e1;background:white;color:#64748b;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px;';
+  tb.appendChild(statsLink);
+
   buildLegend();
 }
 
