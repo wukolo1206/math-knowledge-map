@@ -2,10 +2,10 @@
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "資料品質文件與來源備註同步 2026-05-26"
+version: "110年六年級題目補完 702題 2026-05-27"
 url: https://wukolo1206.github.io/math-knowledge-map/
-next_action: 整理上層 repo 中知識地圖資料變動，確認是否提交抽取腳本
-updated: 2026-05-26
+next_action: 可繼續進行 exam-analytics-builder（stats.html 指標頻率圖）
+updated: 2026-05-27
 ---
 
 # CLAUDE.md — knowledge-map
