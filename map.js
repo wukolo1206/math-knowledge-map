@@ -44,7 +44,7 @@ function renderExamQuestions(unit) {
     var imgHtml = '';
     if (q.has_image) {
       imgHtml = q.image_path
-        ? '<img src="' + q.image_path + '" class="exam-q-img" loading="lazy" onclick="this.classList.toggle(\'exam-q-img-full\')">'
+        ? '<img src="' + q.image_path + '" class="exam-q-img" loading="lazy" onclick="document.getElementById(\'lightbox-img\').src=this.src;document.getElementById(\'lightbox\').classList.add(\'open\')">'
         : '<div class="exam-q-pending">（含圖，待補）</div>';
     }
     return '<div class="exam-q-item">' +
