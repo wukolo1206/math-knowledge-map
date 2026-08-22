@@ -2,9 +2,9 @@
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "110年六年級題目補完 702題 2026-05-27"
+version: "全年級指標精修 + 工具列加考古題連結 2026-05-27"
 url: https://wukolo1206.github.io/math-knowledge-map/
-next_action: 可繼續進行 exam-analytics-builder（stats.html 指標頻率圖）
+next_action: exam-analytics-builder（stats.html 指標頻率長條圖＋跨年趨勢折線圖）
 updated: 2026-05-27
 ---
 
