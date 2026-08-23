@@ -5678,7 +5678,28 @@
       "5u-u3-倍數與公倍數",
       "6u-u1-最大公因數與最小公倍數"
     ],
-    "tools": [],
+    "tools": [
+      {
+        "name": "直式的每一步",
+        "url": "../multiplication-board/steps.html"
+      },
+      {
+        "name": "方格圖與直式",
+        "url": "../multiplication-board/array.html"
+      },
+      {
+        "name": "進位不要漏",
+        "url": "../multiplication-board/carry.html"
+      },
+      {
+        "name": "找出直式的錯",
+        "url": "../multiplication-board/fix.html"
+      },
+      {
+        "name": "文旦運費怎麼算",
+        "url": "../multiplication-board/parcel.html"
+      }
+    ],
     "notes": "第五冊「二、三位數乘以一位數」的後續。學生已熟練十十乘法與乘法直式，本單元擴展到四位數×一位數、一二位數×二位數、三四位數×二位數。教冊建議以生活情境（郵局運費）布題，並延伸「多元可能解」的問題促進學生論證。",
     "concepts": [
       {

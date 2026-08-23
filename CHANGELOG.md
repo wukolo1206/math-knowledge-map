@@ -1,5 +1,10 @@
 # CHANGELOG — knowledge-map
 
+## @2026-08-23 — 四上 U2 回填 tools 欄位
+
+- U2「整數的乘法」登錄 5 個互動教具連結（乘法直式板 multiplication-board）
+- 對應 https://wukolo1206.github.io/multiplication-board/
+
 ## @2026-08-23 — 四上 U2「整數的乘法」迷思概念證據補強
 
 - U2 原本 3 筆迷思全為誘答假設，`unit_brief.py` 閘門判定未通過
