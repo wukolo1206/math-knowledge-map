@@ -1,11 +1,11 @@
-﻿---
+---
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "全年級指標精修 + 工具列加考古題連結 2026-05-27"
+version: "四下 U6/U7/U10 回填 tools 2026-08-28"
 url: https://wukolo1206.github.io/math-knowledge-map/
 next_action: exam-analytics-builder（stats.html 指標頻率長條圖＋跨年趨勢折線圖）
-updated: 2026-05-27
+updated: 2026-08-28
 ---
 
 # CLAUDE.md — knowledge-map
