@@ -1,5 +1,17 @@
 # CHANGELOG — knowledge-map
 
+## @2026-08-27 — 四下 U6/U7/U10 回填 tools，兩支教具歸位
+
+- `3d-u1 分數的加減`：移除誤掛的「等值分數動畫」「異分母分數加減」
+- `4d-u6 周長與面積`：補 area-perimeter
+- `4d-u7 等值分數`：補 equivalent-fractions、fraction-add-subtract
+  - fraction-add-subtract 只支援倍數分母，正對應 4d-u7 學習目標
+    「簡單異分母分數的比較與加減（分母為另一分母的倍數）」；
+    五上 U6 需通分／最小公倍數，該工具做不到，故**不歸五上**
+- `4d-u10 立方公分`：補 math-cube-3d
+- `scripts/check-data-quality.js` 通過
+- 起因：整理 `專案統整網頁` 導航站分類時發現這三個單元 tools 欄為空
+
 ## @2026-08-23 — 四上 U2 回填 tools 欄位
 
 - U2「整數的乘法」登錄 5 個互動教具連結（乘法直式板 multiplication-board）
