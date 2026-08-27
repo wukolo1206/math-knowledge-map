@@ -4275,14 +4275,6 @@
       {
         "name": "快樂分分看",
         "url": "../happy-division/index.html"
-      },
-      {
-        "name": "等值分數動畫",
-        "url": "../equivalent-fractions/index.html"
-      },
-      {
-        "name": "異分母分數加減",
-        "url": "../fraction-add-subtract/index.html"
       }
     ],
     "notes": "關鍵概念：n/n=1；從單位分數累加建立加法意義；同分母、不進位",
@@ -7267,7 +7259,12 @@
       "5u-u9-面積",
       "5d-u7-表面積"
     ],
-    "tools": [],
+    "tools": [
+      {
+        "name": "面積與周長",
+        "url": "../area-perimeter/index.html"
+      }
+    ],
     "notes": "",
     "concepts": [
       {
@@ -7377,7 +7374,16 @@
       "5u-u6-異分母分數的加減",
       "5d-u6-整數-小數除以整數"
     ],
-    "tools": [],
+    "tools": [
+      {
+        "name": "等值分數動畫",
+        "url": "../equivalent-fractions/index.html"
+      },
+      {
+        "name": "異分母分數加減（倍數分母）",
+        "url": "../fraction-add-subtract/index.html"
+      }
+    ],
     "notes": "",
     "concepts": [
       {
@@ -7688,7 +7694,12 @@
       "5u-u9-面積",
       "5d-u1-體積"
     ],
-    "tools": [],
+    "tools": [
+      {
+        "name": "立方公分立體圖形",
+        "url": "../math-cube-3d/index.html"
+      }
+    ],
     "notes": "",
     "concepts": [
       {
