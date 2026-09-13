@@ -1,5 +1,18 @@
 # CHANGELOG — knowledge-map
 
+## @2026-09-13 — 四上 U1/U2 以教具備課成果補齊，對齊三下範本
+
+依 `四上U1U2教具回寫審核表.md`（使用者裁決全部寫入），只動 `4u-u1`、`4u-u2`，其他 109 單元經腳本比對未變。
+
+- **indicators 補學習表現**（三下範本有、四上缺）：U1 `n-II-1`、U2 `n-II-2`，原文經教冊連結架構頁與課綱 PDF 雙重核對
+- **U2 objectives**：2 條 → 教冊印刷頁 30 原文 4 條（補「能熟練乘法直式計算」）
+- **concept_relations 補「易錯影響」**（三下範本有、四上缺）：U1 5 條、U2 7 條
+- **activities**：名稱後加課本印刷頁碼與一句內容
+- **notes**：U1 補讀法規則與具體物起點；U2 補進位記號三種說法、p24/p25 兩種直式、開門活動與練習百分百
+- **misconceptions**：8 筆 description 補「課本對應」頁碼／題號
+- 全部頁碼逐頁核對課本 PDF；U1 設計文件頁碼有誤（見 PITFALLS）
+- `check-all-completion-gaps.js`、`check-data-quality.js` 通過；備份 `data/units.json.bak_20260913`
+
 ## @2026-08-27 — 四下 U6/U7/U10 回填 tools，兩支教具歸位
 
 - `3d-u1 分數的加減`：移除誤掛的「等值分數動畫」「異分母分數加減」

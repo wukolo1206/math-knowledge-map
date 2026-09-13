@@ -2,10 +2,10 @@
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "四下 U6/U7/U10 回填 tools 2026-08-28"
+version: "四上 U1/U2 教具備課成果回寫 2026-09-13"
 url: https://wukolo1206.github.io/math-knowledge-map/
-next_action: exam-analytics-builder（stats.html 指標頻率長條圖＋跨年趨勢折線圖）
-updated: 2026-08-28
+next_action: 開網站確認四上 U1/U2 卡片呈現；其餘四上單元比照三下補學習表現與易錯影響；exam-analytics-builder
+updated: 2026-09-13
 ---
 
 # CLAUDE.md — knowledge-map
