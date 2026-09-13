@@ -27,6 +27,7 @@ updated: 2026-09-13
 - `SOURCES.md`：資料來源
 - `data/`：知識地圖資料
 - `scripts/`：同步與檢查腳本
+- `docs/單元回寫知識地圖流程.md`：單元備課／教具成果回寫 `units.json` 的八步流程（範本腳本 `scripts/writeback_template_g4a_u1u2.py`）
 
 ## 不能動的地方
 
