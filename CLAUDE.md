@@ -2,9 +2,9 @@
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "四上 U1/U2 教具備課成果回寫 2026-09-13"
+version: "四上 U1/U2 教具備課成果回寫；U3 補教冊明文迷思（角度保留）與 tools 2026-09-13"
 url: https://wukolo1206.github.io/math-knowledge-map/
-next_action: 開網站確認四上 U1/U2 卡片呈現；其餘四上單元比照三下補學習表現與易錯影響；exam-analytics-builder
+next_action: 開網站確認四上 U1/U2/U3 卡片呈現；裁決 U3「對齊量角器」迷思是否由教冊明文降為教學提醒；sync-g4a 會清掉四上迷思的風險待處理
 updated: 2026-09-13
 ---
 
