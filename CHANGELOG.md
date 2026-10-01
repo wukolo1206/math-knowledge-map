@@ -1,5 +1,15 @@
 # CHANGELOG — knowledge-map
 
+## @2026-10-01 — 四上 U4 整數的除法回寫（備課分析 → 證據閘門）
+
+依 `四上U4除法回寫審核表.md`，使用者裁決 A～D 全部寫入、A4 列為延伸；腳本 `scripts/writeback_g4a_u4.py`（四道保護，重跑冪等），只動 `4u-u4-整數的除法`：
+
+- **新增迷思 4 筆**：`C-DIV-QUOTIENT-ZERO` 不夠分時商漏記 0（教冊印44 明文，`manual_explicit`）、`C-DIV-REMAINDER-NOT-LESS` 餘數沒有比除數小（110 年學力檢測第16題 20%，`actual_response`）、`C-DIV-REVERSED-SMALL` 被除數比除數小時對調（課本 p53 教師註記，`manual_explicit`）、`C-DIV-HALVE-ALL` 除數變一半以為商餘都減半（同題 15%＋10%，`actual_response`，scope `extension`）
+- **修改** `C-DIV-QUOTIENT-PLACE` 只描述商的起始位與位數（漏補 0 移到新條目），補課本對應；`C-DIV-INVERSE-REMAINDER` 註明課本無此題型
+- **易錯影響 5 條**、**活動 4 條改為「名稱（頁碼）：內容」**、notes 補開門活動與練習百分百、**單元目標 3→6 條**（教冊資料篇印40）
+- 驗證：`unit_brief.py 4 1 4` 閘門由「未通過（弱證據 2）」變為「通過（強證據 4、弱證據 2）」；`node scripts/check-all-completion-gaps.js` 全過
+- 未做：學習表現（教冊 U4 只列 N-4-2）；網站三分頁的 Playwright 檢查待補
+
 ## @2026-09-13 — 四上 U3 角度補教冊明文迷思（備課分析回寫）
 
 依 `docs/superpowers/specs/2026-09-13-u3-angle-analysis.md` ②-1，使用者裁決補入，只動 `4u-u3-角度`：
