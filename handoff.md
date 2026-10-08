@@ -16,6 +16,12 @@ U4 已回寫；U5～U10 待處理。
 1. 補 U4 網站三分頁檢查與 tools。
 2. 照 `docs/單元回寫知識地圖流程.md` 處理 U5～U10。
 
+## 2026-10-08 補充
+
+- 四上 U4 已補 `n-II-2`、`n-II-3`（見 CHANGELOG）。**待辦：** `數學學習地圖/data/concept_standards.csv` 的 U4 四個概念只對 N-4-2、n-II-3，若要與 `units.json` 一致需補 n-II-2；`sync-g4a-concepts.js` 仍不可重跑。
+- 對照架構文件在 `../scaffold-diagnostic/docs/units/G4A-U04/U4課綱與教冊對照架構_v0.1.md`（含教冊15個活動目標代碼、課綱 N-4-2 備註、與鷹架技能的對照）。
+- 順帶發現（未處理）：`3d-u1-分數的加減` 的 `n-II-10`、`3d-u2-除法` 的 `n-II-6` 文字與課綱不符（課綱 n-II-10 是時間加減、n-II-6 是同分母分數），疑似沿用舊版或其他來源的編號，可對照 `domain-indicator不一致校對清單.md` 核對。
+
 ## 注意事項
 - 不可重跑 `sync-g4a-concepts.js`（會清掉四上迷思與易錯影響）。
 
