@@ -7,7 +7,7 @@
 - **indicators 補 `n-II-2`、`n-II-3`**，原文照課綱 PDF 印刷p9。依據：課綱 N-4-2 的「對應學習表現」欄（印刷p26）列 n-II-2、n-II-3；教冊 U4 連結架構頁（印刷p50）只列 n-II-3。使用者決定兩者都列，`notes` 註明 n-II-2 來源是課綱。
 - **更正 2026-10-01 的「未做」**：當時寫「學習表現（教冊 U4 只列 N-4-2）」，那是只看了教學計畫頁；連結架構頁有 n-II-3。審核表已加第六節更正。
 - 備份 `data/units.json.bak_20261008`（不進版控）。驗證：`check-data-quality.js`、`check-g4a-completion-gap.js`、`check-indicator-filter-ui.js` 通過；`git diff` 只有 U4 區塊（+9／−1）。
-- 未做：`數學學習地圖/data/concept_standards.csv` 的 U4 四個概念目前只對 N-4-2、n-II-3，沒有 n-II-2，兩套資料尚未同步（見 handoff）。
+- 已同步（2026-10-09）：`數學學習地圖/data/concept_standards.csv` 的 U4 四個除法概念補 `n-II-2`（`supporting`；上層 repo commit 26579ee），與 `units.json` 一致。已 push（4d8b982..0c605d1），GitHub Pages 的 `data/units.json` 已含 n-II-2、n-II-3。
 
 ## @2026-10-01 — 四上 U4 整數的除法回寫（備課分析 → 證據閘門）
 
