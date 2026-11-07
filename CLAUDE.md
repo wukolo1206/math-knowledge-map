@@ -2,10 +2,10 @@
 project: knowledge-map
 category: 學科工具集
 status: 開發中
-version: "四上 U4 補學習表現 n-II-2、n-II-3 2026-10-08；前版 U4 整數的除法回寫 2026-10-01"
+version: "四上 U6 登錄 tools 三角形工作室 2026-11-07；前版 U4 補學習表現 n-II-2、n-II-3 2026-10-08"
 url: https://wukolo1206.github.io/math-knowledge-map/
 next_action: U4 tools 待 division-board 部署後回填；四上 U5～U10 照 docs/單元回寫知識地圖流程.md 補學習表現與易錯影響；裁決 U3「對齊量角器」迷思證據等級；處理 sync-g4a 會清掉四上迷思的風險
-updated: 2026-10-08
+updated: 2026-11-07
 ---
 
 # CLAUDE.md — knowledge-map

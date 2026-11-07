@@ -22,6 +22,10 @@ U4 已回寫；U5～U10 待處理。
 - 對照架構文件在 `../scaffold-diagnostic/docs/units/G4A-U04/U4課綱與教冊對照架構_v0.1.md`（含教冊15個活動目標代碼、課綱 N-4-2 備註、與鷹架技能的對照）。
 - 順帶發現（未處理）：`3d-u1-分數的加減` 的 `n-II-10`、`3d-u2-除法` 的 `n-II-6` 文字與課綱不符（課綱 n-II-10 是時間加減、n-II-6 是同分母分數），疑似沿用舊版或其他來源的編號，可對照 `domain-indicator不一致校對清單.md` 核對。
 
+## 2026-11-07 補充
+
+- `data/units.json` 的 `4u-u6-三角形` 已登錄 `tools`：`三角形工作室（https://teacherwu.xdai.tw/triangle/）`。工作區其餘非本次檔案維持不動，僅 commit 本次異動檔。
+
 ## 注意事項
 - 不可重跑 `sync-g4a-concepts.js`（會清掉四上迷思與易錯影響）。
 
