@@ -3,7 +3,7 @@
 # 四道保護：無損重寫、只動目標單元、冪等、關係名稱查證
 
 import json
-P = r'd:\備課ai\康軒數學\knowledge-map\data\units.json'
+P = r'd:\備課ai\30_康軒數學\knowledge-map\data\units.json'
 raw = open(P, encoding='utf-8').read()
 d = json.loads(raw)
 dump = lambda o: json.dumps(o, ensure_ascii=False, indent=2)

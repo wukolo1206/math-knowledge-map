@@ -4,7 +4,7 @@
 # 注意：可安全重跑（冪等）：indicators/relations/課本對應/notes 已存在就跳過，activities/objectives 為整段覆寫。
 
 import json, sys
-P = r'd:\備課ai\康軒數學\knowledge-map\data\units.json'
+P = r'd:\備課ai\30_康軒數學\knowledge-map\data\units.json'
 raw = open(P, encoding='utf-8').read()
 d = json.loads(raw)
 dump = lambda o: json.dumps(o, ensure_ascii=False, indent=2)
