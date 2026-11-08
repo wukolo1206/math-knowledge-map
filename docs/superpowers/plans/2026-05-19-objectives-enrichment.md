@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 將 `knowledge-map/data/units.json` 中全年級 111 個單元的 `objectives` 欄位，從簡略摘要升級為教冊資料篇「教材分布」完整條列。
+**Goal:** 將 `00全年級_知識地圖_knowledge-map/data/units.json` 中全年級 111 個單元的 `objectives` 欄位，從簡略摘要升級為教冊資料篇「教材分布」完整條列。
 
 **Architecture:** 分三輪各讀一本教冊資料篇 PDF（第 16～17 頁），整理為 patch JSON 經使用者確認後，Python 腳本合併入 units.json；最後修正 build_units.py 避免重跑覆蓋。
 
@@ -45,7 +45,7 @@
 
 **Files:**
 - Read: `d:/備課ai/三下數學/數學學習地圖/114(2)數學2下教冊(資料篇).pdf`（頁 16-17）
-- Create: `knowledge-map/data/objectives_patch_r1.json`
+- Create: `00全年級_知識地圖_knowledge-map/data/objectives_patch_r1.json`
 
 - [ ] **Step 1：用 fitz 讀取頁面文字**
 
@@ -109,7 +109,7 @@ print('已存 objectives_patch_r1.json')
 
 **Files:**
 - Read: `d:/備課ai/三下數學/數學學習地圖/114(2)數學4下教冊(資料篇).pdf`（頁 16-17）
-- Create: `knowledge-map/data/objectives_patch_r2.json`
+- Create: `00全年級_知識地圖_knowledge-map/data/objectives_patch_r2.json`
 
 - [ ] **Step 1：讀取頁面文字**
 
@@ -149,7 +149,7 @@ print('已存 objectives_patch_r2.json')
 
 **Files:**
 - Read: `d:/備課ai/三下數學/數學學習地圖/114(2)數學6下教冊(資料篇).pdf`（頁 16-17）
-- Create: `knowledge-map/data/objectives_patch_r3.json`
+- Create: `00全年級_知識地圖_knowledge-map/data/objectives_patch_r3.json`
 
 - [ ] **Step 1：讀取頁面文字**
 
@@ -188,8 +188,8 @@ print('已存 objectives_patch_r3.json')
 ## Task 4：合併三份 patch 更新 units.json
 
 **Files:**
-- Read: `knowledge-map/data/objectives_patch_r1.json`, `r2.json`, `r3.json`
-- Modify: `knowledge-map/data/units.json`
+- Read: `00全年級_知識地圖_knowledge-map/data/objectives_patch_r1.json`, `r2.json`, `r3.json`
+- Modify: `00全年級_知識地圖_knowledge-map/data/units.json`
 
 - [ ] **Step 1：執行合併腳本**
 
@@ -245,7 +245,7 @@ for u in units:
 - [ ] **Step 3：commit**
 
 ```bash
-git add knowledge-map/data/units.json knowledge-map/data/objectives_patch_r1.json knowledge-map/data/objectives_patch_r2.json knowledge-map/data/objectives_patch_r3.json
+git add 00全年級_知識地圖_knowledge-map/data/units.json 00全年級_知識地圖_knowledge-map/data/objectives_patch_r1.json 00全年級_知識地圖_knowledge-map/data/objectives_patch_r2.json 00全年級_知識地圖_knowledge-map/data/objectives_patch_r3.json
 git commit -m "feat: 補全全年級 111 個單元教材分布（來源：教冊資料篇第16-17頁）"
 ```
 

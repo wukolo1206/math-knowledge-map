@@ -1,7 +1,7 @@
 # 課綱代碼篩選功能設計
 
 **日期：** 2026-05-20
-**目標檔案：** `knowledge-map/map.js`、`knowledge-map/index.html`
+**目標檔案：** `00全年級_知識地圖_knowledge-map/map.js`、`00全年級_知識地圖_knowledge-map/index.html`
 
 ---
 

@@ -88,7 +88,7 @@
 
 ## 這個專案 vs 數學學習地圖
 
-| | `knowledge-map/` | `../數學學習地圖/` |
+| | `00全年級_知識地圖_knowledge-map/` | `../數學學習地圖/` |
 |---|---|---|
 | 定位 | 老師用的互動瀏覽工具 | 研究型資料庫（建構中） |
 | 資料格式 | 單一 `units.json` | 15+ 個 CSV（concepts、relations、activities...） |

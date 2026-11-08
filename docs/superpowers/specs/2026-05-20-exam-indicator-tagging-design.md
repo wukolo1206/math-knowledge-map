@@ -14,7 +14,7 @@
 ## 資料流
 
 ```
-knowledge-map/data/units.json     學力檢測考古題/exam_questions.json
+00全年級_知識地圖_knowledge-map/data/units.json     學力檢測考古題/exam_questions.json
         ↓ 抽取 140 個代碼 + 說明文字        ↓ 讀入 661 題
                     ↓
             tag_indicators.py

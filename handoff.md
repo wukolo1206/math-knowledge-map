@@ -19,7 +19,7 @@ U4 已回寫；U5～U10 待處理。
 ## 2026-10-08 補充
 
 - 四上 U4 已補 `n-II-2`、`n-II-3`（見 CHANGELOG）。**待辦：** `數學學習地圖/data/concept_standards.csv` 的 U4 已於 2026-10-09 補 n-II-2（`supporting`），與 `units.json` 一致，U4 的 push 也已完成；`sync-g4a-concepts.js` 仍不可重跑。
-- 對照架構文件在 `../scaffold-diagnostic/docs/units/G4A-U04/U4課綱與教冊對照架構_v0.1.md`（含教冊15個活動目標代碼、課綱 N-4-2 備註、與鷹架技能的對照）。
+- 對照架構文件在 `../4上U03-10_鷹架診斷_scaffold-diagnostic/docs/units/G4A-U04/U4課綱與教冊對照架構_v0.1.md`（含教冊15個活動目標代碼、課綱 N-4-2 備註、與鷹架技能的對照）。
 - 順帶發現（未處理）：`3d-u1-分數的加減` 的 `n-II-10`、`3d-u2-除法` 的 `n-II-6` 文字與課綱不符（課綱 n-II-10 是時間加減、n-II-6 是同分母分數），疑似沿用舊版或其他來源的編號，可對照 `domain-indicator不一致校對清單.md` 核對。
 
 ## 2026-11-07 補充

@@ -27,7 +27,7 @@
 - `C-ANGLE-PROTRACTOR-SCALE` source_note 補注意事項 2 原句「誤將 70°報讀成 110°」
 - `C-ANGLE-ROTATION` source_note 補指導重點 6；屬教學提醒，**證據強度維持 `distractor_hypo`**
 - 備份 `data/units.json.bak`（取於同日 U1/U2 回寫之後）
-- `4u-u3-角度` 回填 `tools`：量角器與角度（`../angle-protractor/index.html`；已部署 https://wukolo1206.github.io/angle-protractor/）；`check-data-quality.js`、`check-all-completion-gaps.js` 通過
+- `4u-u3-角度` 回填 `tools`：量角器與角度（`../4上U03_角度_angle-protractor/index.html`；已部署 https://wukolo1206.github.io/angle-protractor/）；`check-data-quality.js`、`check-all-completion-gaps.js` 通過
 - ⚠️ 既有風險：四上迷思不在 `數學學習地圖/data/concepts.csv`，重跑 `sync-g4a-concepts.js` 會清掉（已記入資料完整性檢查清單）
 
 ## @2026-09-13 — 四上 U1/U2 以教具備課成果補齊，對齊三下範本

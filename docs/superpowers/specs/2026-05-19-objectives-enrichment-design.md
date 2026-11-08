@@ -4,7 +4,7 @@
 
 ## 目標
 
-將 `knowledge-map/data/units.json` 中全年級 111 個單元的 `objectives` 欄位，從現有的簡略摘要（1～3 條）升級為教冊資料篇「教材分布」的完整條列（3～5 條）。
+將 `00全年級_知識地圖_knowledge-map/data/units.json` 中全年級 111 個單元的 `objectives` 欄位，從現有的簡略摘要（1～3 條）升級為教冊資料篇「教材分布」的完整條列（3～5 條）。
 
 ## 背景
 
@@ -44,7 +44,7 @@ X年X 第N單元 單元名稱
 
 | 檔案 | 異動內容 |
 |---|---|
-| `knowledge-map/data/units.json` | 更新所有 111 個單元的 `objectives` 陣列 |
+| `00全年級_知識地圖_knowledge-map/data/units.json` | 更新所有 111 個單元的 `objectives` 陣列 |
 | `scripts/build_units.py` | 移除 GRADE3D_DATA 裡的 `prerequisites`/`successors` 硬編碼（已被教材地位校正），改只補充 activities/indicators/tools/notes，不覆蓋 objectives |
 
 ## 不異動的項目

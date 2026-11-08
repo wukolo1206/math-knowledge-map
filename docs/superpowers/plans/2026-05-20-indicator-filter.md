@@ -14,15 +14,15 @@
 
 | 檔案 | 動作 |
 |------|------|
-| `knowledge-map/index.html` | 新增 CSS（filter panel、chip hover、flash 動畫） |
-| `knowledge-map/map.js` | 新增狀態變數、三個新函式、修改四處現有程式碼 |
+| `00全年級_知識地圖_knowledge-map/index.html` | 新增 CSS（filter panel、chip hover、flash 動畫） |
+| `00全年級_知識地圖_knowledge-map/map.js` | 新增狀態變數、三個新函式、修改四處現有程式碼 |
 
 ---
 
 ## Task 1：CSS — 篩選面板與 chip 樣式
 
 **Files:**
-- Modify: `knowledge-map/index.html`（在 `</style>` 前插入）
+- Modify: `00全年級_知識地圖_knowledge-map/index.html`（在 `</style>` 前插入）
 
 - [ ] **Step 1：新增 CSS**
 
@@ -62,7 +62,7 @@ python -m http.server 8080
 - [ ] **Step 3：Commit**
 
 ```bash
-git add knowledge-map/index.html
+git add 00全年級_知識地圖_knowledge-map/index.html
 git commit -m "style: add CSS for indicator filter panel and chip hover"
 ```
 
@@ -71,7 +71,7 @@ git commit -m "style: add CSS for indicator filter panel and chip hover"
 ## Task 2：新增狀態變數與三個函式
 
 **Files:**
-- Modify: `knowledge-map/map.js`
+- Modify: `00全年級_知識地圖_knowledge-map/map.js`
 
 - [ ] **Step 1：新增 filterCode 狀態變數**
 
@@ -194,7 +194,7 @@ filterByCode('N-3-1')
 - [ ] **Step 5：Commit**
 
 ```bash
-git add knowledge-map/map.js
+git add 00全年級_知識地圖_knowledge-map/map.js
 git commit -m "feat: add filterByCode, clearFilter, renderFilterPanel"
 ```
 
@@ -203,7 +203,7 @@ git commit -m "feat: add filterByCode, clearFilter, renderFilterPanel"
 ## Task 3：修改 renderCard — indicator chips 可點擊
 
 **Files:**
-- Modify: `knowledge-map/map.js`（約第 392-395 行）
+- Modify: `00全年級_知識地圖_knowledge-map/map.js`（約第 392-395 行）
 
 - [ ] **Step 1：修改 indHTML 產生邏輯**
 
@@ -237,7 +237,7 @@ var indHTML = unit.indicators.length
 - [ ] **Step 3：Commit**
 
 ```bash
-git add knowledge-map/map.js
+git add 00全年級_知識地圖_knowledge-map/map.js
 git commit -m "feat: make indicator chips clickable to trigger filter"
 ```
 
@@ -246,7 +246,7 @@ git commit -m "feat: make indicator chips clickable to trigger filter"
 ## Task 4：修改 renderToolbar — 新增 filter select
 
 **Files:**
-- Modify: `knowledge-map/map.js`（`renderToolbar` 函式，約第 432-486 行）
+- Modify: `00全年級_知識地圖_knowledge-map/map.js`（`renderToolbar` 函式，約第 432-486 行）
 
 - [ ] **Step 1：在 renderToolbar 末尾（buildLegend() 前）加入 select**
 
@@ -292,7 +292,7 @@ git commit -m "feat: make indicator chips clickable to trigger filter"
 - [ ] **Step 3：Commit**
 
 ```bash
-git add knowledge-map/map.js
+git add 00全年級_知識地圖_knowledge-map/map.js
 git commit -m "feat: add filter code select to toolbar"
 ```
 
@@ -301,7 +301,7 @@ git commit -m "feat: add filter code select to toolbar"
 ## Task 5：修改 network click handler — 篩選模式行為
 
 **Files:**
-- Modify: `knowledge-map/map.js`（`init` 函式內，約第 635-641 行）
+- Modify: `00全年級_知識地圖_knowledge-map/map.js`（`init` 函式內，約第 635-641 行）
 
 - [ ] **Step 1：修改 click handler**
 
@@ -370,7 +370,7 @@ git commit -m "feat: add filter code select to toolbar"
 - [ ] **Step 4：Commit + Push**
 
 ```bash
-git add knowledge-map/map.js
+git add 00全年級_知識地圖_knowledge-map/map.js
 git commit -m "feat: handle filter mode in map click and Escape handlers"
 git push
 ```
